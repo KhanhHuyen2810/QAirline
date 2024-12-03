@@ -1,7 +1,2 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/WebApplication1/FileContentIndex
-/bin/Debug/net6.0
-/obj/Debug/net6.0
+﻿/.vs
+/bin/Debug/net6.0/SQLjson
