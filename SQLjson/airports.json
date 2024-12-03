@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Sân bay Côn Đảo",
+        "iata_code": "VCS",
+        "icao_code": "VVCS",
+        "location": "Bà Rịa - Vũng Tàu",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Phù Cát",
+        "iata_code": "UIH",
+        "icao_code": "VVPC",
+        "location": "Bình Định",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Cà Mau",
+        "iata_code": "CAH",
+        "icao_code": "VVCM",
+        "location": "Cà Mau",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Cần Thơ",
+        "iata_code": "VCA",
+        "icao_code": "VVCT",
+        "location": "Cần Thơ",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Buôn Ma Thuột",
+        "iata_code": "BMV",
+        "icao_code": "VVBM",
+        "location": "Đắk Lắk",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Đà Nẵng",
+        "iata_code": "DAD",
+        "icao_code": "VVDN",
+        "location": "Đà Nẵng",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Điện Biên Phủ",
+        "iata_code": "DIN",
+        "icao_code": "VVDB",
+        "location": "Điện Biên",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Pleiku",
+        "iata_code": "PXU",
+        "icao_code": "VVPK",
+        "location": "Gia Lai",
+        "type": "Nội địa"
+    },
+
+    {
+        "name": "Sân bay Cát Bi",
+        "iata_code": "HPH",
+        "icao_code": "VVCI",
+        "location": "Hải Phòng",
+        "type": "Quốc tế"
+    },
+
+    {
+        "name": "Sân bay Nội Bài",
+        "iata_code": "HAN",
+        "icao_code": "VVNB",
+        "location": "Hà Nội",
+        "type": "Quốc tế"
+    },
+    {
+        "name": "Sân bay Tân Sơn Nhất",
+        "iata_code": "SGN",
+        "icao_code": "VVTS",
+        "location": "Thành phố Hồ Chí Minh",
+        "type": "Quốc tế"
+    },
+    {
+
+        "name": "Sân bay Cam Ranh",
+        "iata_code": "CXR",
+        "icao_code": "VVCR",
+        "location": "Khánh Hòa",
+        "type": "Quốc tế"
+    },
+    {
+        "name": "Sân bay Rạch Giá",
+        "iata_code": "VKG",
+        "icao_code": "VVRG",
+        "location": "Kiên Giang",
+        "type": "Nội địa"
+    },
+    {
+
+        "name": "Sân bay Phú Quốc",
+        "iata_code": "PQC",
+        "icao_code": "VVPQ",
+        "location": "Kiên Giang",
+        "type": "Quốc tế"
+    },
+    {
+
+        "name": "Sân bay Vinh",
+        "iata_code": "VII",
+        "icao_code": "VVVH",
+        "location": "Nghệ An",
+        "type": "Quốc tế"
+    },
+    {
+
+        "name": "Sân bay Tuy Hòa",
+        "iata_code": "TBB",
+        "icao_code": "VVTH",
+        "location": "Phú Yên",
+        "type": "Nội địa"
+    },
+    {
+
+        "name": "Sân bay Đồng Hới",
+        "iata_code": "VDH",
+        "icao_code": "VVDH",
+        "location": "Quảng Bình",
+        "type": "Nội địa"
+    },
+    {
+
+        "name": "Sân bay Chu Lai",
+        "iata_code": "VCL",
+        "icao_code": "VVCA",
+        "location": "Quảng Nam",
+        "type": "Nội địa"
+    },
+    {
+
+        "name": "Sân bay Phú Bài",
+        "iata_code": "HUI",
+        "icao_code": "VVPB",
+        "location": "Thừa Thiên Huế",
+        "type": "Quốc tế"
+    },
+
+    {
+
+        "name": "Sân bay Thọ Xuân",
+        "iata_code": "THD",
+        "icao_code": "VVTX",
+        "location": "Thanh Hóa",
+        "type": "Nội địa"
+    },
+    {
+
+        "name": "Sân bay Vân Đồn",
+        "iata_code": "VDO",
+        "icao_code": "VVVD",
+        "location": "Quảng Ninh",
+        "type": "Quốc tế"
+    }
+]
