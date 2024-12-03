@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "AirportController",
+    "Method": "Get",
+    "RelativePath": "api/Airport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

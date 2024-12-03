@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Airport Details";
+}
+
+<h1 class="airport-detail-title">Thông tin sân bay</h1>
+
+<!-- Bảng để hiển thị thông tin sân bay -->
+<table id="airportTable" class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>IATA Code</th>
+            <th>ICAO Code</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Dữ liệu sân bay sẽ được hiển thị ở đây -->
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="/js/site.js"></script>
+    <script>
+        // Gọi hàm fetchAirports khi trang được tải
+        document.addEventListener('DOMContentLoaded', function() {
+            fetchAirports();
+        });
+    </script>
+}

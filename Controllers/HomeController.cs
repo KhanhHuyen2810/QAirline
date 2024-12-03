@@ -13,12 +13,12 @@ namespace WebApplication1.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Homepage()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AirportDetail()
         {
             return View();
         }

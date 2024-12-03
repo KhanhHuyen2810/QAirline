@@ -147,7 +147,10 @@ C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\staticwebassets\ms
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\WebAppli.7D14BD69.Up2Date
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt

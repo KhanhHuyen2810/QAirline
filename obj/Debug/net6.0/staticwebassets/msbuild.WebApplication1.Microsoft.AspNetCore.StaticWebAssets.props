@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mvrkrf9a0p</Fingerprint>
-      <Integrity>3o7jpJknDFu98hJQWFZSW6PhJKYGnem7O5COvMnjbHE=</Integrity>
+      <Fingerprint>37vn1pnly2</Fingerprint>
+      <Integrity>Ua37RafonZWNhRfC9/q/a9s5lihlE/hkVyCc1Xj5Ptk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6b9nfc4n3r</Fingerprint>
-      <Integrity>4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0=</Integrity>
+      <Fingerprint>8fqgda1a4p</Fingerprint>
+      <Integrity>xA4p8qMV2lQBnQAunRCRs/rfHuMJZa26Bjub2QWzzq4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
@@ -1128,8 +1128,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7402zy6twz</Fingerprint>
-      <Integrity>6SdQjMuYvGSJb0Dpk4vaeho+sMWEcywaueSREQxJ2nM=</Integrity>
+      <Fingerprint>vyn6y31pfo</Fingerprint>
+      <Integrity>KaOhmXE0dWmC1mKSqqVbORjQlyhjeJ62uczXQcqF3pQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\image_header\dam_may_2.png'))</OriginalItemSpec>

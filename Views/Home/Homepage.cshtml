@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Enjoy your Flight";
+}
+<!-- Nội dung chính của trang chủ: đặt vé cơ bản, gọi ý điểm đến -->
+    <div class="container">
+        <img class="theme" src="/resource/image_container/christmas_theme.png" alt="Christmas Theme">
+        <div class="basic-booking">
+            <div class="basic-booking-title">ĐẶT VÉ | TÌM CHUYẾN BAY</div>
+            <div class="basic-booking-content">
+                <div class="trip-type-selection">
+                    <label>
+                        <input type="radio" name="trip-type" value="one-way" checked onclick="toggleContent()"> Một chiều
+                    </label>
+                    <label>
+                        <input type="radio" name="trip-type" value="round-trip" onclick="toggleContent()"> Khứ hồi
+                    </label>
+                </div>
+                <hr>
+                <!-- Nội dung một chiều -->
+                <div id="one-way-content">
+                    <div class="location">
+                        <div class="form-group">
+                            <label for="start-point">Điểm đi:</label>
+                            <input type="text" id="start-point" placeholder="Nhập điểm đi">
+                        </div>
+                        <div class="form-group">
+                            <label for="end-point">Điểm đến:</label>
+                            <input type="text" id="end-point" placeholder="Nhập điểm đến">
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="form-group">
+                            <label for="departure-date">Ngày đi:</label>
+                            <input type="date" id="departure-date">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nội dung khứ hồi -->
+                <div id="round-trip-content" class="hidden">
+                    <div class="location">
+                        <div class="form-group">
+                            <label for="start-point-round">Điểm đi:</label>
+                            <input type="text" id="start-point-round" placeholder="Nhập điểm đi">
+                        </div>
+                        <div class="form-group">
+                            <label for="end-point-round">Điểm đến:</label>
+                            <input type="text" id="end-point-round" placeholder="Nhập điểm đến">
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="form-group">
+                            <label for="departure-date">Ngày đi:</label>
+                            <input type="date" id="departure-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="return-date">Ngày về:</label>
+                            <input type="date" id="return-date">
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <input type="button" name="flight-search" value="Tìm chuyến bay" id="flight-search-btn">
+            </div>
+        </div>
+    </div>
+
