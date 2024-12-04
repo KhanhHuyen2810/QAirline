@@ -212,6 +212,11 @@ function SubmitDone() {
         document.getElementById("no_cfpass").innerHTML = "Nhập lại mật khẩu";
         document.getElementById("re_pass").focus();
         p = false;
+    } else if (document.getElementById("re_pass").value !== document.getElementById("password").value) {
+        document.getElementById("no_cfpass").innerHTML = "Mật khẩu chưa trùng khớp";
+        document.getElementById("re_pass").focus();
+
+        p = false;
     }
 
     if (p) document.getElementById("dynamic-form").submit();

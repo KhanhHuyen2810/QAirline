@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "E:\\WebProject\\WebApplication1.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "E:\\WebProject\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "E:\\WebProject\\obj\\",
-=======
-    "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\WebApplication1.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\WebApplication1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\WebApplication1.csproj",
-        "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\Khanh Huyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\",
->>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Khanh Huyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,10 +25,7 @@
           "net6.0"
         ],
         "sources": {
-<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-=======
->>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
