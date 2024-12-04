@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "LogIn";
+}
+<!--Nội dung đăng nhập/đăng kí-->
+<main>
+    <div class="container-lg">
+        <div class="form-container">
+            <h2 id="form-title">Đăng ký</h2>
+
+            <form id="dynamic-form">
+                <label>Họ và tên</label>
+                <div>
+                    <input class="display-ip"
+                           type="text"
+                           placeholder="Họ và tên"
+                           required />
+                </div>
+                <label>Số điện thoại</label>
+                <div>
+                    <input class="display-ip"
+                           type="text"
+                           placeholder="Số điện thoại"
+                           required />
+                </div>
+                <label for="dob" class="label">Date of Birth</label>
+                <div>
+                    <input type="number"
+                           id="day"
+                           name="day"
+                           placeholder="Day"
+                           min="1"
+                           max="31"
+                           class="dob-input" />
+                    <input type="number"
+                           id="month"
+                           name="month"
+                           placeholder="Month"
+                           min="1"
+                           max="12"
+                           class="dob-input" />
+                    <input type="number"
+                           id="year"
+                           name="year"
+                           placeholder="Year"
+                           min="1900"
+                           max="2100"
+                           class="dob-input" />
+                </div>
+                <label>Tên đăng nhập</label>
+                <div>
+                    <input class="display-ip"
+                           type="text"
+                           placeholder="Tên đăng nhập"
+                           required />
+                </div>
+                <label>Mật khẩu</label>
+                <div>
+                    <input class="display-ip"
+                           type="password"
+                           placeholder="Mật khẩu"
+                           required />
+                </div>
+                <label>Nhập lại mật khẩu</label>
+                <div>
+                    <input class="display-ip"
+                           type="password"
+                           placeholder="Nhập lại mật khẩu"
+                           required />
+                </div>
+                <button id="bt-submit" type="submit">Hoàn tất</button>
+            </form>
+            <p id="text-nd">Bạn đã có tài khoản?</p>
+            <button id="toggle-button" onclick="toggleLogIn()">
+                Đăng nhập
+            </button>
+        </div>
+        <div class="Img-ads">
+            <img src="images/0be831e1af28faa16249ef2eae333309.jpg"
+                 alt="Plane ADS" />
+        </div>
+    </div>
+</main>
+@section Scripts {
+    <script src="/js/site.js"></script>
+}

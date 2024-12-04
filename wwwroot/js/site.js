@@ -18,6 +18,10 @@ function redirectToAirportDetail() {
     window.location.href = '/Home/AirportDetail';
 }
 
+function onPage(page) {
+    window.open('/Home/LogIn', '_blank');
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     const viewAirportsButton = document.getElementById('viewAirportsButton');
     if (viewAirportsButton) {
@@ -64,4 +68,60 @@ document.addEventListener('DOMContentLoaded', function () {
         fetchAirports();
     }
 });
+
+//Chuyển trang Đăng nhập/Đăng kí
+let isRegister = true;
+
+function toggleLogIn() {
+    const formTitle = document.getElementById("form-title");
+    const form = document.getElementById("dynamic-form");
+    const toggleButton = document.getElementById("toggle-button");
+    const textND = document.getElementById("text-nd");
+
+    if (isRegister) {
+        formTitle.textContent = "Đăng nhập";
+        form.innerHTML = `
+              <label>Tên đăng nhập</label>
+              <div>
+                <input class="display-ip" type="text" placeholder="Tên đăng nhập" required>
+             </div>
+             <label>Mật khẩu</label>
+             <div>
+              <input class="display-ip" type="password" placeholder="Mật khẩu" required>
+            </div>
+              <button id="bt-submit" type="submit">Đăng nhập</button>
+          `;
+        textND.textContent = "Bạn chưa có tài khoản?";
+        toggleButton.textContent = "Đăng ký";
+    } else {
+        formTitle.textContent = "Đăng ký";
+        form.innerHTML = `
+              <label>Họ và tên</label>
+                <div>
+                    <input class="display-ip" type="text" placeholder="Họ và tên" required />
+                </div>
+                <label>Số điện thoại</label>
+                <div>
+                    <input class="display-ip" type="text" placeholder="Số điện thoại" required />
+                </div>
+                <label>Tên đăng nhập</label>
+                <div>
+                    <input class="display-ip" type="text" placeholder="Tên đăng nhập" required />
+                </div>
+                <label>Mật khẩu</label>
+                <div>
+                    <input class="display-ip" type="password" placeholder="Mật khẩu" required />
+                </div>
+                <label>Nhập lại mật khẩu</label>
+                <div>
+                    <input class="display-ip" type="password" placeholder="Nhập lại mật khẩu" required />
+                </div>
+                <button id="bt-submit" type="submit">Hoàn tất</button>
+          `;
+        textND.textContent = "Bạn đã có tài khoản?";
+        toggleButton.textContent = "Đăng nhập";
+    }
+
+    isRegister = !isRegister;
+}
 

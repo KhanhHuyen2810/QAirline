@@ -14,19 +14,16 @@ body {
 }
 
 header {
-    position: fixed;
-    width: 100vw;
-    height: 25vh;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-image: url('/resource/image_header/dam_may_2.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    height: 400px;
     display: flex;
-    align-items: center;
-    z-index: 1000;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('/resource/image_header/cloud-fix.png');
+    background-repeat: repeat-x;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
     header::after {
@@ -45,9 +42,10 @@ header {
     max-width: 20vw;
     height: auto;
     background-size: cover;
-    top: 2vh;
-    left: 2vw;
+    top: 1vh;
+    left: 5vw;
     cursor: pointer;
+    transform: scale(1.0);
 }
 
 #login img, #service img {
@@ -114,6 +112,10 @@ header {
         background-color: #FFF6F6;
     }
 
+a {
+    text-decoration: none;
+}
+
 .menu {
     gap: 1rem;
     top: 4vh;
@@ -123,7 +125,7 @@ header {
 .right-menu {
     position: fixed;
     display: block;
-    top: 8vh;
+    top: 6vh;
     right: 3vw;
 }
 
@@ -154,7 +156,7 @@ header {
 
 .nav-item {
     display: inline;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
@@ -167,7 +169,7 @@ header {
     display: block;
     height: auto;
     padding: 0;
-    margin-top: 8%;
+    margin-top: 3%;
     width: 100vw;
     overflow: hidden;
 }
@@ -288,6 +290,88 @@ hr {
     #airportTable td {
         text-align: center;
     }
+main {
+    flex: 2;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 80px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
 
+.container-lg {
+    display: flex;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.display-ip {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    width: 400px;
+}
+
+#bt-submit {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+#form-title {
+    text-align: center;
+}
+
+#dynamic-form {
+    margin-left: 180px;
+}
+
+#text-nd {
+    text-align: center;
+}
+
+.dob-input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    width: 130px;
+}
+
+#toggle-button {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 320px;
+    margin-top: -10px;
+}
+
+.Img-ads {
+    width: 40%;
+    height: 700px;
+}
+
+   .Img-ads img {
+        height: auto;
+        object-fit: contain;
+    }
 
 
