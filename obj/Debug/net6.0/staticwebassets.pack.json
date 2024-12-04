@@ -249,6 +249,10 @@
       "PackagePath": "staticwebassets\\resource\\image_container\\christmas_theme.png"
     },
     {
+      "Id": "E:\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
+      "PackagePath": "staticwebassets\\resource\\image_container\\themelogin.jpg"
+    },
+    {
       "Id": "E:\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
       "PackagePath": "staticwebassets\\resource\\image_header\\background.jpg"
     },

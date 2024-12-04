@@ -12,62 +12,54 @@
                 <div>
                     <input class="display-ip"
                            type="text"
-                           placeholder="Họ và tên"
-                           required />
+                           id="name"
+                           placeholder="Họ và tên" />
+                    <br>
+                    <span id="no_name" class="error"></span>
                 </div>
                 <label>Số điện thoại</label>
                 <div>
                     <input class="display-ip"
                            type="text"
-                           placeholder="Số điện thoại"
-                           required />
+                           id="numberphone"
+                           placeholder="Số điện thoại" />
+                    <br>
+                    <span id="no_numberphone" class="error"></span>
                 </div>
                 <label for="dob" class="label">Date of Birth</label>
                 <div>
-                    <input type="number"
-                           id="day"
-                           name="day"
-                           placeholder="Day"
-                           min="1"
-                           max="31"
-                           class="dob-input" />
-                    <input type="number"
-                           id="month"
-                           name="month"
-                           placeholder="Month"
-                           min="1"
-                           max="12"
-                           class="dob-input" />
-                    <input type="number"
-                           id="year"
-                           name="year"
-                           placeholder="Year"
-                           min="1900"
-                           max="2100"
-                           class="dob-input" />
+                    <input type="date" id="dateofbirth" class="display-ip">
+                    <br>
+                    <span id="no_date" class="error"></span>
                 </div>
                 <label>Tên đăng nhập</label>
                 <div>
                     <input class="display-ip"
                            type="text"
-                           placeholder="Tên đăng nhập"
-                           required />
+                           id="username"
+                           placeholder="Tên đăng nhập" />
+                    <br>
+                    <span id="no_username" class="error"></span>
                 </div>
                 <label>Mật khẩu</label>
                 <div>
                     <input class="display-ip"
                            type="password"
-                           placeholder="Mật khẩu"
-                           required />
+                           id="password"
+                           placeholder="Mật khẩu" />
+                    <br>
+                    <span id="no_pass" class="error"></span>
                 </div>
                 <label>Nhập lại mật khẩu</label>
                 <div>
                     <input class="display-ip"
                            type="password"
-                           placeholder="Nhập lại mật khẩu"
-                           required />
+                           id="re_pass"
+                           placeholder="Nhập lại mật khẩu" />
+                    <br>
+                    <span id="no_cfpass" class="error"></span>
                 </div>
-                <button id="bt-submit" type="submit">Hoàn tất</button>
+                <button class="bt-submit" type="button" onclick="SubmitDone()">Hoàn tất</button>
             </form>
             <p id="text-nd">Bạn đã có tài khoản?</p>
             <button id="toggle-button" onclick="toggleLogIn()">
@@ -75,11 +67,10 @@
             </button>
         </div>
         <div class="Img-ads">
-            <img src="images/0be831e1af28faa16249ef2eae333309.jpg"
+            <img src="/resource/image_container/themelogin.jpg"
                  alt="Plane ADS" />
         </div>
     </div>
 </main>
-@section Scripts {
-    <script src="/js/site.js"></script>
-}
+<script src="/js/site.js"></script>
+

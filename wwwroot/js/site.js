@@ -19,8 +19,17 @@ function redirectToAirportDetail() {
 }
 
 function onPage(page) {
-    window.open('/Home/LogIn', '_blank');
+    window.open('/Home/Login', '_blank');
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const logInButton = document.querySelector('.logInButton');
+    if (logInButton) {
+        logInButton.addEventListener('click', function () {
+            onPage();
+        })
+    }
+})
 
 document.addEventListener('DOMContentLoaded', function () {
     const viewAirportsButton = document.getElementById('viewAirportsButton');
@@ -83,45 +92,151 @@ function toggleLogIn() {
         form.innerHTML = `
               <label>Tên đăng nhập</label>
               <div>
-                <input class="display-ip" type="text" placeholder="Tên đăng nhập" required>
+                <input class="display-ip" type="text" id="username1" placeholder="Tên đăng nhập" >
+                <br>
+                <span class="error" id="no_usrname"></span>
              </div>
              <label>Mật khẩu</label>
              <div>
-              <input class="display-ip" type="password" placeholder="Mật khẩu" required>
+              <input class="display-ip" type="password" id="password1" placeholder="Mật khẩu" >
+              <br>
+              <span class="error" id="no-pass1"></span>
             </div>
-              <button id="bt-submit" type="submit">Đăng nhập</button>
+              <button class="bt-submit" type="button" onclick="LogInSubmit()">Đăng nhập</button>
           `;
         textND.textContent = "Bạn chưa có tài khoản?";
         toggleButton.textContent = "Đăng ký";
     } else {
         formTitle.textContent = "Đăng ký";
         form.innerHTML = `
-              <label>Họ và tên</label>
+               <label>Họ và tên</label>
                 <div>
-                    <input class="display-ip" type="text" placeholder="Họ và tên" required />
+                    <input class="display-ip"
+                           type="text"
+                           id="name"
+                           placeholder="Họ và tên" />
+                    <br>
+                    <span id="no_name" class="error"></span>
                 </div>
                 <label>Số điện thoại</label>
                 <div>
-                    <input class="display-ip" type="text" placeholder="Số điện thoại" required />
+                    <input class="display-ip"
+                           type="text"
+                           id="numberphone"
+                           placeholder="Số điện thoại" />
+                    <br>
+                    <span id="no_numberphone" class="error"></span>
+                </div>
+                <label for="dob" class="label">Date of Birth</label>
+                <div>
+                    <input type="date" id="dateofbirth" class="display-ip">
+                    <br>
+                    <span id="no_date" class="error"></span>
                 </div>
                 <label>Tên đăng nhập</label>
                 <div>
-                    <input class="display-ip" type="text" placeholder="Tên đăng nhập" required />
+                    <input class="display-ip"
+                           type="text"
+                           id="username"
+                           placeholder="Tên đăng nhập" />
+                    <br>
+                    <span id="no_username" class="error"></span>
                 </div>
                 <label>Mật khẩu</label>
                 <div>
-                    <input class="display-ip" type="password" placeholder="Mật khẩu" required />
+                    <input class="display-ip"
+                           type="password"
+                           id="password"
+                           placeholder="Mật khẩu" />
+                    <br>
+                    <span id="no_pass" class="error"></span>
                 </div>
                 <label>Nhập lại mật khẩu</label>
                 <div>
-                    <input class="display-ip" type="password" placeholder="Nhập lại mật khẩu" required />
+                    <input class="display-ip"
+                           type="password"
+                           id="re_pass"
+                           placeholder="Nhập lại mật khẩu" />
+                    <br>
+                    <span id="no_cfpass" class="error"></span>
                 </div>
-                <button id="bt-submit" type="submit">Hoàn tất</button>
+                <button class="bt-submit" type="button" onclick="SubmitDone()">Hoàn tất</button>
           `;
         textND.textContent = "Bạn đã có tài khoản?";
         toggleButton.textContent = "Đăng nhập";
     }
 
     isRegister = !isRegister;
+}
+
+function SubmitDone() {
+    var p = true;
+
+    document.getElementById("no_name").innerHTML = "";
+    document.getElementById("no_numberphone").innerHTML = "";
+    document.getElementById("no_username").innerHTML = "";
+    document.getElementById("no_pass").innerHTML = "";
+    document.getElementById("no_cfpass").innerHTML = "";
+
+    if (document.getElementById("name").value == "") {
+        document.getElementById("no_name").innerHTML = "Nhập họ tên của bạn";
+        document.getElementById("name").focus();
+        p = false;
+    }
+
+    if (document.getElementById("numberphone").value == "") {
+        document.getElementById("no_numberphone").innerHTML = "Nhập số điện thoại";
+        document.getElementById("numberphone").focus();
+        p = false;
+    }
+
+    if (document.getElementById("dateofbirth").value == "") {
+        document.getElementById("no_date").innerHTML = "Vui lòng chọn ngày sinh";
+        document.getElementById("dateofbirth").focus();
+        p = false;
+    }
+
+    if (document.getElementById("username").value == "") {
+        document.getElementById("no_username").innerHTML = "Nhập tên đăng nhập";
+        document.getElementById("username").focus();
+        p = false;
+    }
+
+    if (document.getElementById("password").value == "") {
+        document.getElementById("no_pass").innerHTML = "Nhập mật khẩu";
+        document.getElementById("password").focus();
+        p = false;
+    }
+
+    if (document.getElementById("re_pass").value == "") {
+        document.getElementById("no_cfpass").innerHTML = "Nhập lại mật khẩu";
+        document.getElementById("re_pass").focus();
+        p = false;
+    }
+
+    if (p) document.getElementById("dynamic-form").submit();
+}
+
+function LogInSubmit() {
+    var t = true;
+
+    // Reset lỗi hiển thị
+    document.getElementById("no_usrname").innerHTML = "";
+    document.getElementById("no-pass1").innerHTML = "";
+
+    if (document.getElementById("username1").value === "") {
+        document.getElementById("no_usrname").innerHTML = "Chưa nhập tên đăng nhập";
+        document.getElementById("username1").focus();
+        t = false;
+    }
+
+    if (document.getElementById("password1").value === "") {
+        document.getElementById("no-pass1").innerHTML = "Chưa nhập mật khẩu";
+        document.getElementById("password1").focus();
+        t = false;
+    }
+
+    if (t) document.getElementById("dynamic-form").submit();
+
 }
 
