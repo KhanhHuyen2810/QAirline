@@ -267,6 +267,7 @@ hr {
     margin-right: auto;
     width: 80%;
     border-collapse: collapse;
+    color: black;
 }
 
     #airportTable th,

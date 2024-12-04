@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-
 async function fetchAirports() {
     try {
         const response = await fetch('https://localhost:7152/api/Airport');
@@ -42,9 +41,9 @@ async function fetchAirports() {
         alert('Có lỗi xảy ra khi lấy danh sách sân bay.');
     }
 }
-
 function displayAirports(airports) {
     const airportTableBody = document.getElementById('airportTable').getElementsByTagName('tbody')[0];
+
     airportTableBody.innerHTML = '';
 
     airports.forEach(airport => {
@@ -56,6 +55,7 @@ function displayAirports(airports) {
         row.insertCell(4).textContent = airport.AirportType;
     });
 }
+
 
 // Gọi hàm fetchAirports khi trang được tải
 document.addEventListener('DOMContentLoaded', function () {
