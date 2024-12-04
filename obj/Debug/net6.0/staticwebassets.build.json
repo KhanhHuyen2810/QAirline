@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "X087aiFLAt3iSHc9u0dTFf4fi9HmBlEbS14+vH2PHQg=",
+=======
+  "Hash": "Zp1RlvLjzBGbkYcjeZHztwUs0v31BuzltsKfuYiCcKc=",
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -73,8 +77,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "a9t1q4pezs",
       "Integrity": "XkQZ1az5LPQOE7LL39gsmhjqWKItKp5Tze+bGGk54T8=",
+=======
+      "Fingerprint": "ebmkqw61d7",
+      "Integrity": "BtjAoPC5g96Q1XbVKgjESTocZdu7boUfhkBVHgvdMR4=",
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -115,8 +124,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "7wsu4q1p0p",
       "Integrity": "x2k4017WgVFqJtNkeJVD8fWO2ozjGspl5CpgMxRMTBg=",
+=======
+      "Fingerprint": "80vaih4lef",
+      "Integrity": "eHGbvhM3CVBxD6ppMUsQDo3Y4cVi+7UbhcM1OoNYPZY=",
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1468,6 +1482,7 @@
   ],
   "Endpoints": [
     {
+<<<<<<< HEAD
       "Route": "css/site.a9t1q4pezs.css",
       "AssetFile": "E:\\WebProject\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1513,6 +1528,8 @@
       ]
     },
     {
+=======
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
       "Route": "css/site.css",
       "AssetFile": "E:\\WebProject\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1523,7 +1540,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "6287"
+=======
+          "Value": "4976"
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         },
         {
           "Name": "Content-Type",
@@ -1531,11 +1552,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"XkQZ1az5LPQOE7LL39gsmhjqWKItKp5Tze+bGGk54T8=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 16:51:33 GMT"
+=======
+          "Value": "\"BtjAoPC5g96Q1XbVKgjESTocZdu7boUfhkBVHgvdMR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 17:18:59 GMT"
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         },
         {
           "Name": "Cache-Control",
@@ -1545,7 +1574,101 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-XkQZ1az5LPQOE7LL39gsmhjqWKItKp5Tze+bGGk54T8="
+=======
+          "Value": "sha256-BtjAoPC5g96Q1XbVKgjESTocZdu7boUfhkBVHgvdMR4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ebmkqw61d7.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BtjAoPC5g96Q1XbVKgjESTocZdu7boUfhkBVHgvdMR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 17:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ebmkqw61d7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BtjAoPC5g96Q1XbVKgjESTocZdu7boUfhkBVHgvdMR4="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         }
       ]
     },
@@ -1587,8 +1710,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "favicon.v3eptpmkr0.ico",
       "AssetFile": "E:\\WebProject\\wwwroot\\favicon.ico",
+=======
+      "Route": "js/site.80vaih4lef.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1605,11 +1733,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"VUtZyQzRz8T2EcnAaOJAARTt4cki7fBMr8F3PU23rh8=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 11:53:27 GMT"
+=======
+          "Value": "\"eHGbvhM3CVBxD6ppMUsQDo3Y4cVi+7UbhcM1OoNYPZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 17:38:45 GMT"
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         },
         {
           "Name": "Cache-Control",
@@ -1619,7 +1755,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "v3eptpmkr0"
+=======
+          "Value": "80vaih4lef"
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         },
         {
           "Name": "label",
@@ -1627,7 +1767,11 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-VUtZyQzRz8T2EcnAaOJAARTt4cki7fBMr8F3PU23rh8="
+=======
+          "Value": "sha256-eHGbvhM3CVBxD6ppMUsQDo3Y4cVi+7UbhcM1OoNYPZY="
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         }
       ]
     },
@@ -1650,6 +1794,7 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"x2k4017WgVFqJtNkeJVD8fWO2ozjGspl5CpgMxRMTBg=\""
         },
         {
@@ -1700,6 +1845,13 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 16:52:13 GMT"
+=======
+          "Value": "\"eHGbvhM3CVBxD6ppMUsQDo3Y4cVi+7UbhcM1OoNYPZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 17:38:45 GMT"
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         },
         {
           "Name": "Cache-Control",
@@ -1709,7 +1861,11 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-x2k4017WgVFqJtNkeJVD8fWO2ozjGspl5CpgMxRMTBg="
+=======
+          "Value": "sha256-eHGbvhM3CVBxD6ppMUsQDo3Y4cVi+7UbhcM1OoNYPZY="
+>>>>>>> 75aec6cc82fdc87c5852a2735ad6af077079bbe6
         }
       ]
     },
