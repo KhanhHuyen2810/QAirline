@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "27EG3Ir9EvxsdQN8hfLCS5xGZJ9VXFx52E1zQd/+Lw0=",
-=======
-  "Hash": "k2+tMiNxMLgxCibv6P/sp6itwHVdZNdQ5SNnJ2TQUPU=",
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+  "Hash": "0Y3WlcWl62g3WeNJ49HjqC695K4N3FKTcfZuW0tzTBs=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -14,17 +10,17 @@
     {
       "Name": "WebApplication1\\wwwroot",
       "Source": "WebApplication1",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -39,13 +35,13 @@
       "Integrity": "JIHtoqiOEx4n3EfUawAxIBUQYPMUUOLVg6HW7014bxo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css"
     },
     {
-      "Identity": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -60,13 +56,13 @@
       "Integrity": "JIHtoqiOEx4n3EfUawAxIBUQYPMUUOLVg6HW7014bxo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -77,22 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-<<<<<<< HEAD
-      "Fingerprint": "w904sm6vij",
-      "Integrity": "ZK4MQvQv+Zcq2iQQQ+546pj9ZSW5l4a15nhQuYFgeNc=",
-=======
-      "Fingerprint": "j2ejprbmeb",
-      "Integrity": "Bf0I4hBOMl7sC8cBaShl736/2P9AniwZVjClgibU220=",
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+      "Fingerprint": "bzu8i8kdwe",
+      "Integrity": "Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\favicon.ico",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -110,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -124,22 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-<<<<<<< HEAD
-      "Fingerprint": "bdln5g92rt",
-      "Integrity": "Eb/BqrecEYrpWVpiMRwMwGAD7E1KbywW22Z3yviIA5k=",
-=======
-      "Fingerprint": "b7ckdlzabu",
-      "Integrity": "x8tbyaal678qIsQcJ+C72K/uA72Tti5o5paV+vBD8q8=",
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+      "Fingerprint": "cj3nlxztgc",
+      "Integrity": "qDoGXTBEtdhTqWjr65pujh5pbCof648YqDkCPc6VcnI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -157,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -178,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -199,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -220,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -241,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -262,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -283,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -304,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -325,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -346,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -367,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -388,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -409,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -430,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -451,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -472,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -493,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -514,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -535,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -556,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -577,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -598,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -619,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -640,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -661,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -682,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -703,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -724,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -745,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -766,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -787,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -808,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -829,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -850,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -871,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -892,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -913,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -934,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -955,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -976,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -997,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1018,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1039,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1060,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1081,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1102,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1123,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1144,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1165,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1186,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1207,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1228,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1249,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1270,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1291,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1312,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1333,10 +1319,31 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\resource\\image_container\\christmas_theme.png",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\china.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/china#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnvx8x677u",
+      "Integrity": "eZUubJsEESP7en2NvCEgZbv8NVGaUs0Zk65XJLeo7jQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\china.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\christmas_theme.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "resource/image_container/christmas_theme#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1354,10 +1361,115 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_container\\christmas_theme.png"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\da_nang.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/da_nang#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "txr14ar9k2",
+      "Integrity": "sR/lenIcLDcw/85Tm6/WYo93JDx/FQEifUpPebdp6GA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\da_nang.png"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\ha_noi.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/ha_noi#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lplnejro8i",
+      "Integrity": "V4jBKRozrgb98xpgbMqz5ORpu2K24QH9hhdxKVYegbc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\ha_noi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\hcmc.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/hcmc#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2l0t3oz6up",
+      "Integrity": "NptHEIWQYghbqRWEGn+l09xTVMAErOiDnegkyUaveBA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\hcmc.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\japan.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/japan#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8x66dhx0rj",
+      "Integrity": "dHbhySzw8tPVrM7zRIj7HpL5C2N3U6FNmGW613Wk+C8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\japan.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\seoul.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/seoul#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ibvfs17ddw",
+      "Integrity": "Tjyj7KC8PFQwjQ1I+wGgNIsbSErN8Jy/9canaFjQKAc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\seoul.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "resource/image_container/themelogin#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1375,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_container\\themelogin.jpg"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "resource/image_header/background#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1396,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_header\\background.jpg"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "resource/image_header/cloud-fix#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1410,22 +1522,38 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-<<<<<<< HEAD
-      "Fingerprint": "8u4osk7b4m",
-      "Integrity": "gMrFPJZdD4RXzGxOuidyw8chhg/kWPXiDHh7Kui+kU4=",
-=======
       "Fingerprint": "vvt01o1xg5",
       "Integrity": "S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs=",
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resource\\image_header\\cloud-fix.png"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\resource\\image_header\\login.png",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\dam_may_2.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_header/dam_may_2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8u4osk7b4m",
+      "Integrity": "gMrFPJZdD4RXzGxOuidyw8chhg/kWPXiDHh7Kui+kU4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_header\\dam_may_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\login.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "resource/image_header/login#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1443,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_header\\login.png"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\resource\\image_header\\logo.png",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\logo.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "resource/image_header/logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1464,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_header\\logo.png"
     },
     {
-      "Identity": "E:\\WebProject\\wwwroot\\resource\\image_header\\service.png",
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\service.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "resource/image_header/service#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1487,8 +1615,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\css\\site.css",
+      "Route": "css/site.bzu8i8kdwe.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1497,11 +1625,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "5039"
-=======
-          "Value": "6306"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+          "Value": "7113"
         },
         {
           "Name": "Content-Type",
@@ -1509,19 +1633,56 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"ZK4MQvQv+Zcq2iQQQ+546pj9ZSW5l4a15nhQuYFgeNc=\""
+          "Value": "\"Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 09:38:50 GMT"
-=======
-          "Value": "\"Bf0I4hBOMl7sC8cBaShl736/2P9AniwZVjClgibU220=\""
+          "Value": "Thu, 05 Dec 2024 17:27:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzu8i8kdwe"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+          "Value": "Thu, 05 Dec 2024 17:27:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1531,132 +1692,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-ZK4MQvQv+Zcq2iQQQ+546pj9ZSW5l4a15nhQuYFgeNc="
-=======
-          "Value": "sha256-Bf0I4hBOMl7sC8cBaShl736/2P9AniwZVjClgibU220="
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
-        }
-      ]
-    },
-    {
-<<<<<<< HEAD
-      "Route": "css/site.w904sm6vij.css",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
-=======
-      "Route": "css/site.j2ejprbmeb.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\css\\site.css",
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "5039"
-=======
-          "Value": "6306"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"ZK4MQvQv+Zcq2iQQQ+546pj9ZSW5l4a15nhQuYFgeNc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 09:38:50 GMT"
-=======
-          "Value": "\"Bf0I4hBOMl7sC8cBaShl736/2P9AniwZVjClgibU220=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "w904sm6vij"
-=======
-          "Value": "j2ejprbmeb"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-ZK4MQvQv+Zcq2iQQQ+546pj9ZSW5l4a15nhQuYFgeNc="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-=======
-          "Value": "sha256-Bf0I4hBOMl7sC8cBaShl736/2P9AniwZVjClgibU220="
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+          "Value": "sha256-Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc="
         }
       ]
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "E:\\WebProject\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1677,7 +1719,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 05 Dec 2024 14:24:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1692,13 +1734,8 @@
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "js/site.bdln5g92rt.js",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
-=======
       "Route": "favicon.v3eptpmkr0.ico",
-      "AssetFile": "E:\\WebProject\\wwwroot\\favicon.ico",
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1707,11 +1744,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "3192"
-=======
           "Value": "3893"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         },
         {
           "Name": "Content-Type",
@@ -1719,19 +1752,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"Eb/BqrecEYrpWVpiMRwMwGAD7E1KbywW22Z3yviIA5k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 09:45:58 GMT"
-=======
           "Value": "\"VUtZyQzRz8T2EcnAaOJAARTt4cki7fBMr8F3PU23rh8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+          "Value": "Thu, 05 Dec 2024 14:24:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1741,11 +1766,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "bdln5g92rt"
-=======
           "Value": "v3eptpmkr0"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         },
         {
           "Name": "label",
@@ -1753,17 +1774,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-Eb/BqrecEYrpWVpiMRwMwGAD7E1KbywW22Z3yviIA5k="
-=======
           "Value": "sha256-VUtZyQzRz8T2EcnAaOJAARTt4cki7fBMr8F3PU23rh8="
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         }
       ]
     },
     {
-      "Route": "js/site.b7ckdlzabu.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\js\\site.js",
+      "Route": "js/site.cj3nlxztgc.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1772,11 +1789,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "3192"
-=======
-          "Value": "9354"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+          "Value": "10095"
         },
         {
           "Name": "Content-Type",
@@ -1784,18 +1797,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"Eb/BqrecEYrpWVpiMRwMwGAD7E1KbywW22Z3yviIA5k=\""
+          "Value": "\"qDoGXTBEtdhTqWjr65pujh5pbCof648YqDkCPc6VcnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 09:45:58 GMT"
-=======
-          "Value": "\"x8tbyaal678qIsQcJ+C72K/uA72Tti5o5paV+vBD8q8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:39:38 GMT"
+          "Value": "Thu, 05 Dec 2024 15:07:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1805,7 +1811,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b7ckdlzabu"
+          "Value": "cj3nlxztgc"
         },
         {
           "Name": "label",
@@ -1813,13 +1819,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x8tbyaal678qIsQcJ+C72K/uA72Tti5o5paV+vBD8q8="
+          "Value": "sha256-qDoGXTBEtdhTqWjr65pujh5pbCof648YqDkCPc6VcnI="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1828,7 +1834,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9354"
+          "Value": "10095"
         },
         {
           "Name": "Content-Type",
@@ -1836,12 +1842,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x8tbyaal678qIsQcJ+C72K/uA72Tti5o5paV+vBD8q8=\""
+          "Value": "\"qDoGXTBEtdhTqWjr65pujh5pbCof648YqDkCPc6VcnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:39:38 GMT"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+          "Value": "Thu, 05 Dec 2024 15:07:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1851,17 +1856,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-Eb/BqrecEYrpWVpiMRwMwGAD7E1KbywW22Z3yviIA5k="
-=======
-          "Value": "sha256-x8tbyaal678qIsQcJ+C72K/uA72Tti5o5paV+vBD8q8="
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+          "Value": "sha256-qDoGXTBEtdhTqWjr65pujh5pbCof648YqDkCPc6VcnI="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1882,7 +1883,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1898,7 +1899,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1919,7 +1920,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1943,7 +1944,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1964,7 +1965,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1980,7 +1981,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2001,7 +2002,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2025,7 +2026,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2046,7 +2047,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2062,7 +2063,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2083,7 +2084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2107,7 +2108,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2128,7 +2129,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2144,7 +2145,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2165,7 +2166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2189,7 +2190,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2210,7 +2211,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2226,7 +2227,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2247,7 +2248,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2271,7 +2272,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2292,7 +2293,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2308,7 +2309,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2329,7 +2330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2353,7 +2354,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2374,7 +2375,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2398,7 +2399,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2419,7 +2420,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2435,7 +2436,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2456,7 +2457,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2480,7 +2481,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2501,7 +2502,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2517,7 +2518,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2538,7 +2539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2554,7 +2555,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2575,7 +2576,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2591,7 +2592,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2612,7 +2613,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2636,7 +2637,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2657,7 +2658,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2681,7 +2682,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2702,7 +2703,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2718,7 +2719,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2739,7 +2740,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2763,7 +2764,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2784,7 +2785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2800,7 +2801,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2821,7 +2822,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2845,7 +2846,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2866,7 +2867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2882,7 +2883,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2903,7 +2904,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2927,7 +2928,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2948,7 +2949,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2964,7 +2965,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2985,7 +2986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3009,7 +3010,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3030,7 +3031,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3046,7 +3047,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3067,7 +3068,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3083,7 +3084,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3104,7 +3105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3128,7 +3129,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3149,7 +3150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3173,7 +3174,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3194,7 +3195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3210,7 +3211,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3231,7 +3232,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3255,7 +3256,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3276,7 +3277,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3292,7 +3293,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3313,7 +3314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3329,7 +3330,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3350,7 +3351,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3366,7 +3367,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3387,7 +3388,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3411,7 +3412,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3432,7 +3433,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3456,7 +3457,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3477,7 +3478,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3501,7 +3502,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3522,7 +3523,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3546,7 +3547,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3567,7 +3568,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3583,7 +3584,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3604,7 +3605,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3628,7 +3629,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3649,7 +3650,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3665,7 +3666,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3686,7 +3687,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3702,7 +3703,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3723,7 +3724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3739,7 +3740,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3760,7 +3761,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3784,7 +3785,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3805,7 +3806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3829,7 +3830,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3850,7 +3851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3866,7 +3867,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3887,7 +3888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3911,7 +3912,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3932,7 +3933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3948,7 +3949,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3969,7 +3970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3993,7 +3994,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4014,7 +4015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4030,7 +4031,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4051,7 +4052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4067,7 +4068,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4088,7 +4089,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4112,7 +4113,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4133,7 +4134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4149,7 +4150,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4170,7 +4171,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4194,7 +4195,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4215,7 +4216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4231,7 +4232,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4252,7 +4253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4268,7 +4269,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4289,7 +4290,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4313,7 +4314,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4334,7 +4335,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4350,7 +4351,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4371,7 +4372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4395,7 +4396,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4416,7 +4417,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4440,7 +4441,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4461,7 +4462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4485,7 +4486,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4506,7 +4507,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4530,7 +4531,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4551,7 +4552,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4575,7 +4576,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4596,7 +4597,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4612,7 +4613,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4633,7 +4634,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4657,7 +4658,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4678,7 +4679,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4694,7 +4695,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4715,7 +4716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4739,7 +4740,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4760,7 +4761,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4776,7 +4777,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4797,7 +4798,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4821,7 +4822,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4842,7 +4843,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4858,7 +4859,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4879,7 +4880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4895,7 +4896,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4916,7 +4917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4940,7 +4941,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4961,7 +4962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4977,7 +4978,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4998,7 +4999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5022,7 +5023,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5043,7 +5044,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5059,7 +5060,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5080,7 +5081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5096,7 +5097,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5117,7 +5118,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5141,7 +5142,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5162,7 +5163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5186,7 +5187,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5207,7 +5208,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5223,7 +5224,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5244,7 +5245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5268,7 +5269,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5289,7 +5290,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5305,7 +5306,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5326,7 +5327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5350,7 +5351,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5371,7 +5372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5387,7 +5388,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5408,7 +5409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5424,7 +5425,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5445,7 +5446,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5469,7 +5470,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5490,7 +5491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5506,7 +5507,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5527,7 +5528,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5551,7 +5552,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5572,7 +5573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5588,7 +5589,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dsw5v3fbc5.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5609,7 +5610,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5633,7 +5634,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5654,7 +5655,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5670,7 +5671,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5691,7 +5692,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5707,7 +5708,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.rm8d4uw1xt.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5728,7 +5729,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5752,7 +5753,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.ukz1g2vv03.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5773,7 +5774,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5797,7 +5798,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.afgyafcsqt.txt",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5818,7 +5819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5842,7 +5843,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5863,7 +5864,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5879,7 +5880,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5900,7 +5901,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5924,7 +5925,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5945,7 +5946,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5961,7 +5962,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5982,7 +5983,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6006,7 +6007,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6027,7 +6028,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6043,7 +6044,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6064,7 +6065,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6088,7 +6089,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6109,7 +6110,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6125,7 +6126,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6146,7 +6147,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6162,7 +6163,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6183,7 +6184,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6207,7 +6208,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6228,7 +6229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6244,7 +6245,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6265,7 +6266,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6289,7 +6290,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.dvc2bfcndg.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6310,7 +6311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6334,7 +6335,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6355,7 +6356,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6371,7 +6372,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6392,7 +6393,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6408,7 +6409,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.mt9h37ga6s.js",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6429,7 +6430,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6453,7 +6454,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6474,7 +6475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6490,7 +6491,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.wqejeusuyq.txt",
-      "AssetFile": "E:\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6511,7 +6512,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 28 Nov 2024 16:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6534,8 +6535,90 @@
       ]
     },
     {
+      "Route": "resource/image_container/china.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\china.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "491137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZUubJsEESP7en2NvCEgZbv8NVGaUs0Zk65XJLeo7jQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZUubJsEESP7en2NvCEgZbv8NVGaUs0Zk65XJLeo7jQ="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/china.rnvx8x677u.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\china.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "491137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZUubJsEESP7en2NvCEgZbv8NVGaUs0Zk65XJLeo7jQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnvx8x677u"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/china.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZUubJsEESP7en2NvCEgZbv8NVGaUs0Zk65XJLeo7jQ="
+        }
+      ]
+    },
+    {
       "Route": "resource/image_container/christmas_theme.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_container\\christmas_theme.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\christmas_theme.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6556,7 +6639,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Fri, 29 Nov 2024 13:47:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6572,7 +6655,7 @@
     },
     {
       "Route": "resource/image_container/christmas_theme.rbupngrtp8.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_container\\christmas_theme.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\christmas_theme.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6593,7 +6676,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Fri, 29 Nov 2024 13:47:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6616,8 +6699,418 @@
       ]
     },
     {
+      "Route": "resource/image_container/da_nang.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\da_nang.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sR/lenIcLDcw/85Tm6/WYo93JDx/FQEifUpPebdp6GA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 17:35:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sR/lenIcLDcw/85Tm6/WYo93JDx/FQEifUpPebdp6GA="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/da_nang.txr14ar9k2.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\da_nang.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sR/lenIcLDcw/85Tm6/WYo93JDx/FQEifUpPebdp6GA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 17:35:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txr14ar9k2"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/da_nang.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sR/lenIcLDcw/85Tm6/WYo93JDx/FQEifUpPebdp6GA="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/ha_noi.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\ha_noi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "574841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4jBKRozrgb98xpgbMqz5ORpu2K24QH9hhdxKVYegbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4jBKRozrgb98xpgbMqz5ORpu2K24QH9hhdxKVYegbc="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/ha_noi.lplnejro8i.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\ha_noi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "574841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4jBKRozrgb98xpgbMqz5ORpu2K24QH9hhdxKVYegbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lplnejro8i"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/ha_noi.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4jBKRozrgb98xpgbMqz5ORpu2K24QH9hhdxKVYegbc="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/hcmc.2l0t3oz6up.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\hcmc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NptHEIWQYghbqRWEGn+l09xTVMAErOiDnegkyUaveBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:56:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2l0t3oz6up"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/hcmc.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NptHEIWQYghbqRWEGn+l09xTVMAErOiDnegkyUaveBA="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/hcmc.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\hcmc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NptHEIWQYghbqRWEGn+l09xTVMAErOiDnegkyUaveBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:56:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NptHEIWQYghbqRWEGn+l09xTVMAErOiDnegkyUaveBA="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/japan.8x66dhx0rj.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\japan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dHbhySzw8tPVrM7zRIj7HpL5C2N3U6FNmGW613Wk+C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8x66dhx0rj"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/japan.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dHbhySzw8tPVrM7zRIj7HpL5C2N3U6FNmGW613Wk+C8="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/japan.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\japan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dHbhySzw8tPVrM7zRIj7HpL5C2N3U6FNmGW613Wk+C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dHbhySzw8tPVrM7zRIj7HpL5C2N3U6FNmGW613Wk+C8="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/seoul.ibvfs17ddw.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\seoul.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tjyj7KC8PFQwjQ1I+wGgNIsbSErN8Jy/9canaFjQKAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:55:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ibvfs17ddw"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/seoul.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tjyj7KC8PFQwjQ1I+wGgNIsbSErN8Jy/9canaFjQKAc="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/seoul.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\seoul.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tjyj7KC8PFQwjQ1I+wGgNIsbSErN8Jy/9canaFjQKAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 09:55:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tjyj7KC8PFQwjQ1I+wGgNIsbSErN8Jy/9canaFjQKAc="
+        }
+      ]
+    },
+    {
       "Route": "resource/image_container/themelogin.jpg",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6638,7 +7131,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 05 Dec 2024 14:24:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6654,7 +7147,7 @@
     },
     {
       "Route": "resource/image_container/themelogin.r1htzp5ytg.jpg",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6675,7 +7168,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Thu, 05 Dec 2024 14:24:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6699,7 +7192,7 @@
     },
     {
       "Route": "resource/image_header/background.jpg",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6720,7 +7213,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 02:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6736,7 +7229,7 @@
     },
     {
       "Route": "resource/image_header/background.vc2tk8yb8t.jpg",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6757,7 +7250,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 02:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6780,7 +7273,88 @@
       ]
     },
     {
-<<<<<<< HEAD
+      "Route": "resource/image_header/cloud-fix.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 14:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cloud-fix.vvt01o1xg5.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 14:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vvt01o1xg5"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_header/cloud-fix.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs="
+        }
+      ]
+    },
+    {
       "Route": "resource/image_header/dam_may_2.8u4osk7b4m.png",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\dam_may_2.png",
       "Selectors": [],
@@ -6828,10 +7402,6 @@
     {
       "Route": "resource/image_header/dam_may_2.png",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\dam_may_2.png",
-=======
-      "Route": "resource/image_header/cloud-fix.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6840,11 +7410,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
           "Value": "28879"
-=======
-          "Value": "12927"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         },
         {
           "Name": "Content-Type",
@@ -6852,19 +7418,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
           "Value": "\"gMrFPJZdD4RXzGxOuidyw8chhg/kWPXiDHh7Kui+kU4=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Wed, 04 Dec 2024 07:52:56 GMT"
-=======
-          "Value": "\"S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         },
         {
           "Name": "Cache-Control",
@@ -6874,62 +7432,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-<<<<<<< HEAD
           "Value": "sha256-gMrFPJZdD4RXzGxOuidyw8chhg/kWPXiDHh7Kui+kU4="
-=======
-          "Value": "sha256-S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs="
-        }
-      ]
-    },
-    {
-      "Route": "resource/image_header/cloud-fix.vvt01o1xg5.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12927"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vvt01o1xg5"
-        },
-        {
-          "Name": "label",
-          "Value": "resource/image_header/cloud-fix.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-S+iyAHHVXWJ/jGPwW8IGY0ocVRjFqiUIhmgMj5vsdgs="
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         }
       ]
     },
     {
       "Route": "resource/image_header/login.064i7338u0.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\login.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\login.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6950,7 +7459,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 14:26:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6974,7 +7483,7 @@
     },
     {
       "Route": "resource/image_header/login.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\login.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\login.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6995,7 +7504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 14:26:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7011,7 +7520,7 @@
     },
     {
       "Route": "resource/image_header/logo.iac2s50mn8.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\logo.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7032,7 +7541,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 13:52:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7056,7 +7565,7 @@
     },
     {
       "Route": "resource/image_header/logo.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\logo.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7077,7 +7586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 13:52:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7093,7 +7602,7 @@
     },
     {
       "Route": "resource/image_header/service.fagbkxkqno.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\service.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\service.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7114,7 +7623,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 14:27:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7138,7 +7647,7 @@
     },
     {
       "Route": "resource/image_header/service.png",
-      "AssetFile": "E:\\WebProject\\wwwroot\\resource\\image_header\\service.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\service.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7159,7 +7668,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:30:16 GMT"
+          "Value": "Mon, 11 Nov 2024 14:27:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7175,7 +7684,7 @@
     },
     {
       "Route": "WebApplication1.bundle.scp.css",
-      "AssetFile": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7196,7 +7705,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:41:00 GMT"
+          "Value": "Thu, 05 Dec 2024 15:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7212,7 +7721,7 @@
     },
     {
       "Route": "WebApplication1.styles.css",
-      "AssetFile": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7233,7 +7742,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:41:00 GMT"
+          "Value": "Thu, 05 Dec 2024 15:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7249,7 +7758,7 @@
     },
     {
       "Route": "WebApplication1.wh6hypu0ky.bundle.scp.css",
-      "AssetFile": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7270,7 +7779,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:41:00 GMT"
+          "Value": "Thu, 05 Dec 2024 15:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7294,7 +7803,7 @@
     },
     {
       "Route": "WebApplication1.wh6hypu0ky.styles.css",
-      "AssetFile": "E:\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7315,7 +7824,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:41:00 GMT"
+          "Value": "Thu, 05 Dec 2024 15:23:42 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -18,7 +18,6 @@ function redirectToAirportDetail() {
     window.location.href = '/Home/AirportDetail';
 }
 
-<<<<<<< HEAD
 function redirectToHomepage() {
     window.location.href = "https://localhost:7152/";
 }
@@ -35,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-=======
 function onPage(page) {
     window.open('/Home/Login', '_blank');
 }
@@ -47,8 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             onPage();
         })
     }
-})
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
+});
 
 document.addEventListener('DOMContentLoaded', function () {
     const viewAirportsButton = document.getElementById('viewAirportsButton');

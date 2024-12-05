@@ -58,10 +58,17 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\resource\image_container\china.jpg
 wwwroot\resource\image_container\christmas_theme.png
+wwwroot\resource\image_container\da_nang.png
+wwwroot\resource\image_container\ha_noi.jpg
+wwwroot\resource\image_container\hcmc.jpg
+wwwroot\resource\image_container\japan.jpg
+wwwroot\resource\image_container\seoul.jpg
 wwwroot\resource\image_container\themelogin.jpg
 wwwroot\resource\image_header\background.jpg
 wwwroot\resource\image_header\cloud-fix.png
+wwwroot\resource\image_header\dam_may_2.png
 wwwroot\resource\image_header\login.png
 wwwroot\resource\image_header\logo.png
 wwwroot\resource\image_header\service.png

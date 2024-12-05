@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using WebApplication1.Data;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +42,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 
 app.UseCors("AllowAll");
 

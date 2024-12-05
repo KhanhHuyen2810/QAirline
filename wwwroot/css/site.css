@@ -63,6 +63,10 @@ header {
     gap: 0.5rem;
 }
 
+.logInButton:hover {
+    text-decoration: underline;
+}
+
 #service {
     position: fixed;
     top: 2vh;
@@ -258,7 +262,7 @@ hr {
 }
 
 .airport-detail-title {
-    margin-top: 30vh;
+    margin-top: 25vh;
     text-align: center;
     font-weight: bold;
 }
@@ -274,11 +278,7 @@ hr {
 
     #airportTable th,
     #airportTable td {
-<<<<<<< HEAD
-        border: 1px solid black;
-=======
         border: 1px solid #81BFDA;
->>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         padding: 8px;
     }
 
@@ -287,6 +287,7 @@ hr {
         text-align: center;
         font-weight: bold;
         font-size: 24px;
+        align-content: center;
     }
 
     #airportTable tr:hover {
@@ -378,4 +379,44 @@ form span.error {
         object-fit: contain;
     }
 
+.card {
+    background-color: pink;
+}
+.famous-destination {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    grid-auto-flow: dense;
+    margin-top: 30px;
+}
+#hanoi-card {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+#danang-card {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+#hcmc-card {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+#china-card {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+#japan-card {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+#korea-card {
+    grid-column: span 1;
+    grid-row: span 1;
+}
 
