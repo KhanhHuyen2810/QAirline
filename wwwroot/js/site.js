@@ -18,11 +18,37 @@ function redirectToAirportDetail() {
     window.location.href = '/Home/AirportDetail';
 }
 
+function redirectToHomepage() {
+    window.location.href = "https://localhost:7152/";
+}
+
+function redirectToNewsPage() {
+    window.location.href = '/Home/NewsPage';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const viewHomepageButton = document.getElementById('viewHomepageButton');
+    if (viewHomepageButton) {
+        viewHomepageButton.addEventListener('click', function () {
+            redirectToHomepage();
+        });
+    }
+});
+
 document.addEventListener('DOMContentLoaded', function () {
     const viewAirportsButton = document.getElementById('viewAirportsButton');
     if (viewAirportsButton) {
         viewAirportsButton.addEventListener('click', function () {
             redirectToAirportDetail();
+        });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const viewNewsButton = document.getElementById('viewNewsButton');
+    if (viewNewsButton) {
+        viewNewsButton.addEventListener('click', function () {
+            redirectToNewsPage();
         });
     }
 });
@@ -48,11 +74,11 @@ function displayAirports(airports) {
 
     airports.forEach(airport => {
         const row = airportTableBody.insertRow();
-        row.insertCell(0).textContent = airport.AirportName;
-        row.insertCell(1).textContent = airport.AirportLocation;
-        row.insertCell(2).textContent = airport.iataCode;
-        row.insertCell(3).textContent = airport.icaoCode;
-        row.insertCell(4).textContent = airport.AirportType;
+        row.insertCell(0).textContent = airport.Name;
+        row.insertCell(1).textContent = airport.Location;
+        row.insertCell(2).textContent = airport.IATACode;
+        row.insertCell(3).textContent = airport.ICAOCode;
+        row.insertCell(4).textContent = airport.Type;
     });
 }
 

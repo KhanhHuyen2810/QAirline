@@ -272,22 +272,24 @@ hr {
 
     #airportTable th,
     #airportTable td {
-        border: 1px solid 81BFDA;
+        border: 1px solid black;
         padding: 8px;
     }
 
     #airportTable th {
         background-color: #E195AB;
-        text-align: left;
+        text-align: center;
         font-weight: bold;
+        font-size: 24px;
     }
 
     #airportTable tr:hover {
         background-color: #F2F9FF;
     }
 
-    #airportTable td {
+    #airportTable tr {
         text-align: center;
+        background-color: #81BFDA;
     }
 
 
