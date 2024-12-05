@@ -277,6 +277,10 @@
       "PackagePath": "staticwebassets\\resource\\image_container\\themelogin.jpg"
     },
     {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_footer\\dam_may_footer.png",
+      "PackagePath": "staticwebassets\\resource\\image_footer\\dam_may_footer.png"
+    },
+    {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
       "PackagePath": "staticwebassets\\resource\\image_header\\background.jpg"
     },

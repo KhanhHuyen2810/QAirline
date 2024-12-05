@@ -66,6 +66,7 @@ wwwroot\resource\image_container\hcmc.jpg
 wwwroot\resource\image_container\japan.jpg
 wwwroot\resource\image_container\seoul.jpg
 wwwroot\resource\image_container\themelogin.jpg
+wwwroot\resource\image_footer\dam_may_footer.png
 wwwroot\resource\image_header\background.jpg
 wwwroot\resource\image_header\cloud-fix.png
 wwwroot\resource\image_header\dam_may_2.png

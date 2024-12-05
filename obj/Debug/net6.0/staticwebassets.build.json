@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Y3WlcWl62g3WeNJ49HjqC695K4N3FKTcfZuW0tzTBs=",
+  "Hash": "y60MP1imr08DBdQ2If61jtoHpTtnaXmlj+/pAh4DCs8=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bzu8i8kdwe",
-      "Integrity": "Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc=",
+      "Fingerprint": "ueci1065t5",
+      "Integrity": "qq9Wjj+cRHjgVGSPw9Glbb9SSwbS1JKWCwH+J/AZFMM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1487,6 +1487,27 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_container\\themelogin.jpg"
     },
     {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_footer\\dam_may_footer.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_footer/dam_may_footer#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oebasisf96",
+      "Integrity": "QPxgaYS9kDtLeyBGXz0pcrzLny85aXll1uhvQzE+l/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_footer\\dam_may_footer.png"
+    },
+    {
       "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -1615,51 +1636,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.bzu8i8kdwe.css",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7113"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:27:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bzu8i8kdwe"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1670,7 +1646,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7113"
+          "Value": "7169"
         },
         {
           "Name": "Content-Type",
@@ -1678,11 +1654,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc=\""
+          "Value": "\"qq9Wjj+cRHjgVGSPw9Glbb9SSwbS1JKWCwH+J/AZFMM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 17:27:15 GMT"
+          "Value": "Thu, 05 Dec 2024 20:21:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1692,7 +1668,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kb/YKGCmFWWQ8ZrSAWQ8Pj70CBiBs0HjeLHVQTW8wMc="
+          "Value": "sha256-qq9Wjj+cRHjgVGSPw9Glbb9SSwbS1JKWCwH+J/AZFMM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ueci1065t5.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qq9Wjj+cRHjgVGSPw9Glbb9SSwbS1JKWCwH+J/AZFMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:21:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ueci1065t5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qq9Wjj+cRHjgVGSPw9Glbb9SSwbS1JKWCwH+J/AZFMM="
         }
       ]
     },
@@ -7187,6 +7208,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-j9LcnP6Dhah5cn0DXrEgXMDJDvc8OM3UPZEiYzAFEzU="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_footer/dam_may_footer.oebasisf96.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_footer\\dam_may_footer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QPxgaYS9kDtLeyBGXz0pcrzLny85aXll1uhvQzE+l/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:01:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oebasisf96"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_footer/dam_may_footer.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPxgaYS9kDtLeyBGXz0pcrzLny85aXll1uhvQzE+l/8="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_footer/dam_may_footer.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_footer\\dam_may_footer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QPxgaYS9kDtLeyBGXz0pcrzLny85aXll1uhvQzE+l/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 20:01:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPxgaYS9kDtLeyBGXz0pcrzLny85aXll1uhvQzE+l/8="
         }
       ]
     },
