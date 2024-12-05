@@ -23,7 +23,11 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         public IActionResult NewsPage()
+=======
+        public IActionResult LogIn()
+>>>>>>> 5294d672e537add6ceac700723fbf24944af3355
         {
             return View();
         }

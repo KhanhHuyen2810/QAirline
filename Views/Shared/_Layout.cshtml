@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -18,7 +19,7 @@
         <div class="right_container">
             <div id="login">
                 <img src="/resource/image_header/login.png" alt="Login">
-                <a href="">Đăng nhập</a> | <a href="">Đăng ký</a>
+                <a class="logInButton" href="javascript:void(0)">Đăng nhập</a> | <a class="logInButton" href="javascript:void(0)">Đăng ký</a>
             </div>
             <div id="service">
                 <img src="/resource/image_header/service.png" alt="Support">
@@ -32,23 +33,34 @@
         <div class="right-menu">
             <ul class="navbar">
                 <li class="nav-item">
+<<<<<<< HEAD
                     <a href="javascript:void(0)" id="viewHomepageButton" class="nav-link">Trang chủ</a>
+=======
+                    <a class="nav-link" href="#">TRANG CHỦ</a>
+>>>>>>> 5294d672e537add6ceac700723fbf24944af3355
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Đặt vé</a>
+                    <a class="nav-link" href="#">ĐẶT VÉ</a>
                 </li>
                 <li class="nav-item">
+<<<<<<< HEAD
                     <a href="javascript:void(0)" id="viewNewsButton" class="nav-link">Tin tức</a>
+=======
+                    <a class="nav-link" href="#">CHUYẾN BAY CỦA TÔI</a>
+>>>>>>> 5294d672e537add6ceac700723fbf24944af3355
                 </li>
                 <li class="nav-item">
-                    <a href="javascript:void(0)" id="viewAirportsButton" class="nav-link">Sân bay</a>
+                    <a class="nav-link" href="#">TIN TỨC</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0)" id="viewAirportsButton" class="nav-link">SÂN BAY</a>
                 </li>
             </ul>
         </div>
     </header>
-    <body>
+
         @RenderBody()
-    </body>
+
     <!-- Footer: contact methods -->
     <footer class="footer"></footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
