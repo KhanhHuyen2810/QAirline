@@ -15,15 +15,20 @@
 <body>
     <!-- Header: search bar, login-signup, menu -->
     <header class="header">
-        <img id="logo" src="/resource/image_header/logo.png" alt="Logo" onclick="javascript:redirectToNewsPage();">
+        <img id="logo" src="/resource/image_header/logo.png" alt="Logo" onclick="javascript:redirectToHomepage();">
         <div class="right_container">
             <div id="login">
                 <img src="/resource/image_header/login.png" alt="Login">
-                <a class="logInButton" href="javascript:void(0)">Đăng nhập</a> | <a class="logInButton" href="javascript:void(0)">Đăng ký</a>
+                <a id="logInButton" href="javascript:void(0)">Đăng nhập</a> | <a id="signUpButton" href="javascript:void(0)">Đăng ký</a>
             </div>
             <div id="service">
                 <img src="/resource/image_header/service.png" alt="Support">
-                <a href="">Hỗ trợ</a>
+                <a id="hotlineLink" href="Hotline">Hỗ trợ</a>
+                <div id="overlay" class="hidden"></div>
+                <div id="hotlineBox" class="hidden">
+                    <p>Hãy gọi theo số hotline sau để được hỗ trợ <strong><br />0123 456 789</strong></p>
+                    <button id="closeButton">OK</button>
+                </div>
             </div>
             <div class="search">
                 <input class="search-bar" type="text" placeholder="Tìm kiếm">

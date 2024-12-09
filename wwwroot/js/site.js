@@ -14,6 +14,29 @@ function toggleContent() {
         roundTripContent.classList.remove('hidden');
     }
 }
+document.addEventListener("DOMContentLoaded", () => {
+    const hotlineLink = document.getElementById("hotlineLink");
+    const hotlineBox = document.getElementById("hotlineBox");
+    const overlay = document.getElementById("overlay");
+    const closeButton = document.getElementById("closeButton");
+
+    hotlineLink.addEventListener("click", (e) => {
+        e.preventDefault();
+        hotlineBox.classList.remove("hidden");
+        overlay.classList.remove("hidden");
+    });
+
+    closeButton.addEventListener("click", () => {
+        hotlineBox.classList.add("hidden");
+        overlay.classList.add("hidden");
+    });
+
+    overlay.addEventListener("click", () => {
+        hotlineBox.classList.add("hidden");
+        overlay.classList.add("hidden");
+    });
+});
+
 function redirectToAirportDetail() {
     window.location.href = '/Home/AirportDetail';
 }
@@ -32,18 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
         viewHomepageButton.addEventListener('click', function () {
             redirectToHomepage();
         });
-    }
-});
-function onPage(page) {
-    window.open('/Home/Login', '_blank');
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    const logInButton = document.querySelector('.logInButton');
-    if (logInButton) {
-        logInButton.addEventListener('click', function () {
-            onPage();
-        })
     }
 });
 
@@ -103,97 +114,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-//Chuyển trang Đăng nhập/Đăng kí
-let isRegister = true;
-
-function toggleLogIn() {
-    const formTitle = document.getElementById("form-title");
-    const form = document.getElementById("dynamic-form");
-    const toggleButton = document.getElementById("toggle-button");
-    const textND = document.getElementById("text-nd");
-
-    if (isRegister) {
-        formTitle.textContent = "Đăng nhập";
-        form.innerHTML = `
-              <label>Tên đăng nhập</label>
-              <div>
-                <input class="display-ip" type="text" id="username1" placeholder="Tên đăng nhập" >
-                <br>
-                <span class="error" id="no_usrname"></span>
-             </div>
-             <label>Mật khẩu</label>
-             <div>
-              <input class="display-ip" type="password" id="password1" placeholder="Mật khẩu" >
-              <br>
-              <span class="error" id="no-pass1"></span>
-            </div>
-              <button class="bt-submit" type="button" onclick="LogInSubmit()">Đăng nhập</button>
-          `;
-        textND.textContent = "Bạn chưa có tài khoản?";
-        toggleButton.textContent = "Đăng ký";
-    } else {
-        formTitle.textContent = "Đăng ký";
-        form.innerHTML = `
-               <label>Họ và tên</label>
-                <div>
-                    <input class="display-ip"
-                           type="text"
-                           id="name"
-                           placeholder="Họ và tên" />
-                    <br>
-                    <span id="no_name" class="error"></span>
-                </div>
-                <label>Số điện thoại</label>
-                <div>
-                    <input class="display-ip"
-                           type="text"
-                           id="numberphone"
-                           placeholder="Số điện thoại" />
-                    <br>
-                    <span id="no_numberphone" class="error"></span>
-                </div>
-                <label for="dob" class="label">Date of Birth</label>
-                <div>
-                    <input type="date" id="dateofbirth" class="display-ip">
-                    <br>
-                    <span id="no_date" class="error"></span>
-                </div>
-                <label>Tên đăng nhập</label>
-                <div>
-                    <input class="display-ip"
-                           type="text"
-                           id="username"
-                           placeholder="Tên đăng nhập" />
-                    <br>
-                    <span id="no_username" class="error"></span>
-                </div>
-                <label>Mật khẩu</label>
-                <div>
-                    <input class="display-ip"
-                           type="password"
-                           id="password"
-                           placeholder="Mật khẩu" />
-                    <br>
-                    <span id="no_pass" class="error"></span>
-                </div>
-                <label>Nhập lại mật khẩu</label>
-                <div>
-                    <input class="display-ip"
-                           type="password"
-                           id="re_pass"
-                           placeholder="Nhập lại mật khẩu" />
-                    <br>
-                    <span id="no_cfpass" class="error"></span>
-                </div>
-                <button class="bt-submit" type="button" onclick="SubmitDone()">Hoàn tất</button>
-          `;
-        textND.textContent = "Bạn đã có tài khoản?";
-        toggleButton.textContent = "Đăng nhập";
-    }
-
-    isRegister = !isRegister;
+function redirectToSignupPage() {
+    window.location.href = '/Home/LogIn';
 }
-
+document.addEventListener('DOMContentLoaded', function () {
+    const signUpButton = document.getElementById('signUpButton');
+    if (signUpButton) {
+        signUpButton.addEventListener('click', function () {
+            redirectToSignupPage();
+        });
+    }
+});
 function SubmitDone() {
     var p = true;
 
@@ -240,33 +171,57 @@ function SubmitDone() {
     } else if (document.getElementById("re_pass").value !== document.getElementById("password").value) {
         document.getElementById("no_cfpass").innerHTML = "Mật khẩu chưa trùng khớp";
         document.getElementById("re_pass").focus();
-
         p = false;
     }
 
-    if (p) document.getElementById("dynamic-form").submit();
+    return p;
 }
 
-function LogInSubmit() {
-    var t = true;
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('dynamic-form').addEventListener('submit', async function (event) {
+        event.preventDefault();
 
-    // Reset lỗi hiển thị
-    document.getElementById("no_usrname").innerHTML = "";
-    document.getElementById("no-pass1").innerHTML = "";
+        if (event.target.submitted) return;
+        event.target.submitted = true;
 
-    if (document.getElementById("username1").value === "") {
-        document.getElementById("no_usrname").innerHTML = "Chưa nhập tên đăng nhập";
-        document.getElementById("username1").focus();
-        t = false;
-    }
+        if (SubmitDone()) {
+            const formData = {
+                Username: document.getElementById('username').value,
+                CustomerName: document.getElementById('name').value,
+                DoB: document.getElementById('dateofbirth').value,
+                PhoneNumber: document.getElementById('numberphone').value,
+                Password: document.getElementById('password').value,
+            };
+            console.log(formData);
 
-    if (document.getElementById("password1").value === "") {
-        document.getElementById("no-pass1").innerHTML = "Chưa nhập mật khẩu";
-        document.getElementById("password1").focus();
-        t = false;
-    }
+            try {
+                const response = await fetch('https://localhost:7152/api/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData),
+                });
 
-    if (t) document.getElementById("dynamic-form").submit();
+                if (response.ok) {
+                    const data = await response.json();
+                    alert('Đăng ký thành công!');
+                } else {
+                    const contentType = response.headers.get('Content-Type');
+                    if (contentType && contentType.includes('application/json')) {
+                        const error = await response.json();
+                        alert(`Lỗi: ${error.message}`);
+                    } else {
+                        alert(`Lỗi: ${response.statusText}`);
+                    }
+                }
+            } catch (err) {
+                console.error(err);
+                alert('Có lỗi xảy ra!');
+            }
+        }
+        event.target.submitted = false;
+    });
+});
 
-}
+
+
 

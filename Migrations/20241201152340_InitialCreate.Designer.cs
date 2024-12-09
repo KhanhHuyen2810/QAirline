@@ -58,8 +58,8 @@ namespace WebApplication1.Migrations
 
                 SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingID"), 1L, 1);
 
-                b.Property<int>("CustomerID")
-                    .HasColumnType("int");
+                b.Property<string>("CustomerUsername")
+                    .HasColumnType("nvarchar(max)");
 
                 b.Property<DateTime>("Date")
                     .HasColumnType("datetime2");
@@ -98,21 +98,26 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Customer", b =>
             {
-                b.Property<int>("CustomerID")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("int");
-
-                SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerID"), 1L, 1);
-
-                b.Property<string>("Email")
+                b.Property<string>("CustomerUsername")
                     .IsRequired()
                     .HasColumnType("nvarchar(max)");
 
-                b.Property<string>("Name")
+                b.Property<string>("PhoneNumber")
                     .IsRequired()
                     .HasColumnType("nvarchar(max)");
 
-                b.HasKey("CustomerID");
+                b.Property<DateTime>("DoB")
+                    .HasColumnType("datetime2");
+
+                b.Property<string>("CustomerName")
+                    .IsRequired()
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("CustomerPassword")
+                    .IsRequired()
+                    .HasColumnType("nvarchar(max)");
+
+                b.HasKey("CustomerUsername");
 
                 b.ToTable("Customers");
             });
@@ -162,7 +167,7 @@ namespace WebApplication1.Migrations
                 b.Property<DateTime>("DateOfBirth")
                     .HasColumnType("datetime2");
 
-                b.Property<string>("Name")
+                b.Property<string>("PassengerName")
                     .IsRequired()
                     .HasColumnType("nvarchar(max)");
 

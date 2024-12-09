@@ -3,7 +3,7 @@
     public class Booking
     {
         public int BookingID { get; set; }
-        public int CustomerID { get; set; }
+        public string CustomerUsername { get; set; }
         public DateTime Date { get; set; }
         public DateTime ExpiredDate { get; set; }
         public int TicketsQuantity { get; set; }

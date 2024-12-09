@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using WebApplication1.Data;
@@ -30,6 +31,9 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<FlightBookingDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("FlightBookingDbContext")));
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -40,6 +44,12 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -47,7 +57,6 @@ app.UseStaticFiles();
 app.UseCors("AllowAll");
 
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(

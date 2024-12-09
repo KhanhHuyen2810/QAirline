@@ -21,7 +21,7 @@ namespace WebApplication1.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Customer>()
-                .HasKey(c => c.CustomerID);
+                .HasKey(c => c.CustomerUsername);
 
             modelBuilder.Entity<Flight>()
                 .HasKey(f => f.FlightID);
