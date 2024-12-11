@@ -24,16 +24,27 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
         hotlineBox.classList.remove("hidden");
         overlay.classList.remove("hidden");
+        setTimeout(function () {
+            hotlineBox.classList.add('show');
+        }, 10);
     });
 
     closeButton.addEventListener("click", () => {
         hotlineBox.classList.add("hidden");
         overlay.classList.add("hidden");
+        hotlineBox.classList.remove('show');
+        setTimeout(function () {
+            hotlineBox.classList.add('hidden');
+        }, 500);
     });
 
     overlay.addEventListener("click", () => {
         hotlineBox.classList.add("hidden");
         overlay.classList.add("hidden");
+        hotlineBox.classList.remove('show');
+        setTimeout(function () {
+            hotlineBox.classList.add('hidden');
+        }, 500);
     });
 });
 
@@ -125,6 +136,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+document.addEventListener('DOMContentLoaded', function () {
+    const signupButton = document.getElementById('signupButton');
+    if (signupButton) {
+        signupButton.addEventListener('click', function () {
+            redirectToSignupPage();
+        });
+    }
+});
 function SubmitDone() {
     var p = true;
 
@@ -192,7 +211,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 PhoneNumber: document.getElementById('numberphone').value,
                 Password: document.getElementById('password').value,
             };
-            console.log(formData);
 
             try {
                 const response = await fetch('https://localhost:7152/api/register', {
@@ -222,6 +240,247 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+//Open_close pop -up
+(function () {
+    //Login/Signup modal window - by CodyHouse.co
+    function ModalSignin(element) {
+        this.element = element;
+        this.blocks = this.element.getElementsByClassName('js-signin-modal-block');
+        this.switchers = this.element.getElementsByClassName('js-signin-modal-switcher')[0].getElementsByTagName('a');
+        this.triggers = document.getElementsByClassName('js-signin-modal-trigger');
+        this.hidePassword = this.element.getElementsByClassName('js-hide-password');
+        this.init();
+    };
 
+    ModalSignin.prototype.init = function () {
+        var self = this;
+        //open modal/switch form
+        for (var i = 0; i < this.triggers.length; i++) {
+            (function (i) {
+                self.triggers[i].addEventListener('click', function (event) {
+                    if (event.target.hasAttribute('data-signin')) {
+                        event.preventDefault();
+                        self.showSigninForm(event.target.getAttribute('data-signin'));
+                    }
+                });
+            })(i);
+        }
 
+        //close modal
+        this.element.addEventListener('click', function (event) {
+            if (hasClass(event.target, 'js-signin-modal') || hasClass(event.target, 'js-close')) {
+                event.preventDefault();
+                removeClass(self.element, 'cd-signin-modal--is-visible');
+            }
+        });
+        //close modal when clicking the esc keyboard button
+        document.addEventListener('keydown', function (event) {
+            (event.which == '27') && removeClass(self.element, 'cd-signin-modal--is-visible');
+        });
 
+        // hide/show password
+        for (var i = 0; i < this.hidePassword.length; i++) {
+            (function (i) {
+                self.hidePassword[i].addEventListener('click', function (event) {
+                    self.togglePassword(self.hidePassword[i]);
+                });
+            })(i);
+        }
+
+        var inputs = this.element.querySelectorAll('input');
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener('focus', function (event) {
+                self.toggleError(event.target, false); // remove error class
+            });
+        }
+
+        //IMPORTANT - REMOVE THIS - it's just to show/hide error messages in the demo
+        this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
+            event.preventDefault();
+            self.toggleError(document.getElementById('signin-email'), true);
+        });
+        this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
+            event.preventDefault();
+            self.toggleError(document.getElementById('signin-password'), true);
+        });
+    };
+
+    ModalSignin.prototype.showSigninForm = function (type) {
+        // show modal if not visible
+        !hasClass(this.element, 'cd-signin-modal--is-visible') && addClass(this.element, 'cd-signin-modal--is-visible');
+        // show selected form
+        for (var i = 0; i < this.blocks.length; i++) {
+            this.blocks[i].getAttribute('data-type') == type ? addClass(this.blocks[i], 'cd-signin-modal__block--is-selected') : removeClass(this.blocks[i], 'cd-signin-modal__block--is-selected');
+        }
+        //update switcher appearance
+        var switcherType = (type == 'signup') ? 'signup' : 'login';
+        for (var i = 0; i < this.switchers.length; i++) {
+            this.switchers[i].getAttribute('data-type') == switcherType ? addClass(this.switchers[i], 'cd-selected') : removeClass(this.switchers[i], 'cd-selected');
+        }
+    };
+
+    ModalSignin.prototype.toggleError = function (input, bool) {
+        // used to show error messages in the form
+        toggleClass(input, 'cd-signin-modal__input--has-error', bool);
+        toggleClass(input.nextElementSibling, 'cd-signin-modal__error--is-visible', bool);
+    }
+
+    var signinModal = document.getElementsByClassName("js-signin-modal")[0];
+    if (signinModal) {
+        new ModalSignin(signinModal);
+    }
+
+    // toggle main navigation on mobile
+    var mainNav = document.getElementsByClassName('js-main-nav')[0];
+    if (mainNav) {
+        mainNav.addEventListener('click', function (event) {
+            if (hasClass(event.target, 'js-main-nav')) {
+                var navList = mainNav.getElementsByTagName('ul')[0];
+                toggleClass(navList, 'cd-main-nav__list--is-visible', !hasClass(navList, 'cd-main-nav__list--is-visible'));
+            }
+        });
+    }
+
+    //class manipulations - needed if classList is not supported
+    function hasClass(el, className) {
+        if (el.classList) return el.classList.contains(className);
+        else return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
+    }
+    function addClass(el, className) {
+        var classList = className.split(' ');
+        if (el.classList) el.classList.add(classList[0]);
+        else if (!hasClass(el, classList[0])) el.className += " " + classList[0];
+        if (classList.length > 1) addClass(el, classList.slice(1).join(' '));
+    }
+    function removeClass(el, className) {
+        var classList = className.split(' ');
+        if (el.classList) el.classList.remove(classList[0]);
+        else if (hasClass(el, classList[0])) {
+            var reg = new RegExp('(\\s|^)' + classList[0] + '(\\s|$)');
+            el.className = el.className.replace(reg, ' ');
+        }
+        if (classList.length > 1) removeClass(el, classList.slice(1).join(' '));
+    }
+    function toggleClass(el, className, bool) {
+        if (bool) addClass(el, className);
+        else removeClass(el, className);
+    }
+
+    //credits http://css-tricks.com/snippets/jquery/move-cursor-to-end-of-textarea-or-input/
+    function putCursorAtEnd(el) {
+        if (el.setSelectionRange) {
+            var len = el.value.length * 2;
+            el.focus();
+            el.setSelectionRange(len, len);
+        } else {
+            el.value = el.value;
+        }
+    };
+})(); 
+// login.js - Gửi thông tin đăng nhập và nhận JWT token từ backend
+document.getElementById("loginForm").addEventListener("submit", async function (e) {
+    e.preventDefault();
+    const username = document.getElementById("signin-email").value;
+    const password = document.getElementById("signin-password").value;
+
+    try {
+        const response = await fetch('/api/login', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ username, password }),
+        });
+
+        if (!response.ok) {
+            if (response.status === 401) {
+                alert("Tên đăng nhập hoặc mật khẩu không đúng.");
+            } else {
+                alert("Đăng nhập không thành công. Mã lỗi: " + response.status);
+            }
+            return;
+        }
+
+        const data = await response.json();
+        const token = data.token;
+        const role = data.role;
+
+        localStorage.setItem("jwt_token", token);
+
+        let redirectUrl;
+        if (role === "Admin") {
+            redirectUrl = "/Admin/Dashboard";
+        } else {
+            redirectUrl = "/Home/Homepage";
+        }
+
+        loadPage(redirectUrl);
+
+    } catch (error) {
+        console.error("Error during login:", error);
+        alert("Lỗi xảy ra trong quá trình đăng nhập. Vui lòng thử lại.");
+    }
+});
+
+async function loadPage(url) {
+    try {
+        const token = localStorage.getItem("jwt_token");
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            }
+        });
+        if (!response.ok) {
+            if (response.status === 401 || response.status === 403) {
+                // Token không hợp lệ hoặc không có quyền, quay lại trang đăng nhập
+                document.getElementById("error-message").textContent = "Bạn không có quyền truy cập trang này hoặc phiên đăng nhập đã hết hạn";
+                window.location.replace("/login"); // Chuyển lại trang login khi không có quyền
+            } else {
+                document.getElementById("error-message").textContent = "Lỗi xảy ra khi truy cập trang";
+            }
+
+            return;
+        }
+        const html = await response.text();
+        updateDOM(html);
+    } catch (error) {
+        console.error("Lỗi khi truy cập trang:", error);
+        document.getElementById("error-message").textContent = "Lỗi xảy ra khi truy cập trang. Vui lòng thử lại.";
+    }
+}
+function updateDOM(html) {
+    // Tạo một DOMParser để chuyển HTML string thành DOM object
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    // 1. Remove old css from head
+    Array.from(document.head.querySelectorAll('link[rel="stylesheet"]')).forEach(link => {
+        document.head.removeChild(link);
+    });
+
+    //2. Update the head of current page
+    const newHead = doc.head;
+    Array.from(newHead.querySelectorAll('link[rel="stylesheet"]')).forEach(link => {
+        document.head.appendChild(link);
+    });
+
+    // 3. Remove old scripts from body
+    Array.from(document.body.querySelectorAll('script')).forEach(script => {
+        document.body.removeChild(script);
+    });
+
+    //4. Update the body of current page
+    document.body.innerHTML = doc.body.innerHTML;
+
+    //5. Load scripts
+    const newScripts = doc.body.querySelectorAll('script');
+    newScripts.forEach(script => {
+        const newScript = document.createElement('script');
+        Array.from(script.attributes).forEach(attr => {
+            newScript.setAttribute(attr.name, attr.value);
+        });
+        newScript.text = script.text;
+        document.body.appendChild(newScript);
+    });
+}

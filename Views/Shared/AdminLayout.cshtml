@@ -1,0 +1,97 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | @ViewData["Title"]</title>
+    <!--Link Google fonts for icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="~/css/admin-dashboard.css">
+    <title>Administrator</title>
+</head>
+<body>
+    <header class="wrapper">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <button class="toggler sidebar-toggler">
+                    <span class="material-symbols-rounded">menu</span>
+                </button>
+            </div>
+            <div class="top_menu">
+                <div class="header_logo">
+                    <img src="~/admin-resource/LOGO (1).png" alt="Logo">
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="nav-icon material-symbols-rounded">search</span>
+                        </a>
+                    </li>
+                    <li><a href="#"><span class="nav-icon material-symbols-rounded">person</span></a></li>
+                    <li><a href="#"><span class="nav-icon material-symbols-rounded">notifications</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <ul class="nav-list primary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-tab="dashboard">
+                        <span class="nav-icon material-symbols-rounded">dashboard</span>
+                        <span class="nav-label">Trang chủ</span>
+                    </a>
+                    <span class="nav-tooltip">Trang chủ</span>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-tab="flights">
+                        <span class="nav-icon material-symbols-rounded">flight</span>
+                        <span class="nav-label">Chuyến bay</span>
+                    </a>
+                    <span class="nav-tooltip">Chuyến bay</span>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-tab="news">
+                        <span class="nav-icon material-symbols-rounded">newspaper</span>
+                        <span class="nav-label">Tin tức</span>
+                    </a>
+                    <span class="nav-tooltip">Tin tức</span>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-tab="tickets">
+                        <span class="nav-icon material-symbols-rounded">airplane_ticket</span>
+                        <span class="nav-label">Thống kê vé</span>
+                    </a>
+                    <span class="nav-tooltip">Thống kê vé</span>
+                </li>
+            </ul>
+
+            <ul class="nav-list secondary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">account_circle</span>
+                        <span class="nav-label">Profile</span>
+                    </a>
+                    <span class="nav-tooltip">Profile</span>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">logout</span>
+                        <span class="nav-label">Đăng xuất</span>
+                    </a>
+                    <span class="nav-tooltip">Đăng xuất</span>
+                </li>
+            </ul>
+        </nav>
+
+    </aside>
+    <div>   
+        @RenderBody() 
+    </div>
+    <script src="~/js/admin-dashboard.js"></script>
+</body>
+</html>

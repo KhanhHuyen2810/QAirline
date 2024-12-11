@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pqVn3l/XqPQxIUr+546dxRQ4BWUNrD/r37KbvAUbTbY=",
+  "Hash": "ocZqSEKQz6+XTavLA7GmlFhj4P42UwBzfBmVtSFHU5Q=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -59,6 +59,69 @@
       "OriginalItemSpec": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\LOGO (1).png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "admin-resource/LOGO (1)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zgm25p3cco",
+      "Integrity": "QzcAaNRI5kVIvO8vx1unHhGqw/v6mEHwqc8GAfiY24Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin-resource\\LOGO (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\themecloud-login.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "admin-resource/themecloud-login#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u0srp5dcq9",
+      "Integrity": "YnwpK2zZX5H/b4tho7OlYf8gUAOAPYanJhoY9l/dViA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin-resource\\themecloud-login.png"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/admin-dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "km8smq6dof",
+      "Integrity": "rDj0d8Ur2dZsHCHyzemQAri5qpxPCYtWIJVFpsf3LQ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin-dashboard.css"
+    },
+    {
       "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -73,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9q3r1i9c7v",
-      "Integrity": "oQQy/ahGalFYcr809eAmQwwkcwJMgP+2LZKSYR3kiRE=",
+      "Fingerprint": "ufolpmc04s",
+      "Integrity": "BgA9DHFS5qWO6OWPC5EqGDToM+X29gyvsLHWD7wyaEg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -101,6 +164,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "js/admin-dashboard#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qhacmqaon0",
+      "Integrity": "Ht70KNbTuFkHf47pLAVczQrrTBNsOEp4uKv39wFcLyE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin-dashboard.js"
+    },
+    {
       "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -115,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t9gyzdgeza",
-      "Integrity": "4V2HWFGozBslrdsbaO+HBp071195BHI81gl07ZmPT3k=",
+      "Fingerprint": "pcfdmxbjst",
+      "Integrity": "BwdPY0JrIp+ZK6PAQL/rt3dwjoDOSkzrflNnWd/ruN0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1445,6 +1529,27 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_container\\japan.jpg"
     },
     {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\main-new.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/main-new#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y3fx6pd33b",
+      "Integrity": "viQ5bpfzbgw0Q2OTn0WE9bPr8QGlyPS++s/Mz7ip1PY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\main-new.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\seoul.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -1487,6 +1592,48 @@
       "OriginalItemSpec": "wwwroot\\resource\\image_container\\themelogin.jpg"
     },
     {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\theme-news1.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/theme-news1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eufbjobih5",
+      "Integrity": "9qf5MGmPAP0PI/EjHc35CgPOpyVz94ZL942aQSYAJ0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\theme-news1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\wpl.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_container/wpl#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "euijmdeav5",
+      "Integrity": "JnAw4Xr/JQdGaV+x7uVlBmOaCCqJSMOoc51t85xbDO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_container\\wpl.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_footer\\dam_may_footer.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -1527,6 +1674,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resource\\image_header\\background.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-close.svg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_header/cd-icon-close#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aabol51ctn",
+      "Integrity": "IshjfJGqUzh6jVjWvFBrHtD9ja/KoDtUDJTGpNW7n+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_header\\cd-icon-close.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-email.svg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_header/cd-icon-email#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xy8si96i4p",
+      "Integrity": "aRLE1tCZ/pNAaDRTBmFSLhQHJonRF/QgvFJ9lUnLQfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_header\\cd-icon-email.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-menu.svg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_header/cd-icon-menu#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3pt1ft4wp8",
+      "Integrity": "l48zSCZRCTln+NkSwtqGc394wtyN5Km04RWhSBxN6kc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_header\\cd-icon-menu.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-password.svg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_header/cd-icon-password#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3sh8riejf8",
+      "Integrity": "Ay+6YVI/FpB/zD8jQYsDEj9P5luT0Oq+kIP+REDeTgc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_header\\cd-icon-password.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-username.svg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_header/cd-icon-username#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lggg91g943",
+      "Integrity": "VURugKJ2Pj8jVSWwyt9SHSknuRF2x18YaIX8S4tNBV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_header\\cd-icon-username.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-logo.svg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "resource/image_header/cd-logo#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "swjfhpbrcy",
+      "Integrity": "dMhs3eW3onefABHM9hc+Kwo59dWaR44/3eccUGw1dSk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image_header\\cd-logo.svg"
     },
     {
       "Identity": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",
@@ -1636,8 +1909,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.9q3r1i9c7v.css",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
+      "Route": "admin-resource/LOGO (1).png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\LOGO (1).png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1646,19 +1919,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7838"
+          "Value": "8226"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"oQQy/ahGalFYcr809eAmQwwkcwJMgP+2LZKSYR3kiRE=\""
+          "Value": "\"QzcAaNRI5kVIvO8vx1unHhGqw/v6mEHwqc8GAfiY24Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:56:16 GMT"
+          "Value": "Wed, 11 Dec 2024 13:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QzcAaNRI5kVIvO8vx1unHhGqw/v6mEHwqc8GAfiY24Q="
+        }
+      ]
+    },
+    {
+      "Route": "admin-resource/LOGO (1).zgm25p3cco.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\LOGO (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QzcAaNRI5kVIvO8vx1unHhGqw/v6mEHwqc8GAfiY24Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:39:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1668,15 +1978,179 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9q3r1i9c7v"
+          "Value": "zgm25p3cco"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "admin-resource/LOGO (1).png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oQQy/ahGalFYcr809eAmQwwkcwJMgP+2LZKSYR3kiRE="
+          "Value": "sha256-QzcAaNRI5kVIvO8vx1unHhGqw/v6mEHwqc8GAfiY24Q="
+        }
+      ]
+    },
+    {
+      "Route": "admin-resource/themecloud-login.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\themecloud-login.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3525987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YnwpK2zZX5H/b4tho7OlYf8gUAOAPYanJhoY9l/dViA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YnwpK2zZX5H/b4tho7OlYf8gUAOAPYanJhoY9l/dViA="
+        }
+      ]
+    },
+    {
+      "Route": "admin-resource/themecloud-login.u0srp5dcq9.png",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\themecloud-login.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3525987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YnwpK2zZX5H/b4tho7OlYf8gUAOAPYanJhoY9l/dViA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:39:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0srp5dcq9"
+        },
+        {
+          "Name": "label",
+          "Value": "admin-resource/themecloud-login.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YnwpK2zZX5H/b4tho7OlYf8gUAOAPYanJhoY9l/dViA="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-dashboard.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rDj0d8Ur2dZsHCHyzemQAri5qpxPCYtWIJVFpsf3LQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 15:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rDj0d8Ur2dZsHCHyzemQAri5qpxPCYtWIJVFpsf3LQ8="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-dashboard.km8smq6dof.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rDj0d8Ur2dZsHCHyzemQAri5qpxPCYtWIJVFpsf3LQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 15:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "km8smq6dof"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rDj0d8Ur2dZsHCHyzemQAri5qpxPCYtWIJVFpsf3LQ8="
         }
       ]
     },
@@ -1691,7 +2165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7838"
+          "Value": "17404"
         },
         {
           "Name": "Content-Type",
@@ -1699,11 +2173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oQQy/ahGalFYcr809eAmQwwkcwJMgP+2LZKSYR3kiRE=\""
+          "Value": "\"BgA9DHFS5qWO6OWPC5EqGDToM+X29gyvsLHWD7wyaEg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:56:16 GMT"
+          "Value": "Wed, 11 Dec 2024 16:26:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1713,7 +2187,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oQQy/ahGalFYcr809eAmQwwkcwJMgP+2LZKSYR3kiRE="
+          "Value": "sha256-BgA9DHFS5qWO6OWPC5EqGDToM+X29gyvsLHWD7wyaEg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ufolpmc04s.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BgA9DHFS5qWO6OWPC5EqGDToM+X29gyvsLHWD7wyaEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 16:26:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ufolpmc04s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BgA9DHFS5qWO6OWPC5EqGDToM+X29gyvsLHWD7wyaEg="
         }
       ]
     },
@@ -1800,6 +2319,88 @@
       ]
     },
     {
+      "Route": "js/admin-dashboard.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ht70KNbTuFkHf47pLAVczQrrTBNsOEp4uKv39wFcLyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 16:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ht70KNbTuFkHf47pLAVczQrrTBNsOEp4uKv39wFcLyE="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-dashboard.qhacmqaon0.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ht70KNbTuFkHf47pLAVczQrrTBNsOEp4uKv39wFcLyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 16:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qhacmqaon0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ht70KNbTuFkHf47pLAVczQrrTBNsOEp4uKv39wFcLyE="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1810,7 +2411,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8195"
+          "Value": "19034"
         },
         {
           "Name": "Content-Type",
@@ -1818,11 +2419,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4V2HWFGozBslrdsbaO+HBp071195BHI81gl07ZmPT3k=\""
+          "Value": "\"BwdPY0JrIp+ZK6PAQL/rt3dwjoDOSkzrflNnWd/ruN0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 12:23:01 GMT"
+          "Value": "Wed, 11 Dec 2024 16:30:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1832,12 +2433,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4V2HWFGozBslrdsbaO+HBp071195BHI81gl07ZmPT3k="
+          "Value": "sha256-BwdPY0JrIp+ZK6PAQL/rt3dwjoDOSkzrflNnWd/ruN0="
         }
       ]
     },
     {
-      "Route": "js/site.t9gyzdgeza.js",
+      "Route": "js/site.pcfdmxbjst.js",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1847,7 +2448,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8195"
+          "Value": "19034"
         },
         {
           "Name": "Content-Type",
@@ -1855,11 +2456,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4V2HWFGozBslrdsbaO+HBp071195BHI81gl07ZmPT3k=\""
+          "Value": "\"BwdPY0JrIp+ZK6PAQL/rt3dwjoDOSkzrflNnWd/ruN0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 12:23:01 GMT"
+          "Value": "Wed, 11 Dec 2024 16:30:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1869,7 +2470,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t9gyzdgeza"
+          "Value": "pcfdmxbjst"
         },
         {
           "Name": "label",
@@ -1877,7 +2478,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4V2HWFGozBslrdsbaO+HBp071195BHI81gl07ZmPT3k="
+          "Value": "sha256-BwdPY0JrIp+ZK6PAQL/rt3dwjoDOSkzrflNnWd/ruN0="
         }
       ]
     },
@@ -7048,6 +7649,88 @@
       ]
     },
     {
+      "Route": "resource/image_container/main-new.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\main-new.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"viQ5bpfzbgw0Q2OTn0WE9bPr8QGlyPS++s/Mz7ip1PY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:16:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-viQ5bpfzbgw0Q2OTn0WE9bPr8QGlyPS++s/Mz7ip1PY="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/main-new.y3fx6pd33b.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\main-new.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"viQ5bpfzbgw0Q2OTn0WE9bPr8QGlyPS++s/Mz7ip1PY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:16:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y3fx6pd33b"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/main-new.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-viQ5bpfzbgw0Q2OTn0WE9bPr8QGlyPS++s/Mz7ip1PY="
+        }
+      ]
+    },
+    {
       "Route": "resource/image_container/seoul.ibvfs17ddw.jpg",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\seoul.jpg",
       "Selectors": [],
@@ -7212,6 +7895,170 @@
       ]
     },
     {
+      "Route": "resource/image_container/theme-news1.eufbjobih5.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\theme-news1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qf5MGmPAP0PI/EjHc35CgPOpyVz94ZL942aQSYAJ0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:16:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eufbjobih5"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/theme-news1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qf5MGmPAP0PI/EjHc35CgPOpyVz94ZL942aQSYAJ0g="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/theme-news1.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\theme-news1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qf5MGmPAP0PI/EjHc35CgPOpyVz94ZL942aQSYAJ0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:16:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qf5MGmPAP0PI/EjHc35CgPOpyVz94ZL942aQSYAJ0g="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/wpl.euijmdeav5.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\wpl.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnAw4Xr/JQdGaV+x7uVlBmOaCCqJSMOoc51t85xbDO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:16:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "euijmdeav5"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_container/wpl.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnAw4Xr/JQdGaV+x7uVlBmOaCCqJSMOoc51t85xbDO4="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_container/wpl.jpg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\wpl.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnAw4Xr/JQdGaV+x7uVlBmOaCCqJSMOoc51t85xbDO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:16:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnAw4Xr/JQdGaV+x7uVlBmOaCCqJSMOoc51t85xbDO4="
+        }
+      ]
+    },
+    {
       "Route": "resource/image_footer/dam_may_footer.oebasisf96.png",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_footer\\dam_may_footer.png",
       "Selectors": [],
@@ -7372,6 +8219,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-0brsj+3osz6LJ7sViUDnymD0KpOYnrPmOzylx+m3X3E="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-close.aabol51ctn.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-close.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IshjfJGqUzh6jVjWvFBrHtD9ja/KoDtUDJTGpNW7n+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aabol51ctn"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_header/cd-icon-close.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IshjfJGqUzh6jVjWvFBrHtD9ja/KoDtUDJTGpNW7n+8="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-close.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-close.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IshjfJGqUzh6jVjWvFBrHtD9ja/KoDtUDJTGpNW7n+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IshjfJGqUzh6jVjWvFBrHtD9ja/KoDtUDJTGpNW7n+8="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-email.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-email.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aRLE1tCZ/pNAaDRTBmFSLhQHJonRF/QgvFJ9lUnLQfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aRLE1tCZ/pNAaDRTBmFSLhQHJonRF/QgvFJ9lUnLQfU="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-email.xy8si96i4p.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-email.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aRLE1tCZ/pNAaDRTBmFSLhQHJonRF/QgvFJ9lUnLQfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xy8si96i4p"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_header/cd-icon-email.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aRLE1tCZ/pNAaDRTBmFSLhQHJonRF/QgvFJ9lUnLQfU="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-menu.3pt1ft4wp8.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-menu.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l48zSCZRCTln+NkSwtqGc394wtyN5Km04RWhSBxN6kc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3pt1ft4wp8"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_header/cd-icon-menu.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l48zSCZRCTln+NkSwtqGc394wtyN5Km04RWhSBxN6kc="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-menu.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-menu.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l48zSCZRCTln+NkSwtqGc394wtyN5Km04RWhSBxN6kc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l48zSCZRCTln+NkSwtqGc394wtyN5Km04RWhSBxN6kc="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-password.3sh8riejf8.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-password.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ay+6YVI/FpB/zD8jQYsDEj9P5luT0Oq+kIP+REDeTgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3sh8riejf8"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_header/cd-icon-password.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ay+6YVI/FpB/zD8jQYsDEj9P5luT0Oq+kIP+REDeTgc="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-password.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-password.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ay+6YVI/FpB/zD8jQYsDEj9P5luT0Oq+kIP+REDeTgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ay+6YVI/FpB/zD8jQYsDEj9P5luT0Oq+kIP+REDeTgc="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-username.lggg91g943.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-username.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VURugKJ2Pj8jVSWwyt9SHSknuRF2x18YaIX8S4tNBV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lggg91g943"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_header/cd-icon-username.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VURugKJ2Pj8jVSWwyt9SHSknuRF2x18YaIX8S4tNBV8="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-icon-username.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-username.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VURugKJ2Pj8jVSWwyt9SHSknuRF2x18YaIX8S4tNBV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VURugKJ2Pj8jVSWwyt9SHSknuRF2x18YaIX8S4tNBV8="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-logo.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMhs3eW3onefABHM9hc+Kwo59dWaR44/3eccUGw1dSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMhs3eW3onefABHM9hc+Kwo59dWaR44/3eccUGw1dSk="
+        }
+      ]
+    },
+    {
+      "Route": "resource/image_header/cd-logo.swjfhpbrcy.svg",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMhs3eW3onefABHM9hc+Kwo59dWaR44/3eccUGw1dSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 04:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swjfhpbrcy"
+        },
+        {
+          "Name": "label",
+          "Value": "resource/image_header/cd-logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMhs3eW3onefABHM9hc+Kwo59dWaR44/3eccUGw1dSk="
         }
       ]
     },

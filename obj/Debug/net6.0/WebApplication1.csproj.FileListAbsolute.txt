@@ -90,3 +90,6 @@ C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Swashbuckle.AspNet
 C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Khanh Huyen\Source\Repos\WebProject\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Khanh Huyen\Source\Repos\WebProject\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

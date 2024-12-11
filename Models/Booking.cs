@@ -1,4 +1,6 @@
-﻿namespace WebApplication1.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebApplication1.Models
 {
     public class Booking
     {
@@ -8,5 +10,12 @@
         public DateTime ExpiredDate { get; set; }
         public int TicketsQuantity { get; set; }
         public string PaymentStatus { get; set; }
+
+        // Navigation Properties
+        [ForeignKey(nameof(CustomerUsername))]
+        public Customer Customer { get; set; } // Một booking thuộc về một khách hàng
+
+        public ICollection<Ticket> Tickets { get; set; } // Một booking có nhiều ticket
+        public ICollection<Passenger> Passengers { get; set; } // Một booking có nhiều hành khách
     }
 }

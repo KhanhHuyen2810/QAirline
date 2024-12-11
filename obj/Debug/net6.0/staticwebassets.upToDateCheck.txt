@@ -1,5 +1,9 @@
+wwwroot\admin-resource\LOGO (1).png
+wwwroot\admin-resource\themecloud-login.png
+wwwroot\css\admin-dashboard.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\admin-dashboard.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -64,10 +68,19 @@ wwwroot\resource\image_container\da_nang.png
 wwwroot\resource\image_container\ha_noi.jpg
 wwwroot\resource\image_container\hcmc.jpg
 wwwroot\resource\image_container\japan.jpg
+wwwroot\resource\image_container\main-new.jpg
 wwwroot\resource\image_container\seoul.jpg
 wwwroot\resource\image_container\themelogin.jpg
+wwwroot\resource\image_container\theme-news1.jpg
+wwwroot\resource\image_container\wpl.jpg
 wwwroot\resource\image_footer\dam_may_footer.png
 wwwroot\resource\image_header\background.jpg
+wwwroot\resource\image_header\cd-icon-close.svg
+wwwroot\resource\image_header\cd-icon-email.svg
+wwwroot\resource\image_header\cd-icon-menu.svg
+wwwroot\resource\image_header\cd-icon-password.svg
+wwwroot\resource\image_header\cd-icon-username.svg
+wwwroot\resource\image_header\cd-logo.svg
 wwwroot\resource\image_header\cloud-fix.png
 wwwroot\resource\image_header\dam_may_2.png
 wwwroot\resource\image_header\login.png

@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\WebApplication1.wh6hypu0ky.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\LOGO (1).png",
+      "PackagePath": "staticwebassets\\admin-resource\\LOGO (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\admin-resource\\themecloud-login.png",
+      "PackagePath": "staticwebassets\\admin-resource\\themecloud-login.png"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\admin-dashboard.css"
+    },
+    {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\admin-dashboard.js"
     },
     {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
@@ -269,12 +285,24 @@
       "PackagePath": "staticwebassets\\resource\\image_container\\japan.jpg"
     },
     {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\main-new.jpg",
+      "PackagePath": "staticwebassets\\resource\\image_container\\main-new.jpg"
+    },
+    {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\seoul.jpg",
       "PackagePath": "staticwebassets\\resource\\image_container\\seoul.jpg"
     },
     {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\theme-news1.jpg",
+      "PackagePath": "staticwebassets\\resource\\image_container\\theme-news1.jpg"
+    },
+    {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\themelogin.jpg",
       "PackagePath": "staticwebassets\\resource\\image_container\\themelogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_container\\wpl.jpg",
+      "PackagePath": "staticwebassets\\resource\\image_container\\wpl.jpg"
     },
     {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_footer\\dam_may_footer.png",
@@ -283,6 +311,30 @@
     {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\background.jpg",
       "PackagePath": "staticwebassets\\resource\\image_header\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-close.svg",
+      "PackagePath": "staticwebassets\\resource\\image_header\\cd-icon-close.svg"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-email.svg",
+      "PackagePath": "staticwebassets\\resource\\image_header\\cd-icon-email.svg"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-menu.svg",
+      "PackagePath": "staticwebassets\\resource\\image_header\\cd-icon-menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-password.svg",
+      "PackagePath": "staticwebassets\\resource\\image_header\\cd-icon-password.svg"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-icon-username.svg",
+      "PackagePath": "staticwebassets\\resource\\image_header\\cd-icon-username.svg"
+    },
+    {
+      "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cd-logo.svg",
+      "PackagePath": "staticwebassets\\resource\\image_header\\cd-logo.svg"
     },
     {
       "Id": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\resource\\image_header\\cloud-fix.png",

@@ -1,4 +1,6 @@
-﻿namespace WebApplication1.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebApplication1.Models
 {
     public class Passenger
     {
@@ -7,5 +9,8 @@
         public DateTime DateOfBirth { get; set; }
         public string PassportNumber { get; set; }
         public int BookingID { get; set; }
+        // Navigation Properties
+        [ForeignKey(nameof(BookingID))]
+        public Booking Booking { get; set; } // Một hành khách thuộc một booking
     }
 }

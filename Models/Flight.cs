@@ -9,5 +9,8 @@
         public string Destination { get; set; }
         //public string AircraftType { get; set; }
         public decimal BasePrice { get; set; }
+        // Navigation Properties
+        public ICollection<Ticket> Tickets { get; set; } // Một chuyến bay có nhiều vé
+
     }
 }
