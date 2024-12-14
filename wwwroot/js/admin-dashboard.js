@@ -18,7 +18,7 @@
 
 async function fetchAdminData(url) {
     try {
-        const token = localStorage.getItem('token');
+        const token = sessionStorage.getItem('token');
         console.log(token);
 
         if (!token) {

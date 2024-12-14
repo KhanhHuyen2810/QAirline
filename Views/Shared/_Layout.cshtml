@@ -16,18 +16,25 @@
     <!-- Header: search bar, login-signup, menu -->
     <header class="header">
         <img id="logo" src="/resource/image_header/logo.png" alt="Logo" onclick="javascript:redirectToHomepage();">
-        <div class="right_container">
-            <div id="login">
-                <img src="/resource/image_header/login.png" alt="Login">
-                <div class="cd-main-nav js-main-nav">
-                    <ul class="cd-main-nav__list js-signin-modal-trigger">
-                        <!-- inser more links here -->
-                        <li><a id="logInButton" class="cd-main-nav__item cd-main-nav__item--signin" href="#0" data-signin="login">Đăng nhập</a></li>
-                        <li>|</li>
-                        <li><a id="signUpButton" href="javascript:void(0)">Đăng ký</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="right_container">            
+                <div id="login">
+                    <img src="/resource/image_header/login.png" alt="Login">
+                    <div class="cd-main-nav js-main-nav">
+                        @if (ViewBag.CustomerName != null)
+                        {
+                            <p>Xin chào, @ViewBag.CustomerName</p>
+                        }
+                        else
+                        {
+                        <ul class="cd-main-nav__list js-signin-modal-trigger">
+                            <!-- inser more links here -->
+                            <li><a id="logInButton" class="cd-main-nav__item cd-main-nav__item--signin" href="#0" data-signin="login">Đăng nhập</a></li>
+                            <li>|</li>
+                            <li><a id="signUpButton" href="javascript:void(0)">Đăng ký</a></li>
+                        </ul>
+                    }
+                    </div>
+                </div>                        
             <div class="cd-signin-modal js-signin-modal">
                 <!-- this is the entire modal form, including the background -->
                 <div class="cd-signin-modal__container">

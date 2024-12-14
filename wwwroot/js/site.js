@@ -53,7 +53,7 @@ function redirectToAirportDetail() {
 }
 
 function redirectToHomepage() {
-    window.location.href = "https://localhost:7152/";
+    window.location.href = "/Home/Homepage";
 }
 
 function redirectToNewsPage() {
@@ -405,15 +405,18 @@ document.getElementById("loginForm").addEventListener("submit", async function (
         const token = data.token;
         const role = data.role;
 
-        localStorage.setItem("token", token);
+        sessionStorage.setItem("token", token);
         console.log(token);
 
         if (role === "Admin") {
-            alert("Admin");
             window.location.href = "/Admin/Dashboard";
         } else {
-            alert("Customer");
-            window.location.href = "/Home/Homepage";             
+            fetch('/Home/Homepage', {
+                method: 'GET',
+                headers: {
+                    'Authorization': 'Bearer ' + sessionStorage.getItem('token')
+                }
+            });   
         }      
     } catch (error) {
         console.error("Error during login:", error);
