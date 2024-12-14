@@ -37,32 +37,32 @@
             </div>
         </div>
     </header>
-    <aside class="sidebar">
+    <aside id="sidebar" class="sidebar">
         <nav class="sidebar-nav">
             <ul class="nav-list primary-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-tab="dashboard">
+                    <a href="javascript:void(0)" class="nav-link" id="dashboardButton">
                         <span class="nav-icon material-symbols-rounded">dashboard</span>
                         <span class="nav-label">Trang chủ</span>
                     </a>
                     <span class="nav-tooltip">Trang chủ</span>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-tab="flights">
+                    <a href="javascript:void(0)" class="nav-link" id="flightButton">
                         <span class="nav-icon material-symbols-rounded">flight</span>
                         <span class="nav-label">Chuyến bay</span>
                     </a>
                     <span class="nav-tooltip">Chuyến bay</span>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-tab="news">
+                    <a href="javascript:void(0)" class="nav-link" id="newsButton">
                         <span class="nav-icon material-symbols-rounded">newspaper</span>
                         <span class="nav-label">Tin tức</span>
                     </a>
                     <span class="nav-tooltip">Tin tức</span>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-tab="tickets">
+                    <a href="javascript:void(0)" class="nav-link" id="ticketButton">
                         <span class="nav-icon material-symbols-rounded">airplane_ticket</span>
                         <span class="nav-label">Thống kê vé</span>
                     </a>
@@ -89,7 +89,7 @@
         </nav>
 
     </aside>
-    <div>   
+    <div id="admin-body">   
         @RenderBody() 
     </div>
     <script src="~/js/admin-dashboard.js"></script>

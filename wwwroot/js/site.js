@@ -405,82 +405,21 @@ document.getElementById("loginForm").addEventListener("submit", async function (
         const token = data.token;
         const role = data.role;
 
-        localStorage.setItem("jwt_token", token);
+        localStorage.setItem("token", token);
+        console.log(token);
 
-        let redirectUrl;
         if (role === "Admin") {
-            redirectUrl = "/Admin/Dashboard";
+            alert("Admin");
+            window.location.href = "/Admin/Dashboard";
         } else {
-            redirectUrl = "/Home/Homepage";
-        }
-
-        loadPage(redirectUrl);
-
+            alert("Customer");
+            window.location.href = "/Home/Homepage";             
+        }      
     } catch (error) {
         console.error("Error during login:", error);
         alert("Lỗi xảy ra trong quá trình đăng nhập. Vui lòng thử lại.");
     }
 });
 
-async function loadPage(url) {
-    try {
-        const token = localStorage.getItem("jwt_token");
-        const response = await fetch(url, {
-            method: 'GET',
-            headers: {
-                'Authorization': `Bearer ${token}`,
-                'Content-Type': 'application/json'
-            }
-        });
-        if (!response.ok) {
-            if (response.status === 401 || response.status === 403) {
-                // Token không hợp lệ hoặc không có quyền, quay lại trang đăng nhập
-                document.getElementById("error-message").textContent = "Bạn không có quyền truy cập trang này hoặc phiên đăng nhập đã hết hạn";
-                window.location.replace("/login"); // Chuyển lại trang login khi không có quyền
-            } else {
-                document.getElementById("error-message").textContent = "Lỗi xảy ra khi truy cập trang";
-            }
 
-            return;
-        }
-        const html = await response.text();
-        updateDOM(html);
-    } catch (error) {
-        console.error("Lỗi khi truy cập trang:", error);
-        document.getElementById("error-message").textContent = "Lỗi xảy ra khi truy cập trang. Vui lòng thử lại.";
-    }
-}
-function updateDOM(html) {
-    // Tạo một DOMParser để chuyển HTML string thành DOM object
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
-    // 1. Remove old css from head
-    Array.from(document.head.querySelectorAll('link[rel="stylesheet"]')).forEach(link => {
-        document.head.removeChild(link);
-    });
 
-    //2. Update the head of current page
-    const newHead = doc.head;
-    Array.from(newHead.querySelectorAll('link[rel="stylesheet"]')).forEach(link => {
-        document.head.appendChild(link);
-    });
-
-    // 3. Remove old scripts from body
-    Array.from(document.body.querySelectorAll('script')).forEach(script => {
-        document.body.removeChild(script);
-    });
-
-    //4. Update the body of current page
-    document.body.innerHTML = doc.body.innerHTML;
-
-    //5. Load scripts
-    const newScripts = doc.body.querySelectorAll('script');
-    newScripts.forEach(script => {
-        const newScript = document.createElement('script');
-        Array.from(script.attributes).forEach(attr => {
-            newScript.setAttribute(attr.name, attr.value);
-        });
-        newScript.text = script.text;
-        document.body.appendChild(newScript);
-    });
-}

@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
 {
-    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private readonly ILogger<AdminController> _logger;
@@ -14,36 +13,52 @@ namespace WebApplication1.Controllers
         }
         public IActionResult Dashboard()
         {
-            var token = HttpContext.Request.Headers["Authorization"].ToString();
+            return View();
+        }
+        [Authorize(Roles = "Admin")]
+        public IActionResult Flights(string token)
+        {
             if (!string.IsNullOrEmpty(token))
             {
                 Console.WriteLine($"Token nhận được: {token}");
             }
             else
             {
-                Console.WriteLine("Token không được gửi kèm trong request.");
+                Console.WriteLine("Token không được gửi kèm trong query.");
             }
 
-            Console.WriteLine("Dashboard action được gọi.");
+            ViewBag.Token = token;
             return View();
         }
-
-        [HttpGet]
-        public IActionResult GetTabContent(string tab)
+        [Authorize(Roles = "Admin")]
+        public IActionResult News(string token)
         {
-            switch (tab)
+            if (!string.IsNullOrEmpty(token))
             {
-                case "dashboard":
-                    return PartialView("Dashboard");
-                case "tickets":
-                    return PartialView("Tickets");
-                case "flights":
-                    return PartialView("Flights");
-                case "news":
-                    return PartialView("News");
-                default:
-                    return Content("Tab không hợp lệ");
+                Console.WriteLine($"Token nhận được: {token}");
             }
+            else
+            {
+                Console.WriteLine("Token không được gửi kèm trong query.");
+            }
+
+            ViewBag.Token = token;
+            return View();
+        }
+        [Authorize(Roles = "Admin")]
+        public IActionResult Tickets(string token)
+        {
+            if (!string.IsNullOrEmpty(token))
+            {
+                Console.WriteLine($"Token nhận được: {token}");
+            }
+            else
+            {
+                Console.WriteLine("Token không được gửi kèm trong query.");
+            }
+
+            ViewBag.Token = token;
+            return View();
         }
     }
 }

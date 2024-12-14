@@ -1,12 +1,11 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using BCrypt.Net;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using WebApplication1.Data;
+using WebApplication1.Models;
+using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models.DTO;
 
 [ApiController]
@@ -14,27 +13,26 @@ using WebApplication1.Models.DTO;
 public class LoginController : ControllerBase
 {
     private readonly FlightBookingDbContext _context;
+    private readonly IConfiguration _configuration;
 
-    public LoginController(FlightBookingDbContext context)
+    public LoginController(FlightBookingDbContext context, IConfiguration configuration)
     {
         _context = context;
+        _configuration = configuration;
     }
 
     [HttpPost]
     public IActionResult Login([FromBody] LoginModel model)
     {
-        // Kiểm tra người dùng có tồn tại trong cơ sở dữ liệu không
         var customer = _context.Customers
-            .FirstOrDefault(c => c.CustomerUsername == model.Username);
+                            .FirstOrDefault(c => c.CustomerUsername == model.Username);
 
         if (customer == null)
         {
             return Unauthorized("Tên đăng nhập không đúng.");
         }
 
-        // So sánh mật khẩu đã mã hóa trong cơ sở dữ liệu với mật khẩu người dùng nhập vào
-        var passwordValid = BCrypt.Net.BCrypt.Verify(model.Password, customer.CustomerPassword);
-        if (!passwordValid)
+        if (!BCrypt.Net.BCrypt.Verify(model.Password, customer.CustomerPassword))
         {
             return Unauthorized("Mật khẩu không đúng.");
         }
@@ -42,29 +40,27 @@ public class LoginController : ControllerBase
         string role = "Customer";  // Mặc định là Customer
         if (model.Username == "administrator" && BCrypt.Net.BCrypt.Verify("adminpassword", customer.CustomerPassword))
         {
-            role = "Admin";  
+            role = "Admin";
         }
 
         // Tạo JWT token và trả về cho người dùng
         var token = GenerateJwtToken(customer.CustomerUsername, role);
-        return Ok(new { Token = token, Role = role });
-
+        return Ok(new { token = token, role = role });
     }
-
     private string GenerateJwtToken(string username, string role)
     {
-        // Logic tạo JWT token (như đã mô tả trong các ví dụ trước)
         var claims = new[]
         {
             new Claim(ClaimTypes.Name, username),
-            new Claim(ClaimTypes.Role, role )
+            new Claim(ClaimTypes.Role, role)
         };
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("my-very-strong-and-long-secret-key"));
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
         var token = new JwtSecurityToken(
-            issuer: "MyAuthService",
-            audience: "MyAppClient",
+            issuer: _configuration["Jwt:Issuer"],
+            audience: _configuration["Jwt:Audience"],
             claims: claims,
             expires: DateTime.Now.AddHours(1),
             signingCredentials: creds);
@@ -72,5 +68,3 @@ public class LoginController : ControllerBase
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 }
-
-
