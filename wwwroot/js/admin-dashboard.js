@@ -15,7 +15,6 @@
         });
 });
 
-
 async function fetchAdminData(url) {
     try {
         const token = sessionStorage.getItem('token');

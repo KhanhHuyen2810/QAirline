@@ -10,106 +10,107 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="icon" href="~/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <!-- Header: search bar, login-signup, menu -->
-    <header class="header">
-        <img id="logo" src="/resource/image_header/logo.png" alt="Logo" onclick="javascript:redirectToHomepage();">
-        <div class="right_container">            
+    <div class="d-flex flex-column min-vh-100">
+        <!-- Header: search bar, login-signup, menu -->
+        <header class="header">
+            <img id="logo" src="/resource/image_header/logo.png" alt="Logo" onclick="javascript:fetchCustomerData('/Home/Homepage', '#customer-body');">
+            <div class="right_container">            
                 <div id="login">
-                    <img src="/resource/image_header/login.png" alt="Login">
+                    <img src="/resource/image_header/login.png" alt="Login">                
                     <div class="cd-main-nav js-main-nav">
-                        @if (ViewBag.CustomerName != null)
-                        {
-                            <p>Xin chào, @ViewBag.CustomerName</p>
-                        }
-                        else
-                        {
-                        <ul class="cd-main-nav__list js-signin-modal-trigger">
-                            <!-- inser more links here -->
-                            <li><a id="logInButton" class="cd-main-nav__item cd-main-nav__item--signin" href="#0" data-signin="login">Đăng nhập</a></li>
+                        <button id="welcome-text" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title=""></button>
+                        <ul id="login-signup" class="cd-main-nav__list js-signin-modal-trigger">
+                            <li><a id="logInButton" class="cd-main-nav__item js-signin-modal-trigger cd-main-nav__item--signin" data-signin="login">Đăng nhập</a></li>
                             <li>|</li>
                             <li><a id="signUpButton" href="javascript:void(0)">Đăng ký</a></li>
                         </ul>
-                    }
                     </div>
                 </div>                        
-            <div class="cd-signin-modal js-signin-modal">
-                <!-- this is the entire modal form, including the background -->
-                <div class="cd-signin-modal__container">
-                    <!-- this is the container wrapper -->
-                    <ul class="cd-signin-modal__switcher js-signin-modal-switcher js-signin-modal-trigger">
-                        <li><a href="#0" data-signin="login" data-type="login" style="font-weight: bold;">Đăng nhập</a></li>
-                    </ul>
+                <div id="login-popup" class="cd-signin-modal js-signin-modal">
+                    <!-- this is the entire modal form, including the background -->
+                    <div class="cd-signin-modal__container">
+                        <!-- this is the container wrapper -->
+                        <ul class="cd-signin-modal__switcher js-signin-modal-switcher js-signin-modal-trigger">
+                            <li><a data-signin="login" data-type="login" style="font-weight: bold;">Đăng nhập</a></li>
+                        </ul>
 
-                    <div class="cd-signin-modal__block js-signin-modal-block" data-type="login">
-                        <!-- log in form -->
-                        <form id="loginForm" class="cd-signin-modal__form">
-                            <p class="cd-signin-modal__fieldset">
-                                <label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace" for="signin-email">Tên đăng nhập</label>
-                                <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signin-email" type="text" placeholder="Tên đăng nhập">
-                                <span class="cd-signin-modal__error">Bạn chưa nhập tên đăng nhập!</span>
-                            </p>
+                        <div class="cd-signin-modal__block js-signin-modal-block" data-type="login">
+                            <!-- log in form -->
+                            <form id="loginForm" class="cd-signin-modal__form">
+                                <p class="cd-signin-modal__fieldset">
+                                    <label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace" for="signin-email">Tên đăng nhập</label>
+                                    <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signin-email" type="text" placeholder="Tên đăng nhập">
+                                    <span class="cd-signin-modal__error">Bạn chưa nhập tên đăng nhập!</span>
+                                </p>
 
-                            <p class="cd-signin-modal__fieldset">
-                                <label class="cd-signin-modal__label cd-signin-modal__label--password cd-signin-modal__label--image-replace" for="signin-password">Mật khẩu</label>
-                                <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signin-password" type="password" placeholder="Mật khẩu">
-                                <span class="cd-signin-modal__error">Bạn chưa nhập mật khẩu!</span>
-                            </p>
+                                <p class="cd-signin-modal__fieldset">
+                                    <label class="cd-signin-modal__label cd-signin-modal__label--password cd-signin-modal__label--image-replace" for="signin-password">Mật khẩu</label>
+                                    <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signin-password" type="password" placeholder="Mật khẩu">
+                                    <span class="cd-signin-modal__error">Bạn chưa nhập mật khẩu!</span>
+                                </p>
 
-                            <p class="cd-signin-modal__fieldset">
-                                <input type="checkbox" id="remember-me" checked class="cd-signin-modal__input ">
-                                <label for="remember-me">Ghi nhớ</label>
-                            </p>
+                                <p class="cd-signin-modal__fieldset">
+                                    <input type="checkbox" id="remember-me" checked class="cd-signin-modal__input ">
+                                    <label for="remember-me">Ghi nhớ</label>
+                                </p>
 
-                            <p class="cd-signin-modal__fieldset">
-                                <input id="loginButton" class="cd-signin-modal__input cd-signin-modal__input--full-width" type="submit" value="Đăng nhập">
-                            </p>
-                        </form>
+                                <p class="cd-signin-modal__fieldset">
+                                    <input id="loginButton" class="cd-signin-modal__input cd-signin-modal__input--full-width" type="submit" value="Đăng nhập">
+                                </p>
+                            </form>
 
-                        <p class="cd-signin-modal__bottom-message js-signin-modal-trigger">Bạn chưa có tài khoản?<a id="signupButton" href="javascript:void(0)">Đăng ký ngay</a></p>
-                    </div> <!-- cd-signin-modal__block -->
+                            <p class="cd-signin-modal__bottom-message js-signin-modal-trigger">Bạn chưa có tài khoản?<a id="signupButton" href="javascript:void(0)">Đăng ký ngay</a></p>
+                        </div> <!-- cd-signin-modal__block -->
+                    </div>
+                </div>
+                <div id="service">
+                    <img src="/resource/image_header/service.png" alt="Support">
+                    <a id="hotlineLink" href="Hotline">Hỗ trợ</a>
+                    <div id="overlay" class="hidden"></div>
+                    <div id="hotlineBox" class="hidden">
+                        <p>Hãy gọi theo số hotline sau để được hỗ trợ <strong><br />0123 456 789</strong></p>
+                        <button id="closeButton">OK</button>
+                    </div>
+                </div>
+                <div class="search">
+                    <input class="search-bar" type="text" placeholder="Tìm kiếm">
+                    <button class="search-btn">🔎</button>
                 </div>
             </div>
-            <div id="service">
-                <img src="/resource/image_header/service.png" alt="Support">
-                <a id="hotlineLink" href="Hotline">Hỗ trợ</a>
-                <div id="overlay" class="hidden"></div>
-                <div id="hotlineBox" class="hidden">
-                    <p>Hãy gọi theo số hotline sau để được hỗ trợ <strong><br />0123 456 789</strong></p>
-                    <button id="closeButton">OK</button>
-                </div>
+            <div class="right-menu">
+                <ul class="navbar">
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" id="viewHomepageButton" class="nav-link">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ĐẶT VÉ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" id="viewNewsButton" class="nav-link">TIN TỨC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" id="viewAirportsButton" class="nav-link">SÂN BAY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" id="viewForumButton" class="nav-link disabled">FORUM Q&A</a>
+                    </li>
+                </ul>
             </div>
-            <div class="search">
-                <input class="search-bar" type="text" placeholder="Tìm kiếm">
-                <button class="search-btn">🔎</button>
-            </div>
+        </header>
+        <!-- Body content -->
+        <div id="customer-body" class="body-content flex-fill">
+            @RenderBody()       
         </div>
-        <div class="right-menu">
-            <ul class="navbar">
-                <li class="nav-item">
-                    <a href="javascript:void(0)" id="viewHomepageButton" class="nav-link">TRANG CHỦ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ĐẶT VÉ</a>
-                </li>
-                <li class="nav-item">
-                    <a href="javascript:void(0)" id="viewNewsButton" class="nav-link">TIN TỨC</a>
-                </li>
-                <li class="nav-item">
-                    <a href="javascript:void(0)" id="viewAirportsButton" class="nav-link">SÂN BAY</a>
-                </li>
-                <li class="nav-item">
-                    <a href="javascript:void(0)" id="viewForumButton" class="nav-link disabled">FORUM Q&A</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <div class="body-content">
-        @RenderBody()
         <!-- Footer: contact methods -->
-        <footer class="footer"></footer>
+        <div class="footer">
+            <footer>
+                <strong>CONTACT US</strong>
+                <br />Address: E3 Building, 144 Xuan Thuy Street, Cau Giay District, Ha Noi, Vietnam 
+                <br />Tel: (84) 123.456.789; Fax: (84)123.456.789; Email: cskh1234@qairline.vn
+            </footer>
+        </div>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

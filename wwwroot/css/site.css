@@ -33,8 +33,25 @@ header {
         padding-top: 75%;
     }
 
+.footer {
+    background-image: url('/resource/image_footer/dam_may_footer.png');
+    width: 100vw;
+    height: 200px;
+    bottom: 0;
+    text-align: center;
+    z-index: 100;
+}
+
+    .footer footer {
+        padding-top: 100px;
+    }
+
 .right_container {
     font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 #logo {
@@ -50,17 +67,38 @@ header {
 
 #login img, #service img {
     width: 2vw;
-    height: auto;
+    height: 2vw;
     background-size: cover;
 }
 
 #login {
+    height: 2vw;
     position: fixed;
     top: 2vh;
     right: 15vw;
     cursor: pointer;
     display: flex;
-    gap: 0.5rem;
+    gap: 0.5rem; 
+    align-items: center;
+}
+
+#welcome-text {
+    display: none;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    background-color: #1F509A;
+    height: 2vw;
+    top: 1vh;
+    align-items: center;
+    padding: 0 10px;
+    border: none;
+}
+
+#login-signup {
+    margin-top: 4vh;
 }
 
 #logInButton:hover, #signUpButton:hover, #hotlineLink:hover {
@@ -74,6 +112,7 @@ header {
     cursor: pointer;
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 }
 
 #overlay {
@@ -519,17 +558,19 @@ form span.error {
 /*Pop-up Signin*/
 .cd-main-nav {
     float: right;
-    margin-top: 10px;
     margin-right: 2%;
     width: 15vw;
     height: 100%;
     background: url("/resource/image_header/cd-icon-menu.svg") no-repeat center center;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .cd-main-nav__list {
     display: flex;
     left: 0;
+    margin-bottom: 0;
     list-style: none;
     position: absolute;
     width: 100%;

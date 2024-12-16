@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ufolpmc04s</Fingerprint>
-      <Integrity>BgA9DHFS5qWO6OWPC5EqGDToM+X29gyvsLHWD7wyaEg=</Integrity>
+      <Fingerprint>uebc4phhcu</Fingerprint>
+      <Integrity>xpzP4exa7KsybFZFsNUuQnXRey9vAQ3Ddkf+wVxa/aM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gfod3wnw86</Fingerprint>
-      <Integrity>FHCC2iAB/v+gDikr8RzArlTgnyR+g5x5bbja0/gyGkQ=</Integrity>
+      <Fingerprint>64wgo8uefc</Fingerprint>
+      <Integrity>amF9/K7zzoL/3fQwewLoNHO8PtPOzAH7IbPPxzfxR3g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin-dashboard.js'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pnrxfnv6k1</Fingerprint>
-      <Integrity>RaUNMMGENVVrVuzHdPUvOcMA0w4SkzB7C0lgFGsTImc=</Integrity>
+      <Fingerprint>vzc7ifsmjg</Fingerprint>
+      <Integrity>i2sU7QDRb0olSayh/XC5eLm5L2FbojiwNUW+Mo/lBjU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
@@ -1362,8 +1362,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oebasisf96</Fingerprint>
-      <Integrity>QPxgaYS9kDtLeyBGXz0pcrzLny85aXll1uhvQzE+l/8=</Integrity>
+      <Fingerprint>i7tj4orlwq</Fingerprint>
+      <Integrity>YhHSS9wCUDb99QOhllZgdaspqY0R7Z0L0QKGHVD4lSA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\image_footer\dam_may_footer.png'))</OriginalItemSpec>

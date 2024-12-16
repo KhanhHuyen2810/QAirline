@@ -48,44 +48,50 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-function redirectToAirportDetail() {
-    window.location.href = '/Home/AirportDetail';
-}
-
-function redirectToHomepage() {
-    window.location.href = "/Home/Homepage";
-}
-
-function redirectToNewsPage() {
-    window.location.href = '/Home/NewsPage';
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    const viewHomepageButton = document.getElementById('viewHomepageButton');
-    if (viewHomepageButton) {
-        viewHomepageButton.addEventListener('click', function () {
-            redirectToHomepage();
-        });
+document.addEventListener('click', function (event) {
+    if (event.target.id === 'viewHomepageButton') {
+        fetchCustomerData('/Home/Homepage', '#customer-body');
+    } else if (event.target.id === 'viewAirportsButton') {
+        fetchCustomerData('/Home/AirportDetail', '#customer-body');
+        fetchAirports();
+    } else if (event.target.id === 'viewNewsButton') {
+        fetchCustomerData('/Home/NewsPage', '#customer-body');
+    }
+    else if (event.target.id === 'signUpButton' || event.target.id === 'signupButton') {
+        fetchCustomerData('/Home/LogIn', '#customer-body');
     }
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    const viewAirportsButton = document.getElementById('viewAirportsButton');
-    if (viewAirportsButton) {
-        viewAirportsButton.addEventListener('click', function () {
-            redirectToAirportDetail();
-        });
+    const token = sessionStorage.getItem("token");
+    if (token) {
+        fetchHeader(token);
     }
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    const viewNewsButton = document.getElementById('viewNewsButton');
-    if (viewNewsButton) {
-        viewNewsButton.addEventListener('click', function () {
-            redirectToNewsPage();
+async function fetchCustomerData(url, containerSelector) {
+    try {
+        const response = await fetch(url, {
+            method: 'GET'
         });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error("Fetch không thành công:", errorText);
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const html = await response.text();
+
+        document.querySelector(containerSelector).innerHTML = html;
+
+        window.history.pushState({}, '', url);
     }
-});
+    catch (error) {
+        alert("Error");
+        console.log('Fetch error:', error)
+    }
+}
 
 async function fetchAirports() {
     try {
@@ -115,35 +121,6 @@ function displayAirports(airports) {
         row.insertCell(4).textContent = airport.Type;
     });
 }
-
-
-// Gọi hàm fetchAirports khi trang được tải
-document.addEventListener('DOMContentLoaded', function () {
-    const airportTable = document.getElementById('airportTable');
-    if (airportTable) {
-        fetchAirports();
-    }
-});
-
-function redirectToSignupPage() {
-    window.location.href = '/Home/LogIn';
-}
-document.addEventListener('DOMContentLoaded', function () {
-    const signUpButton = document.getElementById('signUpButton');
-    if (signUpButton) {
-        signUpButton.addEventListener('click', function () {
-            redirectToSignupPage();
-        });
-    }
-});
-document.addEventListener('DOMContentLoaded', function () {
-    const signupButton = document.getElementById('signupButton');
-    if (signupButton) {
-        signupButton.addEventListener('click', function () {
-            redirectToSignupPage();
-        });
-    }
-});
 function SubmitDone() {
     var p = true;
 
@@ -195,54 +172,51 @@ function SubmitDone() {
 
     return p;
 }
+document.getElementById('dynamic-form').addEventListener('submit', async function (event) {
+    event.preventDefault();
 
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('dynamic-form').addEventListener('submit', async function (event) {
-        event.preventDefault();
+    if (event.target.submitted) return;
+    event.target.submitted = true;
 
-        if (event.target.submitted) return;
-        event.target.submitted = true;
+    if (SubmitDone()) {
+        const formData = {
+            Username: document.getElementById('username').value,
+            CustomerName: document.getElementById('name').value,
+            DoB: document.getElementById('dateofbirth').value,
+            PhoneNumber: document.getElementById('numberphone').value,
+            Password: document.getElementById('password').value,
+        };
 
-        if (SubmitDone()) {
-            const formData = {
-                Username: document.getElementById('username').value,
-                CustomerName: document.getElementById('name').value,
-                DoB: document.getElementById('dateofbirth').value,
-                PhoneNumber: document.getElementById('numberphone').value,
-                Password: document.getElementById('password').value,
-            };
+        try {
+            const response = await fetch('https://localhost:7152/api/register', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
 
-            try {
-                const response = await fetch('https://localhost:7152/api/register', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(formData),
-                });
-
-                if (response.ok) {
-                    const data = await response.json();
-                    alert('Đăng ký thành công!');
+            if (response.ok) {
+                const data = await response.json();
+                alert('Đăng ký thành công!');
+            } else {
+                const contentType = response.headers.get('Content-Type');
+                if (contentType && contentType.includes('application/json')) {
+                    const error = await response.json();
+                    alert(`Lỗi: ${error.message}`);
                 } else {
-                    const contentType = response.headers.get('Content-Type');
-                    if (contentType && contentType.includes('application/json')) {
-                        const error = await response.json();
-                        alert(`Lỗi: ${error.message}`);
-                    } else {
-                        alert(`Lỗi: ${response.statusText}`);
-                    }
+                    alert(`Lỗi: ${response.statusText}`);
                 }
-            } catch (err) {
-                console.error(err);
-                alert('Có lỗi xảy ra!');
             }
+        } catch (err) {
+            console.error(err);
+            alert('Có lỗi xảy ra!');
         }
-        event.target.submitted = false;
-    });
+    }
+    event.target.submitted = false;
 });
 
 //Open_close pop -up
 (function () {
-    //Login/Signup modal window - by CodyHouse.co
+    //Login/Signup modal window 
     function ModalSignin(element) {
         this.element = element;
         this.blocks = this.element.getElementsByClassName('js-signin-modal-block');
@@ -253,19 +227,13 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     ModalSignin.prototype.init = function () {
-        var self = this;
         //open modal/switch form
-        for (var i = 0; i < this.triggers.length; i++) {
-            (function (i) {
-                self.triggers[i].addEventListener('click', function (event) {
-                    if (event.target.hasAttribute('data-signin')) {
-                        event.preventDefault();
-                        self.showSigninForm(event.target.getAttribute('data-signin'));
-                    }
-                });
-            })(i);
-        }
-
+        document.getElementById("logInButton").addEventListener('click', function (event) {
+            event.preventDefault();
+            showSigninForm(event.target.getAttribute('data-type'));
+        });
+        console.log("Clicked");
+    }
         //close modal
         this.element.addEventListener('click', function (event) {
             if (hasClass(event.target, 'js-signin-modal') || hasClass(event.target, 'js-close')) {
@@ -294,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
 
-        //IMPORTANT - REMOVE THIS - it's just to show/hide error messages in the demo
+        //Show/hide error messages in the demo
         this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
             event.preventDefault();
             self.toggleError(document.getElementById('signin-email'), true);
@@ -303,7 +271,6 @@ document.addEventListener('DOMContentLoaded', function () {
             event.preventDefault();
             self.toggleError(document.getElementById('signin-password'), true);
         });
-    };
 
     ModalSignin.prototype.showSigninForm = function (type) {
         // show modal if not visible
@@ -365,8 +332,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (bool) addClass(el, className);
         else removeClass(el, className);
     }
-
-    //credits http://css-tricks.com/snippets/jquery/move-cursor-to-end-of-textarea-or-input/
     function putCursorAtEnd(el) {
         if (el.setSelectionRange) {
             var len = el.value.length * 2;
@@ -377,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 })(); 
-// login.js - Gửi thông tin đăng nhập và nhận JWT token từ backend
+// Gửi thông tin đăng nhập và nhận JWT token từ backend
 document.getElementById("loginForm").addEventListener("submit", async function (e) {
     e.preventDefault();
     const username = document.getElementById("signin-email").value;
@@ -406,23 +371,45 @@ document.getElementById("loginForm").addEventListener("submit", async function (
         const role = data.role;
 
         sessionStorage.setItem("token", token);
-        console.log(token);
 
         if (role === "Admin") {
             window.location.href = "/Admin/Dashboard";
         } else {
-            fetch('/Home/Homepage', {
-                method: 'GET',
-                headers: {
-                    'Authorization': 'Bearer ' + sessionStorage.getItem('token')
-                }
-            });   
+            fetchHeader();
+            const loginPopup = document.getElementById('login-popup');
+            loginPopup.style.display = 'none';
         }      
     } catch (error) {
         console.error("Error during login:", error);
         alert("Lỗi xảy ra trong quá trình đăng nhập. Vui lòng thử lại.");
     }
 });
+function fetchHeader(token) {
+    fetch('https://localhost:7152/Home/GetCustomerName', {
+        method: 'GET',
+        headers: {
+            'Authorization': `Bearer ${token}`
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Kiểm tra xem dữ liệu trả về có chứa customerName không
+        if (data.customerName) {
+            // Cập nhật nội dung HTML với customerName
+            document.getElementById('welcome-text').innerText = `Xin chào, ${data.customerName}`;
+            document.getElementById('welcome-text').title += `Xin chào, ${data.customerName}`;
+            document.getElementById('login-signup').style.display = 'none';
+            document.getElementById('welcome-text').style.display = 'flex';
+        } else {
+            document.getElementById('login-signup').style.display = 'flex';
+            document.getElementById('welcome-text').style.display = 'none';
+        }
+        console.log("Customer: " + data.customerName);
+    })
+    .catch(error => {
+        console.error('Error fetching customer name:', error);
+    });
+}
 
 
 

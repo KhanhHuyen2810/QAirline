@@ -8,7 +8,6 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    [AllowAnonymous]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -19,12 +18,10 @@ namespace WebApplication1.Controllers
             _logger = logger;
             _context = dbContext;
         }
-        [HttpGet]
-        public IActionResult Homepage()
+        public IActionResult GetCustomerName()
         {
             string customerName = null;
 
-            // Kiểm tra nếu có token trong request
             if (Request.Headers.ContainsKey("Authorization"))
             {
                 var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
@@ -33,13 +30,10 @@ namespace WebApplication1.Controllers
                 if (handler.CanReadToken(token))
                 {
                     var jwtToken = handler.ReadJwtToken(token);
-
-                    // Giả sử token chứa claim "username"
-                    var usernameClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "Name")?.Value;
+                    var usernameClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name")?.Value;
 
                     if (!string.IsNullOrEmpty(usernameClaim))
                     {
-                        // Truy vấn customerName từ cơ sở dữ liệu dựa trên Username
                         var customer = _context.Customers.FirstOrDefault(c => c.CustomerUsername == usernameClaim);
                         if (customer != null)
                         {
@@ -48,24 +42,26 @@ namespace WebApplication1.Controllers
                     }
                 }
             }
-            Console.WriteLine(customerName);    
-
-            ViewBag.CustomerName = customerName;
-            return View();
+            Debug.WriteLine(customerName);
+            // Trả về customerName dưới dạng JSON
+            return Json(new { customerName });
         }
-
-        public IActionResult AirportDetail()
+        public IActionResult Homepage()
         {
             return View();
+        }
+        public IActionResult AirportDetail()
+        {
+            return PartialView("AirportDetail");
         }
         public IActionResult NewsPage()
         {
-            return View();
+            return PartialView("NewsPage");
         }
         public IActionResult LogIn()
         {
-            return View();
-        } 
+            return PartialView("LogIn");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
