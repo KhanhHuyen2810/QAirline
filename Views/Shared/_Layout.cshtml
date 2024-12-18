@@ -15,14 +15,20 @@
     <div class="d-flex flex-column min-vh-100">
         <!-- Header: search bar, login-signup, menu -->
         <header class="header">
-            <img id="logo" src="/resource/image_header/logo.png" alt="Logo" onclick="javascript:fetchCustomerData('/Home/Homepage', '#customer-body');">
+            <img id="logo" src="/resource/image_header/logo.png" alt="Logo" onclick="javascript:fetchCustomerData('https://localhost:7152', '#customer-body');">
             <div class="right_container">            
                 <div id="login">
                     <img src="/resource/image_header/login.png" alt="Login">                
                     <div class="cd-main-nav js-main-nav">
-                        <button id="welcome-text" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title=""></button>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-placement="bottom" title="">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Đăng xuất</a>
+                            </div>
+                        </div>                       
                         <ul id="login-signup" class="cd-main-nav__list js-signin-modal-trigger">
-                            <li><a id="logInButton" class="cd-main-nav__item js-signin-modal-trigger cd-main-nav__item--signin" data-signin="login">Đăng nhập</a></li>
+                            <li><a id="logInButton" class="cd-main-nav__item cd-main-nav__item--signin" href="#0" data-signin="login">Đăng nhập</a></li>
                             <li>|</li>
                             <li><a id="signUpButton" href="javascript:void(0)">Đăng ký</a></li>
                         </ul>

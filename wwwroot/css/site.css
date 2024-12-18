@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    z-index: 10;
+    z-index: 1000;
     height: 150px;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ header {
     height: 200px;
     bottom: 0;
     text-align: center;
-    z-index: 100;
+    z-index: 1000;
 }
 
     .footer footer {
@@ -82,9 +82,14 @@ header {
     align-items: center;
 }
 
-#welcome-text {
+.dropdown {
+    position: fixed;
+    z-index: 1002;
+}
+
+#dropdownMenuButton {
     display: none;
-    max-width: 100%;
+    max-width: 15vw;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -96,6 +101,29 @@ header {
     padding: 0 10px;
     border: none;
 }
+
+.dropdown-menu {
+    background-color: red;
+    color: white;
+    padding: 0 10px;
+    margin-top: 10px;
+    display: none;
+    width: 15vw;
+    text-align: center;
+    min-width: 0;
+    font-size: 1.5vw;   
+    cursor: pointer;
+}
+    .dropdown-menu:hover {
+        background-color: #FF748B;
+    }
+
+.dropdown-item {
+    color: white;
+}
+    .dropdown-item:hover {
+        background-color: #FF748B;
+    }
 
 #login-signup {
     margin-top: 4vh;
@@ -207,6 +235,7 @@ a {
 
 .right-menu {
     position: fixed;
+    z-index: 1001;
     display: block;
     top: 6vh;
     right: 3vw;
@@ -235,6 +264,7 @@ a {
     margin: 0;
     display: flex;
     gap: 3vw;
+    z-index: 100;
 }
 
 .nav-item {
@@ -560,8 +590,7 @@ form span.error {
     float: right;
     margin-right: 2%;
     width: 15vw;
-    height: 100%;
-    background: url("/resource/image_header/cd-icon-menu.svg") no-repeat center center;
+    height: 100%;    
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -862,7 +891,7 @@ form span.error {
 }
 
     .cd-signin-modal__bottom-message a {
-        color: #FFF;
+        color: #0D6EFD;
         text-decoration: underline;
     }
 

@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener('click', function (event) {
     if (event.target.id === 'viewHomepageButton') {
-        fetchCustomerData('/Home/Homepage', '#customer-body');
+        fetchCustomerData('https://localhost:7152', '#customer-body');
     } else if (event.target.id === 'viewAirportsButton') {
         fetchCustomerData('/Home/AirportDetail', '#customer-body');
         fetchAirports();
@@ -172,6 +172,206 @@ function SubmitDone() {
 
     return p;
 }
+//Open_close pop -up
+//Login/Signup modal window 
+function ModalSignin(element) {
+    this.element = element;
+    this.blocks = this.element.getElementsByClassName('js-signin-modal-block');
+    this.switchers = this.element.getElementsByClassName('js-signin-modal-switcher')[0].getElementsByTagName('a');
+    this.triggers = document.getElementsByClassName('js-signin-modal-trigger');
+    this.hidePassword = this.element.getElementsByClassName('js-hide-password');
+    this.init();
+};
+
+ModalSignin.prototype.init = function () {
+    var self = this;
+    //open modal/switch form
+    for (var i = 0; i < this.triggers.length; i++) {
+        (function (i) {
+            self.triggers[i].addEventListener('click', function (event) {
+                if (event.target.hasAttribute('data-signin')) {
+                    event.preventDefault();
+                    self.showSigninForm(event.target.getAttribute('data-signin'));
+                }
+            });
+        })(i);
+    }
+    //close modal
+    this.element.addEventListener('click', function (event) {
+        if (hasClass(event.target, 'js-signin-modal') || hasClass(event.target, 'js-close')) {
+            event.preventDefault();
+            removeClass(self.element, 'cd-signin-modal--is-visible');
+        }
+    });
+    //close modal when clicking the esc keyboard button
+    document.addEventListener('keydown', function (event) {
+        (event.which == '27') && removeClass(self.element, 'cd-signin-modal--is-visible');
+    });
+
+    // hide/show password
+    for (var i = 0; i < this.hidePassword.length; i++) {
+        (function (i) {
+            self.hidePassword[i].addEventListener('click', function (event) {
+                self.togglePassword(self.hidePassword[i]);
+            });
+        })(i);
+    }
+
+    var inputs = this.element.querySelectorAll('input');
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].addEventListener('focus', function (event) {
+            self.toggleError(event.target, false); // remove error class
+        });
+    }
+
+    //Show/hide error messages in the demo
+    this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
+        event.preventDefault();
+        self.toggleError(document.getElementById('signin-email'), true);
+    });
+    this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
+        event.preventDefault();
+        self.toggleError(document.getElementById('signin-password'), true);
+    });
+}
+
+ModalSignin.prototype.showSigninForm = function (type) {
+    // show modal if not visible
+    !hasClass(this.element, 'cd-signin-modal--is-visible') && addClass(this.element, 'cd-signin-modal--is-visible');
+    // show selected form
+    for (var i = 0; i < this.blocks.length; i++) {
+        this.blocks[i].getAttribute('data-type') == type ? addClass(this.blocks[i], 'cd-signin-modal__block--is-selected') : removeClass(this.blocks[i], 'cd-signin-modal__block--is-selected');
+    }
+    //update switcher appearance
+    var switcherType = (type == 'signup') ? 'signup' : 'login';
+    for (var i = 0; i < this.switchers.length; i++) {
+        this.switchers[i].getAttribute('data-type') == switcherType ? addClass(this.switchers[i], 'cd-selected') : removeClass(this.switchers[i], 'cd-selected');
+    }
+};
+
+ModalSignin.prototype.toggleError = function (input, bool) {
+    // used to show error messages in the form
+    toggleClass(input, 'cd-signin-modal__input--has-error', bool);
+    toggleClass(input.nextElementSibling, 'cd-signin-modal__error--is-visible', bool);
+}
+
+var signinModal = document.getElementsByClassName("js-signin-modal")[0];
+if (signinModal) {
+    new ModalSignin(signinModal);
+}  
+function hasClass(el, className) {
+    if (el.classList) return el.classList.contains(className);
+    else return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
+}
+function addClass(el, className) {
+    var classList = className.split(' ');
+    if (el.classList) el.classList.add(classList[0]);
+    else if (!hasClass(el, classList[0])) el.className += " " + classList[0];
+    if (classList.length > 1) addClass(el, classList.slice(1).join(' '));
+}
+function removeClass(el, className) {
+    var classList = className.split(' ');
+    if (el.classList) el.classList.remove(classList[0]);
+    else if (hasClass(el, classList[0])) {
+        var reg = new RegExp('(\\s|^)' + classList[0] + '(\\s|$)');
+        el.className = el.className.replace(reg, ' ');
+    }
+    if (classList.length > 1) removeClass(el, classList.slice(1).join(' '));
+}
+function toggleClass(el, className, bool) {
+    if (bool) addClass(el, className);
+    else removeClass(el, className);
+}
+function putCursorAtEnd(el) {
+    if (el.setSelectionRange) {
+        var len = el.value.length * 2;
+        el.focus();
+        el.setSelectionRange(len, len);
+    } else {
+        el.value = el.value;
+    }
+};
+
+// Gửi thông tin đăng nhập và nhận JWT token từ backend
+document.getElementById("loginForm").addEventListener("submit", async function (e) {
+    e.preventDefault();
+    const username = document.getElementById("signin-email").value;
+    const password = document.getElementById("signin-password").value;
+
+    try {
+        const response = await fetch('/api/login', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ username, password }),
+        });
+
+        if (!response.ok) {
+            if (response.status === 401) {
+                alert("Tên đăng nhập hoặc mật khẩu không đúng.");
+            } else {
+                alert("Đăng nhập không thành công. Mã lỗi: " + response.status);
+            }
+            return;
+        }
+
+        const data = await response.json();
+        const token = data.token;
+        const role = data.role;
+
+        sessionStorage.setItem("token", token);
+
+        if (role === "Admin") {
+            window.location.href = "/Admin/Dashboard";
+        } else {
+            fetchHeader(token);
+            const loginPopup = document.getElementById('login-popup');
+            loginPopup.style.display = 'none';
+        }      
+    } catch (error) {
+        console.error("Error during login:", error);
+        alert("Lỗi xảy ra trong quá trình đăng nhập. Vui lòng thử lại.");
+    }
+});
+function fetchHeader(token) {
+    fetch('https://localhost:7152/Home/GetCustomerName', {
+        method: 'GET',
+        headers: {
+            'Authorization': `Bearer ${token}`
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Kiểm tra xem dữ liệu trả về có chứa customerName không
+        if (data.customerName) {
+            // Cập nhật nội dung HTML với customerName
+            document.getElementById('dropdownMenuButton').innerText = `Xin chào, ${data.customerName}`;
+            document.getElementById('dropdownMenuButton').title += `Xin chào, ${data.customerName}`;
+            document.getElementById('login-signup').style.display = 'none';
+            document.getElementById('dropdownMenuButton').style.display = 'flex';
+        } else {
+            document.getElementById('login-signup').style.display = 'flex';
+            document.getElementById('dropdownMenuButton').style.display = 'none';
+        }
+        console.log("Customer: " + data.customerName);
+    })
+    .catch(error => {
+        console.error('Error fetching customer name:', error);
+    });
+}
+
+document.getElementById("dropdownMenuButton").addEventListener("click", function () {
+    var dropItem = document.getElementsByClassName("dropdown-menu")[0];
+    if (dropItem.style.display == 'none') {
+        dropItem.style.display = 'flex';
+    }
+    else {
+        dropItem.style.display = 'none';
+    }
+    console.log("Clicked");
+});
+
 document.getElementById('dynamic-form').addEventListener('submit', async function (event) {
     event.preventDefault();
 
@@ -213,203 +413,6 @@ document.getElementById('dynamic-form').addEventListener('submit', async functio
     }
     event.target.submitted = false;
 });
-
-//Open_close pop -up
-(function () {
-    //Login/Signup modal window 
-    function ModalSignin(element) {
-        this.element = element;
-        this.blocks = this.element.getElementsByClassName('js-signin-modal-block');
-        this.switchers = this.element.getElementsByClassName('js-signin-modal-switcher')[0].getElementsByTagName('a');
-        this.triggers = document.getElementsByClassName('js-signin-modal-trigger');
-        this.hidePassword = this.element.getElementsByClassName('js-hide-password');
-        this.init();
-    };
-
-    ModalSignin.prototype.init = function () {
-        //open modal/switch form
-        document.getElementById("logInButton").addEventListener('click', function (event) {
-            event.preventDefault();
-            showSigninForm(event.target.getAttribute('data-type'));
-        });
-        console.log("Clicked");
-    }
-        //close modal
-        this.element.addEventListener('click', function (event) {
-            if (hasClass(event.target, 'js-signin-modal') || hasClass(event.target, 'js-close')) {
-                event.preventDefault();
-                removeClass(self.element, 'cd-signin-modal--is-visible');
-            }
-        });
-        //close modal when clicking the esc keyboard button
-        document.addEventListener('keydown', function (event) {
-            (event.which == '27') && removeClass(self.element, 'cd-signin-modal--is-visible');
-        });
-
-        // hide/show password
-        for (var i = 0; i < this.hidePassword.length; i++) {
-            (function (i) {
-                self.hidePassword[i].addEventListener('click', function (event) {
-                    self.togglePassword(self.hidePassword[i]);
-                });
-            })(i);
-        }
-
-        var inputs = this.element.querySelectorAll('input');
-        for (var i = 0; i < inputs.length; i++) {
-            inputs[i].addEventListener('focus', function (event) {
-                self.toggleError(event.target, false); // remove error class
-            });
-        }
-
-        //Show/hide error messages in the demo
-        this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
-            event.preventDefault();
-            self.toggleError(document.getElementById('signin-email'), true);
-        });
-        this.blocks[0].getElementsByTagName('form')[0].addEventListener('submit', function (event) {
-            event.preventDefault();
-            self.toggleError(document.getElementById('signin-password'), true);
-        });
-
-    ModalSignin.prototype.showSigninForm = function (type) {
-        // show modal if not visible
-        !hasClass(this.element, 'cd-signin-modal--is-visible') && addClass(this.element, 'cd-signin-modal--is-visible');
-        // show selected form
-        for (var i = 0; i < this.blocks.length; i++) {
-            this.blocks[i].getAttribute('data-type') == type ? addClass(this.blocks[i], 'cd-signin-modal__block--is-selected') : removeClass(this.blocks[i], 'cd-signin-modal__block--is-selected');
-        }
-        //update switcher appearance
-        var switcherType = (type == 'signup') ? 'signup' : 'login';
-        for (var i = 0; i < this.switchers.length; i++) {
-            this.switchers[i].getAttribute('data-type') == switcherType ? addClass(this.switchers[i], 'cd-selected') : removeClass(this.switchers[i], 'cd-selected');
-        }
-    };
-
-    ModalSignin.prototype.toggleError = function (input, bool) {
-        // used to show error messages in the form
-        toggleClass(input, 'cd-signin-modal__input--has-error', bool);
-        toggleClass(input.nextElementSibling, 'cd-signin-modal__error--is-visible', bool);
-    }
-
-    var signinModal = document.getElementsByClassName("js-signin-modal")[0];
-    if (signinModal) {
-        new ModalSignin(signinModal);
-    }
-
-    // toggle main navigation on mobile
-    var mainNav = document.getElementsByClassName('js-main-nav')[0];
-    if (mainNav) {
-        mainNav.addEventListener('click', function (event) {
-            if (hasClass(event.target, 'js-main-nav')) {
-                var navList = mainNav.getElementsByTagName('ul')[0];
-                toggleClass(navList, 'cd-main-nav__list--is-visible', !hasClass(navList, 'cd-main-nav__list--is-visible'));
-            }
-        });
-    }
-
-    //class manipulations - needed if classList is not supported
-    function hasClass(el, className) {
-        if (el.classList) return el.classList.contains(className);
-        else return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
-    }
-    function addClass(el, className) {
-        var classList = className.split(' ');
-        if (el.classList) el.classList.add(classList[0]);
-        else if (!hasClass(el, classList[0])) el.className += " " + classList[0];
-        if (classList.length > 1) addClass(el, classList.slice(1).join(' '));
-    }
-    function removeClass(el, className) {
-        var classList = className.split(' ');
-        if (el.classList) el.classList.remove(classList[0]);
-        else if (hasClass(el, classList[0])) {
-            var reg = new RegExp('(\\s|^)' + classList[0] + '(\\s|$)');
-            el.className = el.className.replace(reg, ' ');
-        }
-        if (classList.length > 1) removeClass(el, classList.slice(1).join(' '));
-    }
-    function toggleClass(el, className, bool) {
-        if (bool) addClass(el, className);
-        else removeClass(el, className);
-    }
-    function putCursorAtEnd(el) {
-        if (el.setSelectionRange) {
-            var len = el.value.length * 2;
-            el.focus();
-            el.setSelectionRange(len, len);
-        } else {
-            el.value = el.value;
-        }
-    };
-})(); 
-// Gửi thông tin đăng nhập và nhận JWT token từ backend
-document.getElementById("loginForm").addEventListener("submit", async function (e) {
-    e.preventDefault();
-    const username = document.getElementById("signin-email").value;
-    const password = document.getElementById("signin-password").value;
-
-    try {
-        const response = await fetch('/api/login', {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ username, password }),
-        });
-
-        if (!response.ok) {
-            if (response.status === 401) {
-                alert("Tên đăng nhập hoặc mật khẩu không đúng.");
-            } else {
-                alert("Đăng nhập không thành công. Mã lỗi: " + response.status);
-            }
-            return;
-        }
-
-        const data = await response.json();
-        const token = data.token;
-        const role = data.role;
-
-        sessionStorage.setItem("token", token);
-
-        if (role === "Admin") {
-            window.location.href = "/Admin/Dashboard";
-        } else {
-            fetchHeader();
-            const loginPopup = document.getElementById('login-popup');
-            loginPopup.style.display = 'none';
-        }      
-    } catch (error) {
-        console.error("Error during login:", error);
-        alert("Lỗi xảy ra trong quá trình đăng nhập. Vui lòng thử lại.");
-    }
-});
-function fetchHeader(token) {
-    fetch('https://localhost:7152/Home/GetCustomerName', {
-        method: 'GET',
-        headers: {
-            'Authorization': `Bearer ${token}`
-        }
-    })
-    .then(response => response.json())
-    .then(data => {
-        // Kiểm tra xem dữ liệu trả về có chứa customerName không
-        if (data.customerName) {
-            // Cập nhật nội dung HTML với customerName
-            document.getElementById('welcome-text').innerText = `Xin chào, ${data.customerName}`;
-            document.getElementById('welcome-text').title += `Xin chào, ${data.customerName}`;
-            document.getElementById('login-signup').style.display = 'none';
-            document.getElementById('welcome-text').style.display = 'flex';
-        } else {
-            document.getElementById('login-signup').style.display = 'flex';
-            document.getElementById('welcome-text').style.display = 'none';
-        }
-        console.log("Customer: " + data.customerName);
-    })
-    .catch(error => {
-        console.error('Error fetching customer name:', error);
-    });
-}
 
 
 

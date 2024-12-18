@@ -49,6 +49,7 @@ namespace WebApplication1.Data
         public DbSet<Flight> Flights { get; set; }
         public DbSet<Class> Classes { get; set; }
         public DbSet<Airport> Airports { get; set; }
+        public DbSet<News> News { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -93,8 +94,7 @@ namespace WebApplication1.Data
                 .HasOne(t => t.Passenger)
                 .WithOne()
                 .HasForeignKey<Ticket>(t => t.PassengerID)
-                .IsRequired(false);
-
+                .IsRequired(false);                       
         }
     }
 }

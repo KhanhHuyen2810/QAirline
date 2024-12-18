@@ -4,4 +4,59 @@
 @{
     ViewData["Title"] = "Chỉnh sửa tin tức";
 }
-<h1>Setting</h1>
+<h1 id="newsTitle">QUẢN LÝ TIN TỨC</h1>
+<table id="newsTable" border="1" width="100%">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<!-- Modal Thêm/Sửa chuyến bay -->
+<div class="modal" id="newsModal">
+    <div class="modal-content">
+        <!-- Nút Đóng Modal -->
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h3 id="formTitle">Thêm Tin Tức</h3>
+
+        <!-- Form Thêm/Sửa -->
+        <form id="newsForm">
+            <div class="form-group">
+                <label for="newsID">Mã tin tức</label>
+                <input type="text" id="newsID" class="form-input" placeholder="VD: 1, 2, 3,..." required />
+            </div>
+
+            <div class="form-group">
+                <label for="newsTitle">Tiêu đề</label>
+                <input type="text" id="newsTitle" class="form-input" placeholder="Thêm tiêu đề" required />
+            </div>
+
+            <div class="form-group">
+                <label for="newsContent">Nội dung</label>
+                <input type="text" id="newsContent" class="form-input" placeholder="Thêm nội dung" required />
+            </div>
+
+            <div class="form-group">
+                <label for="newsImageUrl">Ảnh</label>
+                <input type="text" id="newsImageUrl" class="form-input" placeholder="Thêm ảnh" required />
+            </div>
+
+            <!-- Nút Lưu và Hủy -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-save" onclick="saveNews()">Lưu</button>
+                <button type="button" class="btn btn-cancel" onclick="closeModal()">Hủy</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Nút Thêm -->
+<button class="fBooking_btn fBooking-btn-add" onclick="openModal()">+ Thêm Tin Tức</button>
+
+

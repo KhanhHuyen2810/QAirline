@@ -18,47 +18,20 @@ namespace WebApplication1.Controllers
         [Authorize(Roles = "Admin")]
         public IActionResult Flights(string token)
         {
-            if (!string.IsNullOrEmpty(token))
-            {
-                Console.WriteLine($"Token nhận được: {token}");
-            }
-            else
-            {
-                Console.WriteLine("Token không được gửi kèm trong query.");
-            }
-
             ViewBag.Token = token;
-            return View();
+            return PartialView("Flights");
         }
         [Authorize(Roles = "Admin")]
         public IActionResult News(string token)
         {
-            if (!string.IsNullOrEmpty(token))
-            {
-                Console.WriteLine($"Token nhận được: {token}");
-            }
-            else
-            {
-                Console.WriteLine("Token không được gửi kèm trong query.");
-            }
-
             ViewBag.Token = token;
-            return View();
+            return PartialView("News");
         }
         [Authorize(Roles = "Admin")]
         public IActionResult Tickets(string token)
         {
-            if (!string.IsNullOrEmpty(token))
-            {
-                Console.WriteLine($"Token nhận được: {token}");
-            }
-            else
-            {
-                Console.WriteLine("Token không được gửi kèm trong query.");
-            }
-
             ViewBag.Token = token;
-            return View();
+            return PartialView("Tickets");
         }
     }
 }
