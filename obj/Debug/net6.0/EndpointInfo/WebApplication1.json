@@ -69,17 +69,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/News"
+                "$ref": "#/components/schemas/NewsCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/News"
+                "$ref": "#/components/schemas/NewsCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/News"
+                "$ref": "#/components/schemas/NewsCreateDto"
               }
             }
           }
@@ -242,6 +242,28 @@
             "type": "integer",
             "format": "int32"
           },
+          "newsTitle": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "newsContent": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NewsCreateDto": {
+        "required": [
+          "newsContent",
+          "newsTitle"
+        ],
+        "type": "object",
+        "properties": {
           "newsTitle": {
             "minLength": 1,
             "type": "string"

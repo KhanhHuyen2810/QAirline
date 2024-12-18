@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
-using System.IdentityModel.Tokens.Jwt;
 using WebApplication1.Data;
 using WebApplication1.Models;
+using WebApplication1.Models.DTO;
 
 namespace WebApplication1.Controllers
 {
@@ -26,14 +24,20 @@ namespace WebApplication1.Controllers
         public IActionResult Get()
         {
             var news = _newsService.GetNews();
-            Debug.WriteLine("Backend ok");
             return Ok(news);
         }
 
         // Thêm tin tức mới
         [HttpPost("create")]
-        public async Task<IActionResult> Create([FromBody] News news)
+        public async Task<IActionResult> Create([FromBody] NewsCreateDto newsCreateDto)
         {
+
+            var news = new News
+            {
+                NewsTitle = newsCreateDto.NewsTitle,
+                NewsContent = newsCreateDto.NewsContent,
+                ImageUrl = newsCreateDto.ImageUrl
+            };
             if (ModelState.IsValid)
             {
                 _context.News.Add(news);

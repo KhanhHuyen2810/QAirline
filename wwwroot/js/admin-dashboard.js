@@ -4,7 +4,7 @@
                 fetchAdminData('/Admin/Dashboard'); 
             }
             if (event.target.id === 'newsButton') {
-                fetchAdminData('/Admin/News');
+                fetchAdminData('/Admin/News');   
                 fetchAdminNews();
             }
             if (event.target.id === 'flightButton') {
@@ -19,11 +19,10 @@
 async function fetchAdminData(url) {
     try {
         const token = sessionStorage.getItem('token');
-        console.log(token);
 
         if (!token) {
             console.error('No token found in sessionStorage.');
-            window.location.replace("/Home/Homepage");
+            //window.location.replace("/Home/Homepage");
             return;
         }
         const headers = {
@@ -50,8 +49,6 @@ async function fetchAdminData(url) {
         } else {
             document.getElementById('admin-body').innerHTML = html;
         } 
-
-        console.log('Response data:', html);
 
         window.history.pushState({}, '', url);
     }
@@ -105,67 +102,115 @@ function displayNews(news) {
     });
 }
 
-// Lưu tin tức mới hoặc cập nhật tin tức
-function saveNews() {
-    const news = {
-        NewsID: $("#newsID").val(),
-        NewsTitle: $("#newsTitle").val(),
-        NewsContent: $("#newsContent").val(),
-        ImageUrl: $("#newsImageUrl").val()
-    };
+let newsID = null;
+let isEdit = false;
 
-    if (news.NewsID) {
-        $.ajax({
-            url: `/api/News/edit/${news.NewsID}`,
-            type: "PUT",
-            contentType: "application/json",
-            data: JSON.stringify(news),
-            success: function () {
-                alert("Cập nhật thành công!");
-                fetchAdminNews();
-                $("#newsForm").closeModal();
-            }
-        });
+// Thêm/Sửa tin tức
+async function saveNews() {
+    const id = document.getElementById('newsID').value;
+    const title = document.getElementById('newsTitle').value;
+    const content = document.getElementById('newsContent').value;
+    const imageUrl = document.getElementById('newsImageUrl').value;
+    if (!isEdit) {
+        newsData = {
+            NewsTitle: title,
+            NewsContent: content,
+            ImageUrl: imageUrl
+        };
     } else {
-        $.post("/api/News/create", news, function () {
-            alert("Thêm thành công!");
-            fetchAdminNews();
-            $("#newsForm").closeModal();
-        });
+        newsData = {
+            NewsID: parseInt(id),
+            NewsTitle: title,
+            NewsContent: content,
+            ImageUrl: imageUrl
+        };
     }
+    try {
+        let response;
+        if (!isEdit) {
+            response = await fetch('/api/News/create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newsData)
+            });
+        } else {
+            response = await fetch(`/api/News/edit/${newsID}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newsData)
+            });
+        }
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error("Fetch không thành công:", errorText);
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        alert(isEdit ? "Sửa tin tức thành công" : "Thêm tin tức thành công");
+        closeModal(); // Đóng modal
+        fetchAdminNews();
+    } catch (error) {
+        console.error("Error when saving news:", error);
+        alert("Lỗi khi lưu tin tức");
+    }
+
 }
 
 // Xóa tin tức
-function deleteNews(id) {
-    if (confirm("Bạn có chắc muốn xóa tin tức này?")) {
-        $.ajax({
-            url: `/api/News/delete/${id}`,
-            type: "DELETE",
-            success: function () {
-                alert("Xóa thành công!");
-                fetchAdminNews();
+async function deleteNews(id) {
+    try {
+        if (confirm("Bạn có chắc chắn muốn xóa tin tức này?")) {
+            const response = await fetch(`/api/News/delete/${id}`, {
+                method: 'DELETE'
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                console.error("Fetch không thành công:", errorText);
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
-        });
+            alert("Xóa tin tức thành công");
+            fetchAdminNews();
+        }
+    }
+    catch (error) {
+        console.error('Error when deleting news:', error);
+        alert("Lỗi khi xóa tin tức");
     }
 }
 
-// Chỉnh sửa tin tức
+// Sửa tin tức
 function editNews(id) {
-    $.get(`/api/News/details/${id}`, function (data) {
-        $("#formTitle").text("Sửa Tin Tức");
-        $("#newsID").val(data.newsID);
-        $("#newsTitle").val(data.newsTitle);
-        $("#newsContent").val(data.newsContent);
-        $("#newsImageUrl").val(data.imageUrl);
-        $("#newsForm").openModal();
-    });
-}
-
-// Xem chi tiết tin tức
-function viewDetails(id) {
-    $.get(`/api/News/details/${id}`, function (data) {
-        alert(`Title: ${data.newsTitle}\nContent: ${data.newsContent}\nImage: ${data.imageUrl}`);
-    });
+    openModal(); // Mở modal
+    newsID = id;
+    isEdit = true;
+    document.getElementById("formTitle").innerText = "Sửa Tin Tức";
+    // Tìm tin tức theo ID và điền vào form
+    fetch(`/api/News/details/${id}`)
+        .then(response => {
+            if (!response.ok) {
+                const errorText = response.text();
+                console.error("Fetch không thành công:", errorText);
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(news => {
+            document.getElementById('newsID').value = news.newsID;
+            document.getElementById('newsTitle').value = news.newsTitle;
+            document.getElementById('newsContent').value = news.newsContent;
+            document.getElementById('newsImageUrl').value = news.imageUrl;
+        })
+        .catch(error => {
+            console.error('Error when fetching news details:', error);
+            alert("Lỗi khi lấy chi tiết tin tức");
+        });
+    fetchAdminNews();
 }
 
 // Mở modal

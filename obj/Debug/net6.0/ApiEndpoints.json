@@ -34,8 +34,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "news",
-        "Type": "WebApplication1.Models.News",
+        "Name": "newsCreateDto",
+        "Type": "WebApplication1.Models.DTO.NewsCreateDto",
         "IsRequired": true
       }
     ],
