@@ -27,16 +27,6 @@
   },
   {
     "ContainingType": "WebApplication1.Controllers.NewsController",
-    "Method": "GetNews",
-    "RelativePath": "api/News",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApplication1.Controllers.NewsController",
     "Method": "Create",
     "RelativePath": "api/News/create",
     "HttpMethod": "POST",
@@ -102,6 +92,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.NewsController",
+    "Method": "Get",
+    "RelativePath": "api/News/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

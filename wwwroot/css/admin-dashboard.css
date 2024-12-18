@@ -223,23 +223,23 @@ body {
     padding: 15px;
 }
 
-#flightTitle {
+#flightTitle, #newsTitle {
     text-align: center;
     margin: 5vh 0;
 }
 
-#flightTable {
+#flightTable, #newsTable {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
 }
 
-    #flightTable th, #flightTable td {
+    #flightTable th, #flightTable td, #newsTable th, #newsTable td {
         padding: 10px;
         border: 1px solid #ddd;
     }
 
-    #flightTable th {
+    #flightTable th, #newsTable th {
         background-color: #608BC1;
         font-weight: bold;
         color: white;

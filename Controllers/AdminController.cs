@@ -16,22 +16,19 @@ namespace WebApplication1.Controllers
             return View();
         }
         [Authorize(Roles = "Admin")]
-        public IActionResult Flights(string token)
+        public IActionResult Flights()
         {
-            ViewBag.Token = token;
-            return PartialView("Flights");
+            return View();
+        }
+
+        public IActionResult News()
+        {
+            return View();
         }
         [Authorize(Roles = "Admin")]
-        public IActionResult News(string token)
+        public IActionResult Tickets()
         {
-            ViewBag.Token = token;
-            return PartialView("News");
-        }
-        [Authorize(Roles = "Admin")]
-        public IActionResult Tickets(string token)
-        {
-            ViewBag.Token = token;
-            return PartialView("Tickets");
+            return View();
         }
     }
 }

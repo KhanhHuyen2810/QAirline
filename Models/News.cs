@@ -7,10 +7,10 @@ namespace WebApplication1.Models
         [Key]
         public int NewsID { get; set; }  // Primary Key
 
-        [Required(ErrorMessage = "Title is required.")]
+        [Required]
         public string NewsTitle { get; set; }
 
-        [Required(ErrorMessage = "Content is required.")]
+        [Required]
         public string NewsContent { get; set; }
 
         public string ImageUrl { get; set; }  // Đường dẫn hình ảnh

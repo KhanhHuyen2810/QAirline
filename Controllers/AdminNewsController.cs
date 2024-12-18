@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
+using System.IdentityModel.Tokens.Jwt;
 using WebApplication1.Data;
 using WebApplication1.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication1.Controllers
 {
@@ -10,17 +13,20 @@ namespace WebApplication1.Controllers
     public class NewsController : ControllerBase
     {
         private readonly FlightBookingDbContext _context;
+        private readonly AdminNewsService _newsService;
 
-        public NewsController(FlightBookingDbContext context)
+        public NewsController(FlightBookingDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _newsService = new AdminNewsService(configuration.GetConnectionString("FlightBookingDbContext"));
         }
 
         // Lấy danh sách tin tức
-        [HttpGet]
-        public async Task<IActionResult> GetNews()
+        [HttpGet("get")]
+        public IActionResult Get()
         {
-            var news = await _context.News.ToListAsync();
+            var news = _newsService.GetNews();
+            Debug.WriteLine("Backend ok");
             return Ok(news);
         }
 

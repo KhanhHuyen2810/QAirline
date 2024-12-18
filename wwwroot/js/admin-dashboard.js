@@ -1,10 +1,11 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
     document.body.addEventListener('click', function (event) {
             if (event.target.id === 'dashboardButton') {
-                window.location.href = "/Admin/Dashboard"; 
+                fetchAdminData('/Admin/Dashboard'); 
             }
             if (event.target.id === 'newsButton') {
                 fetchAdminData('/Admin/News');
+                fetchAdminNews();
             }
             if (event.target.id === 'flightButton') {
                 fetchAdminData('/Admin/Flights');
@@ -21,7 +22,7 @@ async function fetchAdminData(url) {
         console.log(token);
 
         if (!token) {
-            console.error('No token found in localStorage.');
+            console.error('No token found in sessionStorage.');
             window.location.replace("/Home/Homepage");
             return;
         }
@@ -39,10 +40,18 @@ async function fetchAdminData(url) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        const html = await response.text();
-        console.log('Response data:', html);
+        const html = await response.text();        
 
-        document.getElementById('admin-body').innerHTML = html; 
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const bodyContent = tempDiv.querySelector('#admin-body')?.innerHTML;
+        if (bodyContent) {
+            document.getElementById('admin-body').innerHTML = bodyContent;
+        } else {
+            document.getElementById('admin-body').innerHTML = html;
+        } 
+
+        console.log('Response data:', html);
 
         window.history.pushState({}, '', url);
     }
@@ -63,34 +72,37 @@ sidebarToggle.addEventListener("click", () => {
     sidebar.classList.toggle("collapsed");
 });
 
-$(document).ready(function () {
-    loadNews();
-});
-
 // Load danh sách tin tức
-function loadNews() {
+async function fetchAdminNews() {
     try {
-        $.get("/api/News", function (data) {
-            let rows = "";
-            data.forEach(function (item) {
-                rows += `<tr>
-                    <td>${item.newsID}</td>
-                    <td>${item.newsTitle}</td>
-                    <td>${item.newsContent}</td>
-                    <td>${item.imageUrl}</td>
-                    <td>
-                        <button onclick="editNews(${item.newsID})">Sửa</button>
-                        <button onclick="deleteNews(${item.newsID})">Xóa</button>
-                        <button onclick="viewDetails(${item.newsID})">Chi Tiết</button>
-                    </td>
-                </tr>`;
-            });
-            $("#newsTable tbody").html(rows);
-        });
+        const response = await fetch('/api/News/get');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const news = await response.json();
+        displayNews(news);
+    } catch (error) {
+        console.error('Failed to fetch news:', error);
+        alert('Có lỗi xảy ra khi lấy danh sách tin tức.');
     }
-    catch {
-        console.log("Error");
-    }
+}
+function displayNews(news) {
+    const newsTableBody = document.getElementById('newsTable').getElementsByTagName('tbody')[0];
+
+    newsTableBody.innerHTML = '';
+
+    news.forEach(_news => {
+        const row = newsTableBody.insertRow();
+        row.insertCell(0).textContent = _news.NewsID;
+        row.insertCell(1).textContent = _news.NewsTitle;
+        row.insertCell(2).textContent = _news.NewsContent;
+        row.insertCell(3).textContent = _news.ImageUrl;
+        row.insertCell(4).innerHTML = `
+            <button class="btn btn-edit" onclick="editNews(${_news.NewsID})">Sửa</button>
+            <button class="btn btn-delete" onclick="deleteNews(${_news.NewsID})">Xóa</button>
+        `;
+    });
 }
 
 // Lưu tin tức mới hoặc cập nhật tin tức
@@ -110,15 +122,15 @@ function saveNews() {
             data: JSON.stringify(news),
             success: function () {
                 alert("Cập nhật thành công!");
-                loadNews();
-                $("#newsForm").hide();
+                fetchAdminNews();
+                $("#newsForm").closeModal();
             }
         });
     } else {
         $.post("/api/News/create", news, function () {
             alert("Thêm thành công!");
-            loadNews();
-            $("#newsForm").hide();
+            fetchAdminNews();
+            $("#newsForm").closeModal();
         });
     }
 }
@@ -131,7 +143,7 @@ function deleteNews(id) {
             type: "DELETE",
             success: function () {
                 alert("Xóa thành công!");
-                loadNews();
+                fetchAdminNews();
             }
         });
     }
@@ -145,7 +157,7 @@ function editNews(id) {
         $("#newsTitle").val(data.newsTitle);
         $("#newsContent").val(data.newsContent);
         $("#newsImageUrl").val(data.imageUrl);
-        $("#newsForm").show();
+        $("#newsForm").openModal();
     });
 }
 

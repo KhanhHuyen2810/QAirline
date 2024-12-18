@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wP9CNWkkIrvGE5Ik9l+A3F8ij6gLnvWItOT4pShuV+I=",
+  "Hash": "IfBO0C/YkPsQg/pBk4SWbz0WqUnMGM2Y7Z3sYSKuOAU=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zk6q48lop3",
-      "Integrity": "LWhKkOQRgqKp+uNZXeE94uWFqYs4TT9WZKzZfczLAjM=",
+      "Fingerprint": "c5dk44dbbt",
+      "Integrity": "cNyAVR4a/6DIdvyPSqgHxx9lFprP77giWoml9e7daVI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin-dashboard.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lkmrq9ytr8",
-      "Integrity": "+9ZZZFJafxmIxsHnCOfWM6SOPjt1RHixcWjlazwISF0=",
+      "Fingerprint": "6nyidf6ibr",
+      "Integrity": "4iicailm1bARM5jeokAhtfPFaP5GIAf77PRAnOyHEDg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\admin-dashboard.js"
@@ -2073,6 +2073,51 @@
       ]
     },
     {
+      "Route": "css/admin-dashboard.c5dk44dbbt.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cNyAVR4a/6DIdvyPSqgHxx9lFprP77giWoml9e7daVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 06:28:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5dk44dbbt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cNyAVR4a/6DIdvyPSqgHxx9lFprP77giWoml9e7daVI="
+        }
+      ]
+    },
+    {
       "Route": "css/admin-dashboard.css",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
       "Selectors": [],
@@ -2083,7 +2128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6526"
+          "Value": "6595"
         },
         {
           "Name": "Content-Type",
@@ -2091,11 +2136,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LWhKkOQRgqKp+uNZXeE94uWFqYs4TT9WZKzZfczLAjM=\""
+          "Value": "\"cNyAVR4a/6DIdvyPSqgHxx9lFprP77giWoml9e7daVI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:16:37 GMT"
+          "Value": "Wed, 18 Dec 2024 06:28:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2105,52 +2150,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LWhKkOQRgqKp+uNZXeE94uWFqYs4TT9WZKzZfczLAjM="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin-dashboard.zk6q48lop3.css",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6526"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LWhKkOQRgqKp+uNZXeE94uWFqYs4TT9WZKzZfczLAjM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:16:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zk6q48lop3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/admin-dashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LWhKkOQRgqKp+uNZXeE94uWFqYs4TT9WZKzZfczLAjM="
+          "Value": "sha256-cNyAVR4a/6DIdvyPSqgHxx9lFprP77giWoml9e7daVI="
         }
       ]
     },
@@ -2319,6 +2319,51 @@
       ]
     },
     {
+      "Route": "js/admin-dashboard.6nyidf6ibr.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4iicailm1bARM5jeokAhtfPFaP5GIAf77PRAnOyHEDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 08:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6nyidf6ibr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4iicailm1bARM5jeokAhtfPFaP5GIAf77PRAnOyHEDg="
+        }
+      ]
+    },
+    {
       "Route": "js/admin-dashboard.js",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
       "Selectors": [],
@@ -2329,7 +2374,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5229"
+          "Value": "5888"
         },
         {
           "Name": "Content-Type",
@@ -2337,11 +2382,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+9ZZZFJafxmIxsHnCOfWM6SOPjt1RHixcWjlazwISF0=\""
+          "Value": "\"4iicailm1bARM5jeokAhtfPFaP5GIAf77PRAnOyHEDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:23:50 GMT"
+          "Value": "Wed, 18 Dec 2024 08:19:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2351,52 +2396,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+9ZZZFJafxmIxsHnCOfWM6SOPjt1RHixcWjlazwISF0="
-        }
-      ]
-    },
-    {
-      "Route": "js/admin-dashboard.lkmrq9ytr8.js",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5229"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+9ZZZFJafxmIxsHnCOfWM6SOPjt1RHixcWjlazwISF0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:23:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lkmrq9ytr8"
-        },
-        {
-          "Name": "label",
-          "Value": "js/admin-dashboard.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+9ZZZFJafxmIxsHnCOfWM6SOPjt1RHixcWjlazwISF0="
+          "Value": "sha256-4iicailm1bARM5jeokAhtfPFaP5GIAf77PRAnOyHEDg="
         }
       ]
     },
