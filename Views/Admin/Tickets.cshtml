@@ -4,4 +4,19 @@
 @{
     ViewData["Title"] = "Thống kê vé";
 }
-<h1>User</h1>
+<h1 id="flightTitle">QUẢN LÝ ĐẶT VÉ</h1>
+<button type="button" id="getTickets" onclick="fetchTickets();">Lấy thông tin đặt vé</button>
+
+<!-- Bảng hiển thị danh sách chuyến bay -->
+<table id="ticketTable">
+    <thead>
+        <tr>
+            <th>Mã chuyến bay</th>
+            <th>Điểm đi</th>
+            <th>Điểm đến</th>
+            <th>Thời gian xuất phát</th>
+            <th>Số lượng vé đã đặt</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>

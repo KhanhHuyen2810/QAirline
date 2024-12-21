@@ -5,14 +5,19 @@
     ViewData["Title"] = "Chỉnh sửa tin tức";
 }
 <h1 id="news_Title">QUẢN LÝ TIN TỨC</h1>
+
+<button type="button" id="getNews" onclick="fetchAdminNews();">Lấy danh sách tin tức</button>
+<!-- Nút Thêm -->
+<button class="fBooking_btn fBooking-btn-add" onclick="addNews();">+ Thêm Tin Tức</button>
+
 <table id="newsTable" border="1" width="100%">
     <thead>
         <tr>
             <th>ID</th>
-            <th>Title</th>
-            <th>Content</th>
-            <th>Image</th>
-            <th>Actions</th>
+            <th>Tiêu đề</th>
+            <th>Nội dung</th>
+            <th>Ảnh</th>
+            <th>Hành động</th>
         </tr>
     </thead>
     <tbody></tbody>
@@ -44,7 +49,7 @@
 
             <div class="form-group">
                 <label for="newsImageUrl">Ảnh</label>
-                <input type="text" id="newsImageUrl" class="form-input" placeholder="Thêm ảnh" required />
+                <input type="file" id="newsImageUrl" name="image" accept="image/*" required />
             </div>
 
             <!-- Nút Lưu và Hủy -->
@@ -56,7 +61,6 @@
     </div>
 </div>
 
-<!-- Nút Thêm -->
-<button class="fBooking_btn fBooking-btn-add" onclick="openModal()">+ Thêm Tin Tức</button>
+
 
 

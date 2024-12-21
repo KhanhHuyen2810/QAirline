@@ -42,9 +42,35 @@ namespace WebApplication1.Controllers
                     }
                 }
             }
-            Debug.WriteLine(customerName);
             // Trả về customerName dưới dạng JSON
             return Json(new { customerName });
+        }
+        public IActionResult GetCustomerUsername()
+        {
+            string customerUsername = null;
+
+            if (Request.Headers.ContainsKey("Authorization"))
+            {
+                var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+                var handler = new JwtSecurityTokenHandler();
+
+                if (handler.CanReadToken(token))
+                {
+                    var jwtToken = handler.ReadJwtToken(token);
+                    var usernameClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name")?.Value;
+
+                    if (!string.IsNullOrEmpty(usernameClaim))
+                    {
+                        var customer = _context.Customers.FirstOrDefault(c => c.CustomerUsername == usernameClaim);
+                        if (customer != null)
+                        {
+                            customerUsername = customer.CustomerUsername;
+                        }
+                    }
+                }
+            }
+            // Trả về customerUsername dưới dạng JSON
+            return Json(new { customerUsername });
         }
         public IActionResult Homepage()
         {
@@ -61,6 +87,18 @@ namespace WebApplication1.Controllers
         public IActionResult LogIn()
         {
             return PartialView("LogIn");
+        }
+        public IActionResult BookingPage()
+        {
+            return PartialView("BookingPage");
+        }
+        public IActionResult BookedTicket()
+        {
+            return PartialView("BookedTicket");
+        }
+        public IActionResult PassengerInfor()
+        {
+            return PartialView("PassengerInfor");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

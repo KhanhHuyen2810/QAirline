@@ -100,7 +100,7 @@ namespace WebApplication1.Migrations
             {
                 b.Property<string>("CustomerUsername")
                     .IsRequired()
-                    .HasColumnType("nvarchar(max)");
+                    .HasColumnType("nvarchar(255)");
 
                 b.Property<string>("PhoneNumber")
                     .IsRequired()
@@ -144,9 +144,12 @@ namespace WebApplication1.Migrations
                     .IsRequired()
                     .HasColumnType("nvarchar(max)");
 
-                b.Property<string>("Duration")
+                b.Property<int>("Duration")
                     .IsRequired()
-                    .HasColumnType("nvarchar(max)");
+                    .HasColumnType("int");
+                //b.Property<string>("AirportiataCode")
+                //    .IsRequired()
+                //    .HasColumnType("nvarchar(450)");
 
                 b.HasKey("FlightID");
 
@@ -211,7 +214,6 @@ namespace WebApplication1.Migrations
 
                 b.ToTable("Tickets");
             });
-#pragma warning restore 612, 618
         }
     }
 }

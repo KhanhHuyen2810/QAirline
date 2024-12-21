@@ -10,7 +10,6 @@ namespace WebApplication1.Models
         public DateTime Date { get; set; }
         public DateTime ExpiredDate { get; set; }
         public int TicketsQuantity { get; set; }
-        public string PaymentStatus { get; set; }
 
         // Navigation Properties
         [ForeignKey(nameof(CustomerUsername))]

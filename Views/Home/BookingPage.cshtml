@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Đặt vé";
+}
+<main>
+    <div class="search-flightbooking">        
+        <form id="flightSearchForm">
+            <div class="search-formbooking">
+                <button id="get-flight" type="button" onclick="getFlight()">Lấy dữ liệu chuyến bay</button>
+                <div class="form-searchgroup">
+                    <label for="flight-departure">Điểm khởi hành:</label>
+                    <select id="flight-departure" name="flight-departure" placeholder="Nhập điểm khởi hành" required></select>
+                </div>
+                <div class="form-searchgroup">
+                    <label for="flight-destination">Điểm đến:</label>
+                    <select id="flight-destination" name="flight-destination" placeholder="Nhập điểm đến" required></select>
+                </div>
+                <div class="form-searchgroup">
+                    <label for="flight-date">Ngày đi:</label>
+                    <input type="date" id="flight-date" name="flight-date" placeholder="Nhập ngày đi" required></input>
+                </div>
+                <button type="button" id="buttonSearchFlight" onclick="searchFlights()">Tìm chuyến bay</button>
+            </div>
+        </form>
+    </div>
+    <table id="flightsResult">
+        <thead>
+            <tr>
+                <th>Mã chuyến bay</th>
+                <th>Ngày bay</th>
+                <th>Thời gian bay</th>
+                <th>Điểm khởi hành</th>
+                <th>Điểm đến</th>
+                <th>Giá vé</th>
+                <th>Đặt chuyến bay</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</main>

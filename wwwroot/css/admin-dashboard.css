@@ -223,6 +223,7 @@ body {
     padding: 15px;
 }
 
+/*Flight & News*/
 #flightTitle, #news_Title {
     text-align: center;
     margin: 5vh 0;
@@ -304,8 +305,8 @@ body {
     color: white;
 }
 
-.fBooking-btn-add {
-    margin: 10px 0;
+.fBooking-btn-add, #getNews, #getFlights, #getTickets {
+    margin: 10px 10px;
     background-color: #608BC1;
     color: white;
     padding: 8px 12px;
@@ -314,6 +315,37 @@ body {
     cursor: pointer;
 }
 
+    .fBooking-btn-add:hover, #getNews:hover, #getFlights:hover, #getTickets:hover {
+        background-color: #4A628A;
+    }
+
 .btn-edit {
     background: #F6D6D6;
 }
+    .btn-edit:hover {
+        background-color: #FBB4A5;
+    }
+.btn-delete {
+    background-color: #F0F0F0;
+}
+    .btn-delete:hover {
+        background-color: #E4E0E1;
+    }
+
+/*Ticket*/
+#ticketTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+    #ticketTable th, #ticketTable td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    #ticketTable th {
+        background-color: #608BC1;
+        font-weight: bold;
+        color: white;
+    }

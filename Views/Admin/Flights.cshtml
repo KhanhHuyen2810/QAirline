@@ -2,6 +2,72 @@
     Layout = "~/Views/Shared/AdminLayout.cshtml"; // Sử dụng layout AdminLayout
 }
 @{
-    ViewData["Title"] = "Các chuyến bay";
+    ViewData["Title"] = "Quản lý chuyến bay";
 }
-<h1>Chào mừng đến trang quản trị!</h1>
+<h1 id="flightTitle">QUẢN LÝ CHUYẾN BAY</h1>
+<button id="getFlights" type="button" onclick="fetchFlights();">Lấy danh sách các chuyến bay</button>
+<!-- Nút Thêm Chuyến Bay -->
+<button class="fBooking_btn fBooking-btn-add" onclick="addFlights();">+ Thêm Chuyến Bay</button>
+<!-- Bảng hiển thị danh sách chuyến bay -->
+<table id="flightTable">
+    <thead>
+        <tr>
+            <th>Mã chuyến bay</th>
+            <th>Ngày bay</th>
+            <th>Thời gian bay</th>
+            <th>Điểm khởi hành</th>
+            <th>Điểm đến</th>
+            <th>Giá vé</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<!-- Modal Thêm/Sửa chuyến bay -->
+<div class="modal" id="flightModal">
+    <div class="modal-content">
+        <!-- Nút Đóng Modal -->
+        <span class="close-btn" onclick="closeModalFlight()">&times;</span>
+        <h3 id="modalTitle">Thêm Chuyến Bay</h3>
+
+        <!-- Form Thêm/Sửa -->
+        <form id="flightForm">
+            <div class="form-group">
+                <label for="flightID">Mã chuyến bay</label>
+                <input type="text" id="flightID" class="form-input" placeholder="VD: QA001" required />
+            </div>
+
+            <div class="form-group">
+                <label for="date">Ngày bay</label>
+                <input type="text" id="date" class="form-input" placeholder="dd/mm/yyyy hh:mm:ss" required />
+            </div>
+
+            <div class="form-group">
+                <label for="duration">Thời gian bay</label>
+                <input type="number" id="duration" class="form-input" placeholder="Nhập thời gian (phút)" required />
+            </div>
+
+            <div class="form-group">
+                <label for="departure">Điểm khởi hành</label>
+                <input type="text" id="departure" class="form-input" placeholder="VD: Hà Nội" required />
+            </div>
+
+            <div class="form-group">
+                <label for="destination">Điểm đến</label>
+                <input type="text" id="destination" class="form-input" placeholder="VD: Hồ Chí Minh" required />
+            </div>
+
+            <div class="form-group">
+                <label for="price">Giá vé</label>
+                <input type="text" id="price" class="form-input" placeholder="VD: 1,000,000" required />
+            </div>
+
+            <!-- Nút Lưu và Hủy -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-save" onclick="saveFlights();">Lưu</button>
+                <button type="button" class="btn btn-cancel" onclick="closeModalFlight();">Hủy</button>
+            </div>
+        </form>
+    </div>
+</div>

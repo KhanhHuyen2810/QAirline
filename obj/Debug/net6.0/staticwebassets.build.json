@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AvLXADf2lR3bAp/kVWoZBaY7Bt8PuCPnUldoWqVJX54=",
+  "Hash": "tuavvcVb86cPjEwrCDKN2dTPQDIOducqaWJGZ0fOgf0=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "q6lpmvrnm3",
-      "Integrity": "fqZ/+LLe903n4pSzoV6weJy1N5xUmpklrEMTRyeQ3Js=",
+      "Fingerprint": "b2g7xlnx4s",
+      "Integrity": "EzL3z8fmEiNo0cJTrlLHhczH1BgvaAfDUWfhkeJYJxE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin-dashboard.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ednm0gkboq",
-      "Integrity": "0l9Uxk68u6MUB4KXtlEfnfvCHIuK03jSomwbKHTUQ9I=",
+      "Fingerprint": "xmmxu310rs",
+      "Integrity": "JzW9VYp/f/ul3Fum3Xs/np0yGGBDtvk1Eim92Pji7Lw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "niqksgryr4",
-      "Integrity": "P8/c6eJd4jJGgxkRkpAnsdBM3PmIThKhoBxNJ1T6MjY=",
+      "Fingerprint": "g841ls3atb",
+      "Integrity": "UF+GmD6rKNXEoBQUx4Vc1bjYxtrhmpXJU8pu0ySI+Tw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\admin-dashboard.js"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b1gkt5zs4u",
-      "Integrity": "Ly9lurNwiFwseY4oQ1jb4FHHZxcIcjgH3ZOdH0hPfgc=",
+      "Fingerprint": "ms4tbsgmpn",
+      "Integrity": "euf3x8HuT/6xpu4Q+2kbqSzzp4nklRlKDOEHifHCO4A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2073,6 +2073,51 @@
       ]
     },
     {
+      "Route": "css/admin-dashboard.b2g7xlnx4s.css",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EzL3z8fmEiNo0cJTrlLHhczH1BgvaAfDUWfhkeJYJxE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 05:03:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b2g7xlnx4s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EzL3z8fmEiNo0cJTrlLHhczH1BgvaAfDUWfhkeJYJxE="
+        }
+      ]
+    },
+    {
       "Route": "css/admin-dashboard.css",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
       "Selectors": [],
@@ -2083,7 +2128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6596"
+          "Value": "7299"
         },
         {
           "Name": "Content-Type",
@@ -2091,11 +2136,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fqZ/+LLe903n4pSzoV6weJy1N5xUmpklrEMTRyeQ3Js=\""
+          "Value": "\"EzL3z8fmEiNo0cJTrlLHhczH1BgvaAfDUWfhkeJYJxE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 10:30:31 GMT"
+          "Value": "Fri, 20 Dec 2024 05:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2105,52 +2150,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fqZ/+LLe903n4pSzoV6weJy1N5xUmpklrEMTRyeQ3Js="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin-dashboard.q6lpmvrnm3.css",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\admin-dashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6596"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fqZ/+LLe903n4pSzoV6weJy1N5xUmpklrEMTRyeQ3Js=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 10:30:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q6lpmvrnm3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/admin-dashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fqZ/+LLe903n4pSzoV6weJy1N5xUmpklrEMTRyeQ3Js="
+          "Value": "sha256-EzL3z8fmEiNo0cJTrlLHhczH1BgvaAfDUWfhkeJYJxE="
         }
       ]
     },
@@ -2165,7 +2165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18661"
+          "Value": "23004"
         },
         {
           "Name": "Content-Type",
@@ -2173,11 +2173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0l9Uxk68u6MUB4KXtlEfnfvCHIuK03jSomwbKHTUQ9I=\""
+          "Value": "\"JzW9VYp/f/ul3Fum3Xs/np0yGGBDtvk1Eim92Pji7Lw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 09:13:48 GMT"
+          "Value": "Sat, 21 Dec 2024 08:38:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2187,12 +2187,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0l9Uxk68u6MUB4KXtlEfnfvCHIuK03jSomwbKHTUQ9I="
+          "Value": "sha256-JzW9VYp/f/ul3Fum3Xs/np0yGGBDtvk1Eim92Pji7Lw="
         }
       ]
     },
     {
-      "Route": "css/site.ednm0gkboq.css",
+      "Route": "css/site.xmmxu310rs.css",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2202,7 +2202,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18661"
+          "Value": "23004"
         },
         {
           "Name": "Content-Type",
@@ -2210,11 +2210,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0l9Uxk68u6MUB4KXtlEfnfvCHIuK03jSomwbKHTUQ9I=\""
+          "Value": "\"JzW9VYp/f/ul3Fum3Xs/np0yGGBDtvk1Eim92Pji7Lw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 09:13:48 GMT"
+          "Value": "Sat, 21 Dec 2024 08:38:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2224,7 +2224,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ednm0gkboq"
+          "Value": "xmmxu310rs"
         },
         {
           "Name": "label",
@@ -2232,7 +2232,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0l9Uxk68u6MUB4KXtlEfnfvCHIuK03jSomwbKHTUQ9I="
+          "Value": "sha256-JzW9VYp/f/ul3Fum3Xs/np0yGGBDtvk1Eim92Pji7Lw="
         }
       ]
     },
@@ -2319,6 +2319,51 @@
       ]
     },
     {
+      "Route": "js/admin-dashboard.g841ls3atb.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UF+GmD6rKNXEoBQUx4Vc1bjYxtrhmpXJU8pu0ySI+Tw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 05:42:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g841ls3atb"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UF+GmD6rKNXEoBQUx4Vc1bjYxtrhmpXJU8pu0ySI+Tw="
+        }
+      ]
+    },
+    {
       "Route": "js/admin-dashboard.js",
       "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
       "Selectors": [],
@@ -2329,7 +2374,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7604"
+          "Value": "15456"
         },
         {
           "Name": "Content-Type",
@@ -2337,11 +2382,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P8/c6eJd4jJGgxkRkpAnsdBM3PmIThKhoBxNJ1T6MjY=\""
+          "Value": "\"UF+GmD6rKNXEoBQUx4Vc1bjYxtrhmpXJU8pu0ySI+Tw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 10:36:11 GMT"
+          "Value": "Sat, 21 Dec 2024 05:42:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2351,97 +2396,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P8/c6eJd4jJGgxkRkpAnsdBM3PmIThKhoBxNJ1T6MjY="
-        }
-      ]
-    },
-    {
-      "Route": "js/admin-dashboard.niqksgryr4.js",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\admin-dashboard.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7604"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"P8/c6eJd4jJGgxkRkpAnsdBM3PmIThKhoBxNJ1T6MjY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 10:36:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "niqksgryr4"
-        },
-        {
-          "Name": "label",
-          "Value": "js/admin-dashboard.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-P8/c6eJd4jJGgxkRkpAnsdBM3PmIThKhoBxNJ1T6MjY="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.b1gkt5zs4u.js",
-      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16086"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ly9lurNwiFwseY4oQ1jb4FHHZxcIcjgH3ZOdH0hPfgc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 09:13:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b1gkt5zs4u"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ly9lurNwiFwseY4oQ1jb4FHHZxcIcjgH3ZOdH0hPfgc="
+          "Value": "sha256-UF+GmD6rKNXEoBQUx4Vc1bjYxtrhmpXJU8pu0ySI+Tw="
         }
       ]
     },
@@ -2456,7 +2411,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16086"
+          "Value": "29868"
         },
         {
           "Name": "Content-Type",
@@ -2464,11 +2419,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ly9lurNwiFwseY4oQ1jb4FHHZxcIcjgH3ZOdH0hPfgc=\""
+          "Value": "\"euf3x8HuT/6xpu4Q+2kbqSzzp4nklRlKDOEHifHCO4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 09:13:48 GMT"
+          "Value": "Sat, 21 Dec 2024 08:59:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2478,7 +2433,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ly9lurNwiFwseY4oQ1jb4FHHZxcIcjgH3ZOdH0hPfgc="
+          "Value": "sha256-euf3x8HuT/6xpu4Q+2kbqSzzp4nklRlKDOEHifHCO4A="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.ms4tbsgmpn.js",
+      "AssetFile": "C:\\Users\\Khanh Huyen\\Source\\Repos\\WebProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"euf3x8HuT/6xpu4Q+2kbqSzzp4nklRlKDOEHifHCO4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 08:59:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ms4tbsgmpn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-euf3x8HuT/6xpu4Q+2kbqSzzp4nklRlKDOEHifHCO4A="
         }
       ]
     },

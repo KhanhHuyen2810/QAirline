@@ -66,6 +66,11 @@ builder.Services.AddDbContext<FlightBookingDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddScoped<FlightSelectionService>();
+builder.Services.AddScoped<IBookingService, BookingService>();
+builder.Services.AddScoped<TicketService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

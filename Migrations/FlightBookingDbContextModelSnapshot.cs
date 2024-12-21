@@ -66,10 +66,6 @@ namespace WebApplication1.Migrations
                     b.Property<DateTime>("ExpiredDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("PaymentStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("TicketsQuantity")
                         .HasColumnType("int");
 
@@ -78,23 +74,6 @@ namespace WebApplication1.Migrations
                     b.HasIndex("CustomerUsername");
 
                     b.ToTable("Bookings");
-                });
-
-            modelBuilder.Entity("WebApplication1.Models.Class", b =>
-                {
-                    b.Property<int>("ClassID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClassID"), 1L, 1);
-
-                    b.Property<string>("ClassName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ClassID");
-
-                    b.ToTable("Classes");
                 });
 
             modelBuilder.Entity("WebApplication1.Models.Customer", b =>
@@ -144,9 +123,8 @@ namespace WebApplication1.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Duration")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Duration")
+                        .HasColumnType("int");
 
                     b.HasKey("FlightID");
 
@@ -200,6 +178,10 @@ namespace WebApplication1.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("SeatNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("PassengerID");
 
                     b.HasIndex("BookingID");
@@ -218,27 +200,15 @@ namespace WebApplication1.Migrations
                     b.Property<int>("BookingID")
                         .HasColumnType("int");
 
-                    b.Property<int>("ClassID")
-                        .HasColumnType("int");
-
                     b.Property<int>("FlightID")
                         .HasColumnType("int");
 
                     b.Property<int>("PassengerID")
                         .HasColumnType("int");
 
-                    b.Property<string>("SeatNumber")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("TicketPrice")
-                        .HasColumnType("decimal(18,2)");
-
                     b.HasKey("TicketID");
 
                     b.HasIndex("BookingID");
-
-                    b.HasIndex("ClassID");
 
                     b.HasIndex("FlightID");
 
@@ -278,12 +248,6 @@ namespace WebApplication1.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebApplication1.Models.Class", "Class")
-                        .WithMany("Tickets")
-                        .HasForeignKey("ClassID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("WebApplication1.Models.Flight", "Flight")
                         .WithMany("Tickets")
                         .HasForeignKey("FlightID")
@@ -296,8 +260,6 @@ namespace WebApplication1.Migrations
 
                     b.Navigation("Booking");
 
-                    b.Navigation("Class");
-
                     b.Navigation("Flight");
 
                     b.Navigation("Passenger");
@@ -307,11 +269,6 @@ namespace WebApplication1.Migrations
                 {
                     b.Navigation("Passengers");
 
-                    b.Navigation("Tickets");
-                });
-
-            modelBuilder.Entity("WebApplication1.Models.Class", b =>
-                {
                     b.Navigation("Tickets");
                 });
 

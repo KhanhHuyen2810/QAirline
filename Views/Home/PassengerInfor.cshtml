@@ -1,0 +1,32 @@
+﻿@{
+	ViewData["Title"] = "Thông tin khách hàng";
+}
+
+<main>
+    <button type="button" style="margin-top: 30vh;" onclick="loadFlightInfo();">Điền thông tin khách hàng</button>
+    <div id="ticketbooking" class="ticketbooking-container hidden">
+        <div class="text-content">
+            <span class="flight-type">MÃ CHUYẾN BAY: <strong><span id="form-flightid"></span></strong></span>
+            <div class="dp-ds">
+                <span class="departure">
+                    <span class="icon">&#9679;</span>
+                    Điểm khởi hành: <strong><span id="form-departure"></span></strong>
+                </span>
+                <span class="destination">
+                    <span class="icon">&#9679;</span>
+                    Điểm đến: <strong><span id="form-destination"></span></strong>
+                </span>
+                <span class="date">
+                    <span class="icon">&#9679;</span>
+                    Thoi gian xuat phat: <strong><span id="form-date"></span></strong>
+                </span>
+            </div>
+        </div>
+
+        <label for="ticket-count">Chọn số vé cần đặt:</label>
+        <input type="number" id="ticket-count" min="1" onchange="generateForms()" />
+        <div id="forms-container" class="form-container"></div>
+
+        <button type="button" onclick="postPassengerInfor();">Đặt vé</button>
+    </div>    
+</main>

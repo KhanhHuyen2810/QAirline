@@ -1,8 +1,8 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "KoHo", sans-serif;
+    font-family: 'KoHo', sans-serif;
 }
 
 body {
@@ -78,7 +78,7 @@ header {
     right: 15vw;
     cursor: pointer;
     display: flex;
-    gap: 0.5rem; 
+    gap: 0.5rem;
     align-items: center;
 }
 
@@ -102,31 +102,32 @@ header {
     border: none;
 }
 
-.dropdown-menu {
+#logoutButton {
     background-color: red;
     color: white;
     padding: 0 10px;
     margin-top: 10px;
-    display: none;
     width: 15vw;
     text-align: center;
     min-width: 0;
-    font-size: 1.5vw;   
+    font-size: 1.5vw;
     cursor: pointer;
-}
-    .dropdown-menu:hover {
-        background-color: #FF748B;
-    }
-
-.dropdown-item {
     color: white;
+    border: solid 1px red;
+    border-radius: 5px;
 }
-    .dropdown-item:hover {
+
+    #logoutButton:hover {
         background-color: #FF748B;
+        border: solid 1px #FF748B;
     }
 
 #login-signup {
     margin-top: 4vh;
+}
+
+#hotlineLink {
+    color: #0D6EFD;
 }
 
 #logInButton:hover, #signUpButton:hover, #hotlineLink:hover {
@@ -143,7 +144,7 @@ header {
     align-items: center;
 }
 
-#overlay {
+#overlay_service, #overlay_logout {
     position: fixed;
     top: 0;
     left: 0;
@@ -153,7 +154,7 @@ header {
     z-index: 10;
 }
 
-#hotlineBox {
+#hotlineBox, #logoutBox {
     position: absolute;
     top: -100px;
     right: 0;
@@ -167,60 +168,22 @@ header {
     transition: top 0.3s ease-out;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-    #hotlineBox.show {
+
+    #hotlineBox.show, #logoutBox.show {
         top: 70px;
     }
 
-#closeButton {
+#closeButton, #cancelButton {
     width: 20%;
     background-color: #1F509A;
     border-radius: 5px;
     color: white;
     border: 1px solid #1F509A;
 }
-    #closeButton:hover {
+
+    #closeButton:hover, #cancelButton:hover {
         background-color: #0d6efd;
         border: 1px solid #0d6efd;
-    }
-
-    .search {
-        position: fixed;
-        top: 2vh;
-        right: 35vw;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-.search-bar {
-    width: 30vw;
-    height: 4vh;
-    border-radius: 10px;
-    border: 2px solid #E6B9DE;
-    padding: 0 1rem;
-    box-sizing: border-box;
-    background-color: #FFF6F6;
-}
-
-    .search-bar:focus {
-        outline: none;
-        border: 2px solid #E6B9DE;
-    }
-
-    .search-btn {
-        width: 4vw;
-        height: 4vh;
-        border-radius: 10px;
-        border: 2px solid #E6B9DE;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #AEDEFC;
-    }
-
-    .search-btn:hover {
-        background-color: #FFF6F6;
     }
 
 a {
@@ -282,7 +245,7 @@ a {
     display: block;
     height: auto;
     padding: 0;
-    margin-top: 3%;
+    margin-top: 7%;
     width: 100vw;
     overflow: hidden;
 }
@@ -328,8 +291,7 @@ a {
         min-width: 80px;
     }
 
-input[type="text"],
-input[type="date"] {
+.form-group input {
     padding: 5px;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -367,26 +329,28 @@ hr {
 }
 
 #flight-search-btn {
-    width: 30%;
+    width: auto;
     height: auto;
     border-radius: 5px;
-    background-color: antiquewhite;
-    border: solid 1px orange;
+    background-color: #1F509A;
+    border: solid 1px #1F509A;
     display: block;
     justify-content: center;
-    font-weight: bold;
     align-self: center;
+    color: white;
+    padding: 1vh 5vw;
 }
 
     #flight-search-btn:hover {
-        background-color: lightpink;
+        background-color: #0D6EFD;
+        border: solid 1px #0D6EFD;
     }
 
-    .airport-detail-title {
-        margin-top: 25vh;
-        text-align: center;
-        font-weight: bold;
-    }
+.airport-detail-title {
+    margin-top: 25vh;
+    text-align: center;
+    font-weight: bold;
+}
 
 #airportTable {
     margin-top: 20px;
@@ -419,30 +383,31 @@ hr {
         text-align: center;
         background-color: #81BFDA;
     }
-main {
+
+/*Sign Up Form*/
+.container-lg {
     flex: 2;
     overflow: hidden;
-    margin-top: 200px;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-bottom: 80px;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
-}
-
-.container-lg {
     display: flex;
+    align-items: flex-start;
 }
 
 .form-container {
     display: flex;
+    flex: 1;
     flex-direction: column;
     width: 60%;
     height: 100%;
     padding-top: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .display-ip {
@@ -451,23 +416,26 @@ main {
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: aliceblue;
-    width: 400px;
+    width: 30vw;
 }
 
 .bt-submit {
-    margin-top: 10px;
+    margin-top: 3vh;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 5vw;
+    width: 20vw;
+    font-weight: bold;
 }
 
 #form-title {
     text-align: center;
+    font-weight: bold;
 }
 
 #dynamic-form {
-    margin-left: 180px;
+    margin-left: 8vw;
 }
 
 #text-nd {
@@ -493,13 +461,15 @@ form span.error {
 .Img-ads {
     width: 40%;
     height: 700px;
+    flex: 0 0 auto;
 }
 
-   .Img-ads img {
+    .Img-ads img {
         height: auto;
         object-fit: contain;
     }
 
+/*Homepage card*/
 .card {
     background-color: #D4EBF8;
     margin: 30px auto;
@@ -507,12 +477,14 @@ form span.error {
     flex-direction: column;
     height: 90%;
 }
+
 .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
+
 .btn-primary {
     border: solid 1px #1F509A;
     background-color: #1F509A;
@@ -590,7 +562,7 @@ form span.error {
     float: right;
     margin-right: 2%;
     width: 15vw;
-    height: 100%;    
+    height: 100%;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -757,15 +729,15 @@ form span.error {
     }
 
     .cd-signin-modal__label.cd-signin-modal__label--username {
-        background-image: url("/resource/image_header/cd-icon-username.svg");
+        background-image: url('/resource/image_header/cd-icon-username.svg');
     }
 
     .cd-signin-modal__label.cd-signin-modal__label--email {
-        background-image: url("/resource/image_header/cd-icon-email.svg");
+        background-image: url('/resource/image_header/cd-icon-email.svg');
     }
 
     .cd-signin-modal__label.cd-signin-modal__label--password {
-        background-image: url("/resource/image_header/cd-icon-password.svg");
+        background-image: url('/resource/image_header/cd-icon-password.svg');
     }
 
 .cd-signin-modal__input {
@@ -903,7 +875,7 @@ form span.error {
     height: 40px;
     right: 0;
     top: -40px;
-    background: url("/resource/image_header/cd-icon-close.svg") no-repeat center center;
+    background: url('/resource/image_header/cd-icon-close.svg') no-repeat center center;
     color: transparent;
     text-indent: 100%;
     white-space: nowrap;
@@ -917,3 +889,249 @@ form span.error {
     .cd-signin-modal__block.cd-signin-modal__block--is-selected {
         display: block;
     }
+#loginButton {
+    background-color: #1F509A;
+}
+.famous-destination {
+    width: 80vw;
+    margin-left: 10vw;
+}
+/*Css Flight-Booking*/
+.search-flightbooking {
+    display: flex;
+    padding: 10px;
+}
+
+.search-formbooking {
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+    .search-formbooking .form-searchgroup {
+        margin: 0 10px;
+    }
+
+        .search-formbooking .form-searchgroup input {
+            width: 13vw;
+            padding: 5px;
+            border-radius: 20px;
+            margin-right: -5px;
+        }
+
+    .search-formbooking select {
+        width: 13vw;
+        padding: 5px;
+        border-radius: 20px;
+        margin-right: -5px;
+    }
+
+#buttonSearchFlight, #get-flight {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #1F509A;
+    color: white;
+    border: 1px solid #1F509A;
+}
+
+    #buttonSearchFlight:hover, #get-flight:hover {
+        background-color: #0D6EFD;
+        border: 1px solid #0D6EFD;
+    }
+
+#flightsResult {
+    margin-top: 5vh;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+    #flightsResult th, #flightsResult td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    #flightsResult th {
+        background-color: #608BC1;
+        font-weight: bold;
+        color: white;
+    }
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-bookings {
+    background: #F6D6D6;
+}
+    .btn-bookings:hover {
+        background: #FBB4A5;
+    }
+
+/*Ticket*/
+div.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.upcomming {
+    font-size: 45px;
+    text-transform: uppercase;
+    border-left: 14px solid rgba(255, 235, 59, 0.78);
+    padding-left: 12px;
+    margin-top: 20vh;
+}
+
+#get-ticket {
+    background: #1F509A;
+    border: 1px solid #1F509A;
+    margin-left: 3vw;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+    #get-ticket:hover {
+        background-color: #0d6efd;
+        border: 1px solid #0d6efd;
+    }
+
+.container .item {
+    width: 48%;
+    float: left;
+    padding: 0 20px;
+    background: #fff;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container .item-right, .container .item-left {
+    float: left;
+    padding: 20px
+}
+
+.container .item-right {
+    padding: 79px 20px;
+    margin-right: 20px;
+    width: 25%;
+    position: relative;
+    height: 286px
+}
+
+    .container .item-right .up-border, .container .item-right .down-border {
+        padding: 14px 15px;
+        background-color: #ddd;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .container .item-right .up-border {
+        top: -8px;
+        right: -35px;
+    }
+
+    .container .item-right .down-border {
+        bottom: -13px;
+        right: -35px;
+    }
+
+    .container .item-right .num {
+        width: 100%;
+        text-align: center;
+        color: #111;
+    }
+
+    .container .item-right .day, .container .item-left .event {
+        color: #555;
+        font-size: 20px;
+        margin-bottom: 9px;
+    }
+
+    .container .item-right .day {
+        text-align: center;
+        font-size: 25px;
+    }
+
+.container .item-left {
+    width: 71%;
+    padding: 34px 0px 19px 46px;
+    border-left: 3px dotted #999;
+}
+
+    .container .item-left .title {
+        color: #111;
+        font-size: 34px;
+        margin-bottom: 12px
+    }
+
+    .container .item-left .sce {
+        margin-top: 5px;
+        display: block
+    }
+
+        .container .item-left .sce .icon, .container .item-left .sce p,
+        .container .item-left .loc .icon, .container .item-left .loc p {
+            float: left;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .container .item-left .sce .icon, .container .item-left .loc .icon {
+            margin-right: 10px;
+            font-size: 20px;
+            color: #666
+        }
+
+    .container .item-left .loc {
+        display: block;
+    }
+
+.fix {
+    clear: both
+}
+
+.container .item .tickets, .booked, .cancel {
+    color: #fff;
+    padding: 6px 14px;
+    float: right;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer
+}
+
+.container .item .tickets {
+    background: #777
+}
+
+.container .item .booked {
+    background: #3D71E9
+}
+
+.container .item .cancel {
+    background: #DF5454
+}
+
+.linethrough {
+    text-decoration: line-through
+}
+
+@media only screen and (max-width: 1150px) {
+    .container .item {
+        width: 100%;
+        margin-right: 20px
+    }
+
+    div.container {
+        margin: 0 20px auto
+    }
+}

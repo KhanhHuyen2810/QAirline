@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Indie+Flower|Inknut+Antiqua|Lora|Ravi+Prakash" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="icon" href="~/favicon.ico" type="image/x-icon">
 </head>
@@ -21,10 +24,12 @@
                     <img src="/resource/image_header/login.png" alt="Login">                
                     <div class="cd-main-nav js-main-nav">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-placement="bottom" title="">
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Đăng xuất</a>
+                            <button class="btn btn-secondary" type="button" id="dropdownMenuButton" title=""></button>
+                            <div id="overlay_logout" class="hidden"></div>
+                            <div id="logoutBox" class="hidden">
+                                <p>Bạn có muốn đăng xuất tài khoản không? <br /> </p>
+                                <button id="logoutButton">Đăng xuất</button>
+                                <button id="cancelButton">Hủy</button>
                             </div>
                         </div>                       
                         <ul id="login-signup" class="cd-main-nav__list js-signin-modal-trigger">
@@ -73,17 +78,13 @@
                 </div>
                 <div id="service">
                     <img src="/resource/image_header/service.png" alt="Support">
-                    <a id="hotlineLink" href="Hotline">Hỗ trợ</a>
-                    <div id="overlay" class="hidden"></div>
+                    <a id="hotlineLink">Hỗ trợ</a>
+                    <div id="overlay_service" class="hidden"></div>
                     <div id="hotlineBox" class="hidden">
                         <p>Hãy gọi theo số hotline sau để được hỗ trợ <strong><br />0123 456 789</strong></p>
                         <button id="closeButton">OK</button>
                     </div>
-                </div>
-                <div class="search">
-                    <input class="search-bar" type="text" placeholder="Tìm kiếm">
-                    <button class="search-btn">🔎</button>
-                </div>
+                </div>                
             </div>
             <div class="right-menu">
                 <ul class="navbar">
@@ -91,7 +92,7 @@
                         <a href="javascript:void(0)" id="viewHomepageButton" class="nav-link">TRANG CHỦ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ĐẶT VÉ</a>
+                        <a class="nav-link" id="viewBookingButton" href="javascript:void(0)">ĐẶT VÉ</a>
                     </li>
                     <li class="nav-item">
                         <a href="javascript:void(0)" id="viewNewsButton" class="nav-link">TIN TỨC</a>
@@ -100,7 +101,7 @@
                         <a href="javascript:void(0)" id="viewAirportsButton" class="nav-link">SÂN BAY</a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" id="viewForumButton" class="nav-link disabled">FORUM Q&A</a>
+                        <a href="javascript:void(0)" id="viewTicketButton" class="nav-link">VÉ CỦA TÔI</a>
                     </li>
                 </ul>
             </div>
@@ -120,6 +121,7 @@
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/build/jwt-decode.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
